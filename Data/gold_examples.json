@@ -1,0 +1,30 @@
+{
+  "Gold1": {
+    "studies_tool": "yes",
+    "tool_name": "Ask Suicide-Screening Questions (ASQ)",
+    "tool_type": "screening",
+    "outcome_summary": "Outcome measures: Subsequent ED visits for suicide-related problems; death by suicide (via state medical examiner records)",
+    "clinical_setting": "Urban pediatric ED in the United States",
+    "demographics_summary": "Age: 8–18 years (selective), 10–18 years (universal) Gender: 47% male, 53% female (3 transgender individuals noted) Race/Ethnicity: 68% Black (non-Latino); also White, Latino, Asian, Other Mean age: 14.5 years (SD 3.1)",
+    "location": "United States",
+    "duration_value": "69",
+    "duration_text": "March 18, 2013 – December 31, 2018",
+    "population_size": "15,003",
+    "population_text": "15,003 youths screened (4,666 selective; 10,337 universal)",
+    "medical_conditions.": "Behavioral and psychiatric presenting problems (suicidal ideation, suicide attempts)"
+  },
+  "Gold2": {
+    "studies_tool": "yes",
+    "tool_name": "Ask Suicide-Screening Questions (ASQ)",
+    "tool_type": "screening",
+    "outcome_summary": "",
+    "clinical_setting": "ED of a northeastern US state",
+    "demographics_summary": "Age: This retrospective cohort study included youths aged 10 to 18",
+    "location": "United States",
+    "duration_value": "50",
+    "duration_text": "September 1, 2019, and August 31, 2021. To observe the presence or absence of a suicide attempt, patients were followed up from their first ED encounter for a minimum of 6 months and a maximum of 2.5 years, through March 2, 2022. Data were analyzed from May 2023 to December 2024.",
+    "population_size": "19,653",
+    "population_text": "19,653 patients included in the analysis, the median age was 14.3 (IQR, 12.1-16.2) years, and 10 007 (50.9%) were female. Four hundred ninety-five patients (2.5%) were treated for a suicide attempt. Among patients screening positive for suicide risk in testing samples (mean, 8.1% [95% CI, 7.6%-8.6%]) and patients in the top 8.1% of the distribution on the algorithm, the algorithm correctly identified a mean of 50.7% (95% CI, 47.3%-54.1%) of those who attempted suicide in contrast to 36.5% (95% CI, 31.9%-41.2%) identified by screening. The algorithm uniquely identified 127% more youths who attempted suicide (125) than did screening (55).",
+    "medical_conditions.": "Major depressive disorder, single episode, symptoms and signs involving emotional state, other anxiety disorders, personal risk factors, not elsewhere classified, symptoms and signs involving appearance and behavior, Prior suicide attempt, attention-deficit hyperactivity disorders, place of occurrence of the external cause, reaction to severe stress, and adjustment disorders, activity codes, long-term (current) drug therapy, conduct disorders, persistent mood (affective) disorders, intentional self-harm by sharp object, problems related to upbringing, personal history of other diseases and conditions, headache, nausea and vomiting, abdominal and pelvic pain, asthma, contact with and (suspected) exposure to communicable diseases, major depressive disorder, recurrent, abnormalities of heart beat, other symptoms and signs with general sensations and perceptions, other behavioral and emotional disorders with onset usually occur in childhood and adolescence, superficial injury of elbow and forearm, open wound of elbow and forearm, pervasive developmental disorders, cannabis-related disorders, other problem relative to primary support group, including family circumstances"
+  }
+}
