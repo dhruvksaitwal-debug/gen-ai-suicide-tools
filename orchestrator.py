@@ -24,7 +24,7 @@ class DocRAGPipelineOrchestrator:
         self.vector_manager = VectorStoreManager(self.embedding_model, db_path="./" + file_name + "_db")
         self.hypo_gen = HypotheticalQuestionGenerator(self.llm_client)
         self.query_expander = QueryExpander(self.llm_client)
-        self.q_normalizer = QueryScopedNormalizer(self.llm_client)
+        self.q_normalizer = QueryScopedNormalizer(self.llm_client, debug=True)
         self.assembler = FinalRecordAssembler()
         self.audit_logger = AuditLogger()
 

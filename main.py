@@ -12,12 +12,12 @@ def main():
         "Does the article study any suicide screening/assessment tools?",
         "Which suicide screening/assessment tool is studied?",
         "Classify if the tool is screening or assessment.",
-        "Discuss the study outcome.",
+        "Discuss the study outcome with the tool analyzed.",
         "Discuss clinical settings where the tool is used.",
-        "Discuss demographics of participants.",
-        "Where was the study conducted?",
-        "Discuss majority medical conditions.",
-        "Discuss study duration and population size."
+        "Discuss demographics of participants for whom the tool is used.",
+        "The geographic locations or countries where the study was conducted.",
+        "Discuss intended medical conditions of the patients in the study.",
+        "Discuss the study duration and population size."
     ]
 
     all_flattened = []

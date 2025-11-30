@@ -1,55 +1,121 @@
 import json
 import os
+import re
+from datetime import datetime
 
-# Richer query-to-field mapping
+
 QUERY_FIELDS = {
     "Does the article study any suicide screening/assessment tools?": ["studies_tool"],
     "Which suicide screening/assessment tool is studied?": ["tool_name"],
     "Classify if the tool is screening or assessment.": ["tool_type"],
-    "Discuss the study outcome.": ["outcome_summary"],
+    "Discuss the study outcome with the tool analyzed.": ["outcome_summary"],
     "Discuss clinical settings where the tool is used.": ["clinical_setting"],
-    "Discuss demographics of participants.": ["demographics_summary", "population_size", "population_text"],
-    "Where was the study conducted?": ["location"],
-    "Discuss majority medical conditions.": ["medical_conditions"],
-    "Discuss study duration and population size.": ["duration_value", "duration_text", "population_size", "population_text"],
+    "Discuss demographics of participants for whom the tool is used.": ["demographics_summary", "population_size", "population_text"],
+    "The geographic locations or countries where the study was conducted.": ["location"],
+    "Discuss intended medical conditions of the patients in the study.": ["medical_conditions"],
+    "Discuss the study duration and population size.": ["duration_value", "duration_text", "population_size", "population_text"],
 }
 
 
 class QueryScopedNormalizer:
-    """
-    Converts a free-form answer into JSON containing only fields relevant to the query.
-    Uses QUERY_FIELDS mapping to build prompts dynamically.
-    """
-    def __init__(self, llm_client):
+    def __init__(self, llm_client, debug: bool = False):
         self.llm_client = llm_client
+        self.debug = debug
+
+    def _extract_duration_days(self, text: str) -> int | None:
+        """
+        Extract explicit durations (e.g., '30 days', '12 months') or compute from date ranges.
+        Returns total duration in days if possible, else None.
+        """
+        total_days = 0
+
+        # Step 1: Explicit durations
+        duration_pattern = r"(\d+)\s*(days?|weeks?|months?|years?)"
+        matches = re.findall(duration_pattern, text, flags=re.IGNORECASE)
+        if self.debug:
+            print(f"[DEBUG] Explicit duration matches: {matches}")
+
+        for num, unit in matches:
+            num = int(num)
+            unit = unit.lower()
+            if "day" in unit:
+                total_days += num
+            elif "week" in unit:
+                total_days += num * 7
+            elif "month" in unit:
+                total_days += num * 30  # approximate
+            elif "year" in unit:
+                total_days += num * 365  # approximate
+
+        # Step 2: Date ranges (support short and long month names)
+        date_pattern = r"([A-Za-z]{3,9} \d{1,2}, \d{4})"
+        date_matches = re.findall(date_pattern, text)
+        if self.debug:
+            print(f"[DEBUG] Date matches: {date_matches}")
+
+        if len(date_matches) >= 2:
+            for i in range(0, len(date_matches) - 1, 2):
+                parsed = False
+                for fmt in ("%B %d, %Y", "%b %d, %Y"):  # long and short month names
+                    try:
+                        start = datetime.strptime(date_matches[i], fmt)
+                        end = datetime.strptime(date_matches[i + 1], fmt)
+                        days = (end - start).days + 1
+                        total_days += days
+                        parsed = True
+                        if self.debug:
+                            print(f"[DEBUG] Parsed range {date_matches[i]} – {date_matches[i+1]} = {days} days")
+                        break
+                    except Exception as e:
+                        if self.debug:
+                            print(f"[DEBUG] Failed parsing {date_matches[i]} – {date_matches[i+1]} with {fmt}: {e}")
+                if not parsed and self.debug:
+                    print(f"[DEBUG] Could not parse date range: {date_matches[i]} – {date_matches[i+1]}")
+
+        if self.debug:
+            print(f"[DEBUG] Total computed days: {total_days}")
+
+        return total_days if total_days > 0 else None
+  
+    def _normalize_text(self, text: str) -> str:
+        """Fix encoding issues and replace en-dash with hyphen."""
+        if not text:
+            return text
+        try:
+            text = text.encode("latin1").decode("utf-8")
+        except Exception:
+            pass
+        return text.replace("–", "-")
 
     def normalize_query(self, query: str, answer: str) -> dict:
         fields = QUERY_FIELDS.get(query, [])
+
         schema_lines = "\n".join([
             f"- {f}: " + (
-                "string/integer/null" if f not in {"duration_value", "population_size"} else "integer/null"
+                "string/integer/null"
+                if f not in {"population_size"}
+                else "integer/null"
             )
             for f in fields
         ])
 
-        # Build dynamic prompt
         prompt = f"""
 You are a strict information extractor. Convert the following answer into JSON with ONLY these fields:
 
 {schema_lines}
 
 Rules:
-- Do NOT guess. Use the provided answer text only.
+- Do NOT invent information. Use explicit mentions or clearly implied categories from the answer text.
 - For studies_tool: output "yes" or "no" (or null if truly unknown).
-- For tool_name: return free-text (string or list of strings if multiple tools). Do not alias or templatize.
+- For tool_name: extract any explicitly named tool (e.g., "Comprehensive Suicide Risk Evaluation (CSRE)"), even if the text later says no specific tool is studied. If multiple tools are mentioned, return a list.
 - For tool_type: "screening" or "assessment" if explicitly stated; else null.
 - For outcome_summary: 3–4 sentences summarizing findings (effectiveness, limitations, key metrics).
 - For demographics_summary: 3–4 sentences summarizing participant characteristics (age, gender, group).
 - For clinical_setting: concise free-text (e.g., "pediatric emergency department", "primary care clinics").
 - For location: concise free-text (e.g., "USA", "urban hospitals in India").
-- For medical_conditions: concise free-text (e.g., "major depressive disorder", "suicidal ideation").
-- For duration_value: integer months if possible (convert years/weeks to months).
-- For duration_text: concise narrative (e.g., "12 months (Jan–Dec 2022)").
+- For medical_conditions: extract all explicitly or implicitly mentioned conditions (e.g., "cancer-related conditions, general medical and surgical issues").
+- For duration_value: if date ranges are provided, calculate the integer number of days, months, or years (e.g., June 5–21, 2020 → 17 days). If multiple phases, sum them.
+- For duration_text: concise narrative (e.g., "Phase I: June 5–21, 2020; Phase II: Dec 6–13, 2020"). Normalize to use plain hyphens (-).
 - For population_size: integer N if available.
 - For population_text: concise narrative (e.g., "N=452 pediatric ED patients ages 12–17").
 
@@ -69,7 +135,17 @@ Answer:
         except Exception:
             data = {}
 
-        # Filter only allowed fields
+        if "duration_value" in QUERY_FIELDS.get(query, []):
+            computed_days = self._extract_duration_days(answer)
+            if computed_days:
+                data["duration_value"] = computed_days
+            elif self.debug:
+                print("[DEBUG] No duration extracted, returning None")
+
+        # Normalize duration_text
+        if "duration_text" in fields and data.get("duration_text"):
+            data["duration_text"] = self._normalize_text(data["duration_text"])
+
         return {k: v for k, v in data.items() if k in fields}
 
 
