@@ -136,7 +136,11 @@ Answer:
             data = {}
 
         if "duration_value" in QUERY_FIELDS.get(query, []):
-            computed_days = self._extract_duration_days(answer)
+            revised_answer = self.llm_client.chat_completion([
+                {"role": "system", "content": "Return the same text after excluding the participants and their age (if any)"},
+                {"role": "user", "content": answer}
+            ], temperature=0, max_tokens=600)
+            computed_days = self._extract_duration_days(revised_answer)
             if computed_days:
                 data["duration_value"] = computed_days
             elif self.debug:
