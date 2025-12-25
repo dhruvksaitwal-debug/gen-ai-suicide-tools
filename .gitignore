@@ -34,11 +34,11 @@ ragas_evaluation_results.csv
 Thumbs.db
 
 # Data artifacts
-test_data/          # Ignore test_data folder
+/test_data/         # Ignore test_data folder
 extracted_images/   # Ignore extracted images created on the fly
 *_db/               # Ignore temporary database folders
 audit_logs/         # Ignore runtime audit logs
-test_results/       # Ignore test_results folder
+/test_results/      # Ignore test_results folder
 
 # Environment variables
 .env
