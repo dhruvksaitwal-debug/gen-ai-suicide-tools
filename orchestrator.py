@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 from itertools import count
 from langchain_core.documents import Document
-from langchain_openai import OpenAIEmbeddings
+# from langchain_openai import OpenAIEmbeddings
+from embeddings_with_backoff import EmbeddingsWithBackoff
 from llm_client import LLMClient
 from pdf_extractor import PDFExtractor
 from vectorstore_manager import VectorStoreManager
@@ -20,7 +21,7 @@ class DocRAGPipelineOrchestrator:
         # Core components
         self.llm_client = LLMClient(api_key, base_url, model_name)
         self.pdf_extractor = PDFExtractor(self.llm_client)
-        self.embedding_model = OpenAIEmbeddings(api_key=api_key, base_url=base_url, model="text-embedding-3-small")
+        self.embedding_model = EmbeddingsWithBackoff(api_key=api_key, base_url=base_url, model="text-embedding-3-small") 
         self.vector_manager = VectorStoreManager(self.embedding_model, db_path="./" + file_name + "_db")
         self.hypo_gen = HypotheticalQuestionGenerator(self.llm_client)
         self.query_expander = QueryExpander(self.llm_client)

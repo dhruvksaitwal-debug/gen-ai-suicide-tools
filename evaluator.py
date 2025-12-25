@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
 
-def load_gold_examples(path: str = "Data/gold_examples.json") -> Dict[str, Dict[str, str]]:
+def load_gold_examples(path: str = "gold_data/gold_examples.json") -> Dict[str, Dict[str, str]]:
     """Load gold examples from a JSON file."""
     if not os.path.exists(path):
         print(f"Gold examples file not found at {path}")

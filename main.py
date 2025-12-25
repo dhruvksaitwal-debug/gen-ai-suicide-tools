@@ -1,11 +1,88 @@
 import os
+import argparse
 import pandas as pd
 from orchestrator import DocRAGPipelineOrchestrator
 from evaluator import Evaluator, load_gold_examples
 
+
+def run_pipeline_for_pdf(doc_id, data_folder, queries, evaluate, gold_examples):
+    """
+    Runs the RAG pipeline for a single PDF and returns a DataFrame.
+    If evaluate=True, also runs RAGAS and returns metrics.
+    """
+
+    print(f"\nProcessing {doc_id}...")
+
+    # Initialize pipeline
+    pipeline = DocRAGPipelineOrchestrator(file_name=doc_id, data_folder=data_folder)
+    pipeline.setup()
+
+    # Run pipeline → get raw records + provenance + contexts
+    records, field_provenance, per_query_contexts = pipeline.run_queries(queries)
+
+    # Flatten
+    flattened = pipeline._flatten_with_alignment(records, field_provenance, per_query_contexts)
+
+    # Attach doc_id
+    for row in flattened:
+        row["doc_id"] = doc_id
+
+    df = pd.DataFrame(flattened)
+
+    # If evaluation disabled → return KPI-only CSV
+    if not evaluate:
+        return df
+
+    # Otherwise run RAGAS evaluation
+    evaluator = Evaluator(gold_examples=gold_examples)
+
+    # Add gold references
+    df["reference"] = df.apply(
+        lambda row: gold_examples.get(row["doc_id"], {}).get(row["question"], None),
+        axis=1
+    )
+
+    # Run evaluation
+    results = evaluator.evaluate(df.to_dict(orient="records"))
+
+    # Clean up columns
+    results = results.rename(columns={"response": "GenAI_answer"})
+    results = results.drop(columns=["retrieved_contexts"], errors="ignore")
+    results["doc_id"] = df["doc_id"].values
+
+    # Reorder
+    desired_order = [
+        "doc_id", "user_input", "GenAI_answer",
+        "faithfulness", "answer_relevancy", "context_recall"
+    ]
+    results = results[[col for col in desired_order if col in results.columns]]
+
+    return results
+
+
 def main():
-    # Load gold examples
-    GOLD_EXAMPLES = load_gold_examples()
+    parser = argparse.ArgumentParser(description="Run DocRAG pipeline on PDFs.")
+    parser.add_argument(
+        "--evaluate",
+        action="store_true",
+        help="Enable RAGAS evaluation (default: disabled)"
+    )
+    args = parser.parse_args()
+
+    evaluate = args.evaluate
+    print(f"\nRAGAS Evaluation Enabled: {evaluate}")
+
+    # Load gold examples only if evaluation is enabled and choose folders based on evaluation flag
+    if evaluate:
+        data_folder = "gold_data"
+        gold_examples_path = os.path.join("gold_data", "gold_examples.json")
+        GOLD_EXAMPLES = load_gold_examples(gold_examples_path)
+        results_folder = "gold_results"
+    else:
+        data_folder = "test_data"
+        GOLD_EXAMPLES = {}
+        results_folder = "test_results"
+    os.makedirs(results_folder, exist_ok=True)
 
     # Define queries
     queries = [
@@ -20,58 +97,29 @@ def main():
         "Discuss the study duration and population size."
     ]
 
-    all_flattened = []
-
-    # Loop over all PDF files in Data folder
-    data_folder = "Data"
+    # Process each PDF
     for file_name in os.listdir(data_folder):
-        if file_name.lower().endswith(".pdf"):
-            doc_id = os.path.splitext(file_name)[0]  # e.g. "Gold1", "Gold2"
-            print(f"\nProcessing {doc_id}...")
+        if not file_name.lower().endswith(".pdf"):
+            continue
 
-            # Initialize pipeline for this file
-            pipeline = DocRAGPipelineOrchestrator(file_name=doc_id, data_folder=data_folder)
-            pipeline.setup()
+        doc_id = os.path.splitext(file_name)[0]
 
-            # Run pipeline → flattened records
-            records, field_provenance, per_query_contexts = pipeline.run_queries(queries)
-            flattened = pipeline._flatten_with_alignment(records, field_provenance, per_query_contexts)
+        df = run_pipeline_for_pdf(
+            doc_id=doc_id,
+            data_folder=data_folder,
+            queries=queries,
+            evaluate=evaluate,
+            gold_examples=GOLD_EXAMPLES
+        )
 
-            # Attach doc_id explicitly
-            for row in flattened:
-                row["doc_id"] = doc_id
+        # Remove contexts column if present
+        df = df.drop(columns=["contexts"], errors="ignore")
 
-            all_flattened.extend(flattened)
+        # Save CSV per PDF
+        output_csv = os.path.join(results_folder, f"{doc_id}_results.csv")
+        df.to_csv(output_csv, index=False, float_format="%.2f")
+        print(f"Saved results to {output_csv}")
 
-    # Convert to DataFrame
-    flattened_df = pd.DataFrame(all_flattened)
-
-    # Add gold references
-    flattened_df["reference"] = flattened_df.apply(
-        lambda row: GOLD_EXAMPLES.get(row["doc_id"], {}).get(row["question"], None),
-        axis=1
-    )
-
-    # Evaluate with RAGAS
-    evaluator = Evaluator(gold_examples=GOLD_EXAMPLES)
-    results = evaluator.evaluate(flattened_df.to_dict(orient="records"))
-
-    # Reorder columns
-    results = results.rename(columns={"response": "GenAI_answer"})
-    results = results.drop(columns=["retrieved_contexts"], errors="ignore")
-    results["doc_id"] = flattened_df["doc_id"].values
-
-    print(f'\nColumns in results dataframe: {results.columns.tolist()}')
-    desired_order = [
-        "doc_id", "user_input", "GenAI_answer",
-        "faithfulness", "answer_relevancy", "context_recall"
-        # "context_precision", "context_recall", "answer_correctness"
-    ]
-    results = results[[col for col in desired_order if col in results.columns]]
-
-    # Save evaluation results to CSV
-    results.to_csv("ragas_evaluation_results.csv", index=False, float_format="%.2f")
-    print("Evaluation results saved to ragas_evaluation_results.csv")
 
 if __name__ == "__main__":
     main()

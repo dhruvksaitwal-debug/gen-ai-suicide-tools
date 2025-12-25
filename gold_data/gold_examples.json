@@ -1,0 +1,58 @@
+{
+  "Gold1": {
+    "studies_tool": "yes",
+    "tool_name": "Ask Suicide-Screening Questions (ASQ)",
+    "tool_type": "screening",
+    "outcome_summary": "Outcome measures: Subsequent ED visits for suicide-related problems; death by suicide (via state medical examiner records)",
+    "clinical_setting": "Urban pediatric ED in the United States",
+    "demographics_summary": "Age: 8–18 years (selective), 10–18 years (universal) Gender: 47% male, 53% female (3 transgender individuals noted) Race/Ethnicity: 68% Black (non-Latino); also White, Latino, Asian, Other Mean age: 14.5 years (SD 3.1)",
+    "location": "United States",
+    "duration_value": "69",
+    "duration_text": "March 18, 2013 – December 31, 2018",
+    "population_size": "15,003",
+    "population_text": "15,003 youths screened (4,666 selective; 10,337 universal)",
+    "medical_conditions.": "Behavioral and psychiatric presenting problems (suicidal ideation, suicide attempts)"
+  },
+  "Gold2": {
+    "studies_tool": "yes",
+    "tool_name": "Columbia-Suicide Severity Rating Scale (C-SSRS)",
+    "tool_type": "screening",
+    "outcome_summary": "Both the nurse‐interview and self‐report modes of the C‐SSRS screener, when used in general hospital inpatients, are acceptable, although the former showed higher acceptance. Older patients were more likely to refuse the self‐report mode, whereas males and surgical patients tended to refuse the nurse‐interview mode. Moreover, the self‐report mode identified more patients with a high suicidal risk. A multi‐centre study with a larger sample size is required to confirm the present findings.",
+    "clinical_setting": "Inpatient at general hospital, medical, surgical units, oncology inpatient. No participation of department of psychiatry.",
+    "demographics_summary": "Adults admitted to medical and surgical units; mean age about 58 years; 44% female and 56% male",
+    "location": "Asan Medical Center, Seoul, South Korea",
+    "duration_value": "Phase I -17 days, Phase II - 8 days",
+    "duration_text": "Phase I: June 5–21, 2020; Phase II: December 6–13, 2020",
+    "population_size": "398",
+    "population_text": "During both phases, 400 patients were admitted, 398 of whom completed either mode of the screening.",
+    "medical_conditions.": "Patients with physical illnesses; many oncology patients plus other internal medicine and surgical patients. Not typically focus on managing their patients' mental health issues"
+  },
+  "Gold3": {
+    "studies_tool": "yes",
+    "tool_name": "Veterans Health Administration (VHA): Comprehensive Suicide Risk Evaluation (CSRE)",
+    "tool_type": "assessment",
+    "outcome_summary": "This cohort study provides, to our knowledge, the first national data regarding suicide among VHA patients following CSRE administration. Models of acute (within 30 days) and chronic (within 365 days) suicide risk highlight constructs that may be most relevant for clinical assessment of both short- and long-term risk of suicide. Further, the protective factors included in the CSRE were not associated with suicide, suggesting CSRE refinements may be warranted to minimize patient and clinician burden during suicide crises. Findings suggest VHA clinicians may benefit from a focus on a subset of CSRE responses when evaluating suicide risk. Refining the CSRE to focus on factors with the strongest associations with suicide, standardizing construct definitions, and developing risk prediction algorithms could potentially enhance clinical evaluation.",
+    "clinical_setting": "Veterans Health Administration (VHA) outpatient primary care, mental health, and other clinical settings across the U.S.",
+    "demographics_summary": "Age - 18 to 55 and above, Race – American Indian or Alaska Native, Asian Black, Native Hawaiian or other pacific islander, white, multiracial, Hispanic",
+    "location": "United States (nationwide VHA system)",
+    "duration_value": "15 months",
+    "duration_text": "CSRE evaluation between November 1, 2019, and December 31, 2020. Data collection and analysis were performed from April 5 to August 20, 2024.",
+    "population_size": "272,335",
+    "population_text": "A total of 272 335 CSREs were completed from November 1, 2019, to December 31, 2020, with 269 374 (98.91%) marked valid and included in analyses (including 153 736 unique VHA patients). This includes 138 invalid CSREs that were completed on the same day as an invalid CSRE. Among the 269 374 CSREs, 86.26% were for male and 13.74% for female patients; 24.69% were for Black and 63.54% for White patients, with 7.22% of unknown race.",
+    "medical_conditions.": "Patients with a positive primary suicide screening who then received a CSRE; include veterans with mental health conditions- Depressive disorder, Bipolar disorder, Schizophrenia spectrum disorder, anxiety disorder, Alcohol Use Disorder, Substance Use Disorder, insomnia disorder, chronic conditions, and various suicide risk factors."
+  },
+  "Gold4": {
+    "studies_tool": "yes",
+    "tool_name": "Ask Suicide-Screening Questions (ASQ) and Columbia–Brief Suicide Severity Rating Scale (C-BSSRS)",
+    "tool_type": "screening",
+    "outcome_summary": "In this cohort study of pediatric patients, the risk algorithm was superior to screening across all performance metrics and could substantially assist health care organizations’ efforts to meet the Joint Commission’s National Patient Safety Goal to reduce the risk of suicide.",
+    "clinical_setting": "ED of a northeastern US state",
+    "demographics_summary": "Age: This retrospective cohort study included youths aged 10 to 18",
+    "location": "United States",
+    "duration_value": "50",
+    "duration_text": "September 1, 2019, and August 31, 2021. To observe the presence or absence of a suicide attempt, patients were followed up from their first ED encounter for a minimum of 6 months and a maximum of 2.5 years, through March 2, 2022. Data were analyzed from May 2023 to December 2024.",
+    "population_size": "19,653",
+    "population_text": "19,653 patients included in the analysis, the median age was 14.3 (IQR, 12.1-16.2) years, and 10 007 (50.9%) were female. Four hundred ninety-five patients (2.5%) were treated for a suicide attempt. Among patients screening positive for suicide risk in testing samples (mean, 8.1% [95% CI, 7.6%-8.6%]) and patients in the top 8.1% of the distribution on the algorithm, the algorithm correctly identified a mean of 50.7% (95% CI, 47.3%-54.1%) of those who attempted suicide in contrast to 36.5% (95% CI, 31.9%-41.2%) identified by screening. The algorithm uniquely identified 127% more youths who attempted suicide (125) than did screening (55).",
+    "medical_conditions.": "Major depressive disorder, single episode, symptoms and signs involving emotional state, other anxiety disorders, personal risk factors, not elsewhere classified, symptoms and signs involving appearance and behavior, Prior suicide attempt, attention-deficit hyperactivity disorders, place of occurrence of the external cause, reaction to severe stress, and adjustment disorders, activity codes, long-term (current) drug therapy, conduct disorders, persistent mood (affective) disorders, intentional self-harm by sharp object, problems related to upbringing, personal history of other diseases and conditions, headache, nausea and vomiting, abdominal and pelvic pain, asthma, contact with and (suspected) exposure to communicable diseases, major depressive disorder, recurrent, abnormalities of heart beat, other symptoms and signs with general sensations and perceptions, other behavioral and emotional disorders with onset usually occur in childhood and adolescence, superficial injury of elbow and forearm, open wound of elbow and forearm, pervasive developmental disorders, cannabis-related disorders, other problem relative to primary support group, including family circumstances"
+  }
+}
