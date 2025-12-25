@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from itertools import count
 from langchain_core.documents import Document
-# from langchain_openai import OpenAIEmbeddings
 from embeddings_with_backoff import EmbeddingsWithBackoff
 from llm_client import LLMClient
 from pdf_extractor import PDFExtractor
