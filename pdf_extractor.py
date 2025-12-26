@@ -1,6 +1,8 @@
 import os
+import shutil
 import pymupdf
 import pandas as pd
+from constants import PDF_STEM_MAXLEN
 
 class PDFExtractor:
     """
@@ -30,8 +32,14 @@ class PDFExtractor:
         Extracts text, tables, and images from the given PDF file.
         Returns a list of strings containing extracted content and LLM summaries.
         """
-        if not os.path.exists(self.image_output_folder):
-            os.makedirs(self.image_output_folder)
+        # Create a unique subfolder for this PDF
+        pdf_stem = os.path.splitext(os.path.basename(pdf_path))[0][:PDF_STEM_MAXLEN].lower().replace(" ", "_")
+        pdf_image_folder = os.path.join(self.image_output_folder, pdf_stem)
+
+        # Clean the folder if it already exists
+        if os.path.exists(pdf_image_folder):
+            shutil.rmtree(pdf_image_folder)
+        os.makedirs(pdf_image_folder)
 
         doc = pymupdf.open(pdf_path)
         article_contents = []
@@ -59,7 +67,7 @@ class PDFExtractor:
                     image_bytes = image_info["image"]
                     image_ext = image_info.get("ext") or "png"
                     image_filename = os.path.join(
-                        self.image_output_folder,
+                        pdf_image_folder,
                         f"page_{page_num + 1}_img_{img_index + 1}.{image_ext}"
                     )
                     with open(image_filename, "wb") as f:

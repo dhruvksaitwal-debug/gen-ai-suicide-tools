@@ -1,6 +1,7 @@
 import os
 import argparse
 import pandas as pd
+from constants import PDF_STEM_MAXLEN
 from orchestrator import DocRAGPipelineOrchestrator
 from evaluator import Evaluator, load_gold_examples
 
@@ -115,11 +116,29 @@ def main():
         # Remove contexts column if present
         df = df.drop(columns=["contexts"], errors="ignore")
 
-        # Save CSV per PDF
-        output_csv = os.path.join(results_folder, f"{doc_id}_results.csv")
-        df.to_csv(output_csv, index=False, float_format="%.2f")
-        print(f"Saved results to {output_csv}")
-
+        # Save one CSV per tool per PDF
+        safe_doc_id = doc_id[:PDF_STEM_MAXLEN].lower().replace(" ", "_")
+        if df["studies_tool"].iloc[0] == "no":
+            output_csv = os.path.join(results_folder, f"{safe_doc_id}_no_tool_results.csv")
+            df.to_csv(output_csv, index=False, float_format="%.2f")
+            print(f"Saved results to {output_csv}")
+        else:
+            # Group by tool_name and save one CSV per tool
+            for tool_name, group in df.groupby("tool_name"):
+                safe_tool = (
+                    tool_name.lower()
+                    .replace(" ", "_")
+                    .replace("/", "_")
+                    .replace(":", "_")
+                    .replace(".", "_")
+                    .replace("(", "_")
+                    .replace(")", "_")
+                )
+                group = group.drop(columns=["studies_tool", "tool_name", "tool_type"], errors="ignore")
+                output_csv = os.path.join(results_folder, f"{safe_doc_id}_{safe_tool}_results.csv")
+                group.to_csv(output_csv, index=False, float_format="%.2f")
+                print(f"Saved results to {output_csv}")
+        
 
 if __name__ == "__main__":
     main()

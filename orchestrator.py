@@ -21,7 +21,7 @@ class DocRAGPipelineOrchestrator:
         self.llm_client = LLMClient(api_key, base_url, model_name)
         self.pdf_extractor = PDFExtractor(self.llm_client)
         self.embedding_model = EmbeddingsWithBackoff(api_key=api_key, base_url=base_url, model="text-embedding-3-small") 
-        self.vector_manager = VectorStoreManager(self.embedding_model, db_path="./" + file_name + "_db")
+        self.vector_manager = VectorStoreManager(self.embedding_model, db_path="./doc_rag_db")
         self.hypo_gen = HypotheticalQuestionGenerator(self.llm_client)
         self.query_expander = QueryExpander(self.llm_client)
         self.q_normalizer = QueryScopedNormalizer(self.llm_client, debug=True)
@@ -49,7 +49,8 @@ class DocRAGPipelineOrchestrator:
         # 2. Build vectorstore
         print("Building vectorstore...")
         documents = [Document(id=i, page_content=str(chunk)) for i, chunk in zip(count(1), extracted_contents)]
-        self.chunks_vectorstore = self.vector_manager.create_collection(self.file_name + "_article", documents)
+        article_collection_name = self.vector_manager.sanitize_collection_name(self.file_name + "_article")
+        self.chunks_vectorstore = self.vector_manager.create_collection(article_collection_name, documents)
         self.chunked_documents = documents   # keep the Document objects
 
         # 3. Generate hypothetical questions
@@ -58,7 +59,8 @@ class DocRAGPipelineOrchestrator:
             self.chunked_documents,   # pass Document objects, not strings
             "Generate up to 10 hypothetical questions about suicide screening/assessment tools."
         )
-        self.hypo_vectorstore = self.vector_manager.create_collection("hypothetical_questions", hypo_questions)
+        hypo_collection_name = self.vector_manager.sanitize_collection_name(self.file_name + "_hypo")
+        self.hypo_vectorstore = self.vector_manager.create_collection(hypo_collection_name, hypo_questions)
 
     def run_queries(self, queries):
         acc = AnswerAccumulator(doc_id=self.file_name)
@@ -125,6 +127,10 @@ class DocRAGPipelineOrchestrator:
         flattened = []
         for record in records:
             doc_id = record["doc_id"]
+            studies_tool = record.get("studies_tool")
+            tool_name = record.get("tool_name")
+            tool_type = record.get("tool_type")
+
             for field, answer in record.items():
                 if field == "doc_id":
                     continue
@@ -139,6 +145,9 @@ class DocRAGPipelineOrchestrator:
 
                 flattened.append({
                     "doc_id": doc_id,
+                    "studies_tool": studies_tool,
+                    "tool_name": tool_name,
+                    "tool_type": tool_type,
                     "question": field,   # base_field name
                     "answer": answer,    # normalized answer
                     "contexts": contexts
