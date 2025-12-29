@@ -18,17 +18,14 @@ def run_pipeline_for_pdf(doc_id, data_folder, queries, evaluate, gold_examples):
     pipeline = DocRAGPipelineOrchestrator(file_name=doc_id, data_folder=data_folder)
     pipeline.setup()
 
-    # Run pipeline → get raw records + provenance + contexts
-    records, field_provenance, per_query_contexts = pipeline.run_queries(queries)
-
-    # Flatten
-    flattened = pipeline._flatten_with_alignment(records, field_provenance, per_query_contexts)
+    # Run pipeline → get answers for all KPI's
+    records = pipeline.run_queries(queries)
 
     # Attach doc_id
-    for row in flattened:
+    for row in records:
         row["doc_id"] = doc_id
 
-    df = pd.DataFrame(flattened)
+    df = pd.DataFrame(records)
 
     # If evaluation disabled → return KPI-only CSV
     if not evaluate:
@@ -115,14 +112,29 @@ def main():
 
         # Remove contexts column if present
         df = df.drop(columns=["contexts"], errors="ignore")
+        
+        # Handle empty dataframe OR missing studies_tool
+        if df.empty:
+            print(f"WARNING: No records produced for {doc_id}. Saving EMPTY CSV.")
+            output_csv = os.path.join(results_folder, f"{safe_doc_id}_EMPTY.csv")
+            df.to_csv(output_csv, index=False)
+            return
+        
+        if "studies_tool" not in df.columns:
+            print(f"WARNING: Missing studies_tool column for {doc_id}. Saving RAW CSV.")
+            output_csv = os.path.join(results_folder, f"{safe_doc_id}_RAW.csv")
+            df.to_csv(output_csv, index=False)
+            return
 
         # Save one CSV per tool per PDF
         safe_doc_id = doc_id[:PDF_STEM_MAXLEN].lower().replace(" ", "_")
         if df["studies_tool"].iloc[0] == "no":
+            df = df.drop(columns=["studies_tool", "tool_name", "tool_type"], errors="ignore")
             output_csv = os.path.join(results_folder, f"{safe_doc_id}_no_tool_results.csv")
             df.to_csv(output_csv, index=False, float_format="%.2f")
             print(f"Saved results to {output_csv}")
         else:
+            print("[DEBUG] About to save CSV:", not df.empty)
             # Group by tool_name and save one CSV per tool
             for tool_name, group in df.groupby("tool_name"):
                 safe_tool = (

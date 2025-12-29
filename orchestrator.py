@@ -41,6 +41,7 @@ class DocRAGPipelineOrchestrator:
         self.chunks_vectorstore = None
         self.hypo_vectorstore = None
 
+
     def setup(self):
         # 1. Extract PDF
         print("Extracting PDF contents...")
@@ -64,9 +65,11 @@ class DocRAGPipelineOrchestrator:
 
     def run_queries(self, queries):
         acc = AnswerAccumulator(doc_id=self.file_name)
-        per_query_contexts = {}  # query -> list[str] contexts
+        per_query_contexts = []
+        query_order = []
 
         for q in queries:
+            query_order.append(q)
             print(f"\nQuery: {q}")
 
             # --- Retrieval ---
@@ -97,59 +100,77 @@ class DocRAGPipelineOrchestrator:
 
             # --- Normalization ---
             partial = self.q_normalizer.normalize_query(q, final_answer)
-            updated_fields = acc.update(q, partial)  # now uses query
+            updated_fields = acc.update(q, partial)
 
             # --- Audit log ---
             self.audit_logger.log(self.file_name, q, final_answer, partial)
 
-            # Save contexts per original query
-            per_query_contexts[q] = contexts
+            # --- Append contexts in order ---
+            per_query_contexts.append(contexts)
 
             # Short-circuit
             if q == "Does the article study any suicide screening/assessment tools?" \
             and partial.get("studies_tool") == "no":
                 records = self.assembler.assemble(self.file_name, acc)
-                return self._flatten_with_alignment(records, acc.get_field_provenance(), per_query_contexts)
+                flattened = self._flatten_with_alignment(records, acc.get_field_provenance(), per_query_contexts, query_order, FinalRecordAssembler.BASE_FIELDS)
+                return flattened
 
         # --- Assemble full record(s) ---
         records = self.assembler.assemble(self.file_name, acc)
 
         # --- Flatten with aligned contexts ---
-        return records, acc.get_field_provenance(), per_query_contexts # self._flatten_with_alignment(records, acc.get_field_provenance(), per_query_contexts)
+        flattened = self._flatten_with_alignment(records, acc.get_field_provenance(), per_query_contexts, query_order, FinalRecordAssembler.BASE_FIELDS)
+        return flattened
+    
 
+    def _flatten_with_alignment(self, records, field_provenance, per_query_contexts, query_order, base_fields):
+        """
+        Clean, deterministic flattening:
+        - One row per (record, field)
+        - Contexts aligned by query index
+        - No duplication
+        - No context leakage
+        - Works for unspecified_tool and no-tool cases
+        """
 
-    def _flatten_with_alignment(self, records, field_provenance: dict, per_query_contexts: dict):
-        """
-        records: assembled records from FinalRecordAssembler (base_fields present)
-        field_provenance: {field -> [queries]} from AnswerAccumulator
-        per_query_contexts: {query -> [context strings]}
-        """
         flattened = []
+        query_to_index = {q: i for i, q in enumerate(query_order)}
+
+        # Flatten each record
         for record in records:
             doc_id = record["doc_id"]
             studies_tool = record.get("studies_tool")
             tool_name = record.get("tool_name")
             tool_type = record.get("tool_type")
 
-            for field, answer in record.items():
+            for field in base_fields:
+                answer = record.get(field)
+                if answer is None:
+                    continue
                 if field == "doc_id":
                     continue
 
-                # Gather contexts from all queries that contributed to this field
+                # Gather contexts ONLY from queries that contributed to this field
                 contexts = []
-                for q in field_provenance.get(field, []):
-                    contexts.extend(per_query_contexts.get(q, []))
+                contributing_queries = field_provenance.get(field, [])
 
-                # Dedup final contexts
+                for q in contributing_queries:
+                    idx = query_to_index.get(q)
+                    if idx is not None and idx < len(per_query_contexts):
+                        contexts.extend(per_query_contexts[idx])
+
+                # Deduplicate contexts
                 contexts = list(dict.fromkeys(contexts))
 
+                # Append clean row
                 flattened.append({
                     "doc_id": doc_id,
                     "studies_tool": studies_tool,
                     "tool_name": tool_name,
                     "tool_type": tool_type,
-                    "question": field,   # base_field name
-                    "answer": answer,    # normalized answer
-                    "contexts": contexts
+                    "question": field,
+                    "answer": answer,
+                    "contexts": contexts,
                 })
+
         return flattened

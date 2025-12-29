@@ -2,6 +2,7 @@ import json
 import os
 import re
 from datetime import datetime
+import calendar
 
 
 QUERY_FIELDS = {
@@ -72,6 +73,66 @@ class QueryScopedNormalizer:
                 if not parsed and self.debug:
                     print(f"[DEBUG] Could not parse date range: {date_matches[i]} – {date_matches[i+1]}")
 
+        # Step 3: Month–Month ranges with a single year (e.g., "March–April 2021")
+        multi_month_pattern = r"([A-Za-z]{3,9})(?:\s*(?:-|to|through|and|,)\s*([A-Za-z]{3,9}))+?\s+(\d{4})"
+        mm_matches = re.findall(multi_month_pattern, text, flags=re.IGNORECASE)
+
+        if self.debug:
+            print(f"[DEBUG] Multi-month matches: {mm_matches}")
+
+        for m1, m_last, year in mm_matches:
+            try:
+                # Parse first and last month
+                start_month = datetime.strptime(f"{m1} {year}", "%B %Y").month \
+                    if len(m1) > 3 else datetime.strptime(f"{m1} {year}", "%b %Y").month
+
+                end_month = datetime.strptime(f"{m_last} {year}", "%B %Y").month \
+                    if len(m_last) > 3 else datetime.strptime(f"{m_last} {year}", "%b %Y").month
+
+                # Compute full-month durations
+                days = 0
+                for month in range(start_month, end_month + 1):
+                    days += calendar.monthrange(int(year), month)[1]
+
+                total_days += days
+
+                if self.debug:
+                    print(f"[DEBUG] Full multi-month span {m1}-{m_last} {year} = {days} days")
+
+            except Exception as e:
+                if self.debug:
+                    print(f"[DEBUG] Could not parse multi-month span {m1}-{m_last} {year}: {e}")
+
+        # Step 4: Month–Year ranges (e.g., "December 2019 to January 2020")
+        month_year_pattern = r"([A-Za-z]{3,9}) (\d{4})"
+        my_matches = re.findall(month_year_pattern, text)
+
+        if self.debug:
+            print(f"[DEBUG] Month-year matches: {my_matches}")
+
+        # We need pairs: (Dec 2019) → (Jan 2020)
+        if len(my_matches) >= 2:
+            for i in range(0, len(my_matches) - 1, 2):
+                start_str = f"{my_matches[i][0]} 1, {my_matches[i][1]}"
+                end_str = f"{my_matches[i+1][0]} 1, {my_matches[i+1][1]}"
+
+                parsed = False
+                for fmt in ("%B %d, %Y", "%b %d, %Y"):
+                    try:
+                        start = datetime.strptime(start_str, fmt)
+                        end = datetime.strptime(end_str, fmt)
+                        days = (end - start).days + 1
+                        total_days += days
+                        parsed = True
+                        if self.debug:
+                            print(f"[DEBUG] Parsed month-year range {start_str} – {end_str} = {days} days")
+                        break
+                    except:
+                        continue
+
+                if not parsed and self.debug:
+                    print(f"[DEBUG] Could not parse month-year range: {start_str} – {end_str}")
+
         if self.debug:
             print(f"[DEBUG] Total computed days: {total_days}")
 
@@ -114,7 +175,7 @@ Rules:
 - For clinical_setting: concise free-text (e.g., "pediatric emergency department", "primary care clinics").
 - For location: concise free-text (e.g., "USA", "urban hospitals in India").
 - For medical_conditions: extract all explicitly or implicitly mentioned conditions (e.g., "cancer-related conditions, general medical and surgical issues").
-- For duration_value: if date ranges are provided, calculate the integer number of days, months, or years (e.g., June 5–21, 2020 → 17 days). If multiple phases, sum them.
+- For duration_value: if date ranges are provided, calculate the integer number of days, months, or years (e.g., June 5–21, 2020 → 17 days). If multiple phases, sum them. Extract ONLY the duration of study itself. 
 - For duration_text: concise narrative (e.g., "Phase I: June 5–21, 2020; Phase II: Dec 6–13, 2020"). Normalize to use plain hyphens (-).
 - For population_size: integer N if available.
 - For population_text: concise narrative (e.g., "N=452 pediatric ED patients ages 12–17").
@@ -136,21 +197,44 @@ Answer:
             data = {}
 
         if "duration_value" in QUERY_FIELDS.get(query, []):
-            revised_answer = self.llm_client.chat_completion([
-                {"role": "system", "content": "Return the same text after excluding the participants and their age (if any)"},
-                {"role": "user", "content": answer}
-            ], temperature=0, max_tokens=600)
-            computed_days = self._extract_duration_days(revised_answer)
-            if computed_days:
+            # 1. Always use the ORIGINAL GenAI answer (never rewritten text)
+            raw_text = answer
+            if self.debug:
+                print("[DEBUG] Duration extraction: using raw GenAI answer")
+
+            # 2. Compute duration safely
+            try:
+                computed_days = self._extract_duration_days(raw_text)
+            except Exception as e:
+                if self.debug:
+                    print(f"[DEBUG] Duration extraction error: {e}")
+                computed_days = None
+
+            # 3. Assign duration_value explicitly
+            if computed_days is not None:
                 data["duration_value"] = computed_days
-            elif self.debug:
-                print("[DEBUG] No duration extracted, returning None")
+                if self.debug:
+                    print(f"[DEBUG] Duration extracted (days): {computed_days}")
+            else:
+                data["duration_value"] = None
+                if self.debug:
+                    print("[DEBUG] No duration extracted → setting duration_value=None")
 
-        # Normalize duration_text
-        if "duration_text" in fields and data.get("duration_text"):
-            data["duration_text"] = self._normalize_text(data["duration_text"])
+        # Normalize duration_text (if present)
+        if "duration_text" in fields:
+            # Ensure the field exists even if the LLM omitted it
+            duration_text = data.get("duration_text", None)
+            if duration_text:
+                data["duration_text"] = self._normalize_text(duration_text)
+                if self.debug:
+                    print(f"[DEBUG] Normalized duration_text: {data['duration_text']}")
+            else:
+                data["duration_text"] = None
+                if self.debug:
+                    print("[DEBUG] duration_text missing → setting duration_text=None")
 
-        return {k: v for k, v in data.items() if k in fields}
+        # Return only the fields required by the schema
+        return {k: data.get(k, None) for k in fields}
 
 
 class AnswerAccumulator:
@@ -240,6 +324,10 @@ class FinalRecordAssembler:
                 rec["duration_value"] = self._canon_int(rec["duration_value"])
                 records.append(rec)
             return records
+
+        # Enforce: if studies_tool == "yes" but tool_name is missing → assign fallback
+        if self._canon_bool_str(base_record.get("studies_tool")) == "yes" and not base_record.get("tool_name"):
+            base_record["tool_name"] = "unspecified_tool"
 
         # Case 3: Single tool studied → return one record
         base_record["studies_tool"] = self._canon_bool_str(base_record.get("studies_tool"))
