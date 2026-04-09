@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Evaluation artifacts
+ragas_evaluation_results.csv
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Data artifacts
+/test_data/         # Ignore test_data folder
+extracted_images/   # Ignore extracted images created on the fly
+*_db/               # Ignore temporary database folders
+audit_logs/         # Ignore runtime audit logs
+/test_results/      # Ignore test_results folder
+
+# Environment variables
+.env
