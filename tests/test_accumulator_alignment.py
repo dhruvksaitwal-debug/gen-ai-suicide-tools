@@ -1,5 +1,5 @@
 import unittest
-from suicide_safe_care.answer_normalizer import AnswerAccumulator
+from answer_normalizer import AnswerAccumulator
 
 class TestAnswerAccumulatorAlignment(unittest.TestCase):
     def test_update_and_provenance(self):

@@ -1,0 +1,11 @@
+doc_id,question,answer
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,studies_tool,yes
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,tool_type,assessment
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,outcome_summary,"The NLP algorithm demonstrated high accuracy in detecting suicidal ideation (SI) and suicidal behavior/suicide attempts (SB/SA), with F1 scores ranging from 0.86 to 0.97 across three hospital systems. Detection rates for SB/SA were nearly 30 times higher and for SI almost 10 times higher than traditional diagnostic codes. The study concluded that the NLP tool rendered ICD codes obsolete for identifying these cases. Additionally, the algorithm showed no significant bias across different demographic groups, indicating its robustness and generalizability."
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,clinical_setting,academic medical centers
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,demographics_summary,"The participants included individuals from three healthcare sites: Weill Cornell Medicine, Mount Sinai Health System, and University of Utah Healthcare Centre. The age distribution varied, with participants under 18 years to those over 60 years. The sex distribution showed a mix of females and males, with a notable number of females in each site. Racial and ethnic diversity was present, with varying proportions of White, Non-white, Hispanic/Latinx, and Non-Hispanic/Latinx individuals."
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,location,USA
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,population_size,122
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,population_text,N=122 patients across three sites
+A Natural Language Processing Pipeline based on the Columbia-Suicide Severity Rating Scale,medical_conditions,mental health issues associated with suicidality

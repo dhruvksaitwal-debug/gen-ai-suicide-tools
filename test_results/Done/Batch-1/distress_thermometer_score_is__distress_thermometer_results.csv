@@ -1,0 +1,11 @@
+doc_id,question,answer
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,studies_tool,yes
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,tool_name,Distress Thermometer
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,tool_type,screening
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,outcome_summary,"The study concluded that the Distress Thermometer (DT) is an effective and rapid tool for predicting suicidal ideation (SI) in cancer patients, with a notable prevalence of SI at 17.3%. The DT demonstrated good overall accuracy with an area under the ROC curve of 0.797, indicating reliability in identifying at-risk patients. While it showed high sensitivity (0.929), its specificity was lower (0.522), suggesting potential for false positives. The findings emphasize the importance of addressing mental health challenges in cancer care."
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,clinical_setting,oncology
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,demographics_summary,"Participants were categorized into two age groups: 51.2% were 50 years or younger, and 48.8% were older than 50 years. The sample included 58.6% males and 41.4% females, with higher suicidal ideation rates in females. A significant majority were married (92.0%), and the education levels varied, with 38.9% having junior high school education or less. Employment status showed that 35.2% were employed and 64.8% were unemployed."
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,location,"Lalitpur, Nepal"
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,population_size,162
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,population_text,N=162 patients
+Distress Thermometer Score Is Useful For Predicting Suicidal Ideation in Patients With Cancer,medical_conditions,"various types of cancer, including digestive cancer, breast cancer, gynecologic cancer, lung cancer, head and neck cancer, and hematologic cancer"

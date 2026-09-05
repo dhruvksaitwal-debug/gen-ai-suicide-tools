@@ -1,0 +1,12 @@
+doc_id,question,answer
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,studies_tool,yes
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,tool_name,Comprehensive Suicide Risk Assessment
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,tool_type,assessment
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,outcome_summary,"The study developed a risk calculator (RC) to predict the one-year risk of suicide attempts among youth with bipolar disorder, achieving a test area under the curve (AUC) of 0.82, indicating good predictive accuracy. Over a median follow-up of 13.1 years, 27% of the sample experienced at least one suicide attempt. The RC identified ten key predictors that accounted for over 90% of its predictive power. It aims to enhance clinical care by alerting healthcare providers to individuals at elevated risk for suicide attempts, although it should complement clinical judgment."
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,clinical_setting,"various clinical environments including hospitals, outpatient clinics, mental health facilities, and primary care settings"
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,demographics_summary,"The study involved 394 youth participants with a mean age of 12.70 years. 47.21% of participants were female, and 82.23% identified as White. A significant portion, 42.39%, lived with both biological parents. The mean age of mood disorder onset was 9.32 years."
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,duration_value,4781
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,duration_text,median follow-up duration of 13.1 years
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,population_size,394
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,population_text,N=394 participants ages 7–17
+A risk calculator to predict suicide attempts among individuals with early-onset bipolar disorder,medical_conditions,bipolar disorder

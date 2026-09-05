@@ -1,0 +1,6 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold15,studies_tool,yes,0.0,0.7247580026485674,0.0
+Gold15,tool_name,unspecified_tool,0.0,0.0,0.0
+Gold15,outcome_summary,"The study identified significant gaps in the implementation and practical use of pediatric mental health screening and assessment tools in emergency care settings. While various tools exist, many are not aligned with the biopsychosocial model and often neglect the complexities of out-of-hospital care. The findings emphasize the need for tools that are both theoretically sound and practically applicable in high-pressure emergency contexts. The absence of validated tools and the marginalization of paramedics were highlighted as critical areas for future research.",1.0,0.7841317101153894,1.0
+Gold15,clinical_setting,emergency departments in hospitals and out-of-hospital contexts,1.0,0.7307900679438468,1.0
+Gold15,demographics_summary,"The included studies focused on children aged 0–19 years. Participants primarily consisted of pediatric patients within this age range. Specific demographic details such as gender, ethnicity, or socioeconomic status were not provided.",1.0,0.0,1.0

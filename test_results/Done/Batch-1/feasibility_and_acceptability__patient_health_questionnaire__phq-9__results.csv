@@ -1,0 +1,13 @@
+doc_id,question,answer
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,studies_tool,yes
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,tool_name,Patient Health Questionnaire (PHQ-9)
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,tool_type,assessment
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,outcome_summary,"The study highlighted the feasibility and acceptability of the Lock to Live (L2L) web-based decision aid for safe firearm and medication storage among patients at risk of suicide. While population-based outreach methods had a higher reach, the uptake was low, with only 11% visitation through these methods compared to 100% for provider referrals. Patient feedback indicated high satisfaction with L2L, although privacy concerns were noted. The study emphasized the potential of L2L to influence behavioral changes regarding storage practices, while also identifying barriers to effective implementation."
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,clinical_setting,outpatient health settings
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,demographics_summary,"The study involved 2,931 adult participants from Kaiser Permanente Colorado who reported suicidal thoughts. The majority of participants were female (65.2%), with a significant portion aged 25-44 years (44.3%). The racial and ethnic composition was diverse, predominantly White (64.9%), with notable representation from Hispanic (15.6%) and Black (4.7%) individuals."
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,location,USA
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,duration_value,210
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,duration_text,October 2019 - April 2020
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,population_size,2931
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,population_text,N=2931 adult members of Kaiser Permanente Colorado
+Feasibility and acceptability of a suicide prevention tool in a learning healthcare system,medical_conditions,"depression, suicidal ideation"

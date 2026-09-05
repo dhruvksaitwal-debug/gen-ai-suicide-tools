@@ -1,0 +1,13 @@
+doc_id,question,answer
+Screening mental health risks for adolescents in South Korea,studies_tool,yes
+Screening mental health risks for adolescents in South Korea,tool_name,Mental Health Screening Tool for Suicide Risk (MHS: S)
+Screening mental health risks for adolescents in South Korea,tool_type,screening
+Screening mental health risks for adolescents in South Korea,outcome_summary,"The study found that the MHS tools demonstrated strong internal consistency and reliability, with Cronbach’s alpha values indicating good reliability. Confirmatory factor analysis supported a unidimensional structure for each tool, confirming their effectiveness in measuring depression, anxiety, and suicide risk. The tools showed partial scalar measurement invariance for MHS: D and MHS: S, while MHS: A achieved full invariance, suggesting some adjustments may be needed for the former two. Overall, the MHS tools are reliable and valid for screening mental health issues among South Korean adolescents."
+Screening mental health risks for adolescents in South Korea,clinical_setting,"mental health service settings, schools, community health centers, online mental health services, research settings"
+Screening mental health risks for adolescents in South Korea,demographics_summary,"The study involved a total of 6,689 adolescents, with a mean age of 14.3 years (SD = 2.6). The gender distribution shows a predominance of females, with 3,585 participants (53.6%) identifying as female. Participants were categorized by school level, revealing that 30.5% were in elementary school, while middle school and high school participants were nearly equal at 29.1% and 29.2%, respectively. Additionally, 11.2% of the participants were out-of-school adolescents."
+Screening mental health risks for adolescents in South Korea,location,South Korea
+Screening mental health risks for adolescents in South Korea,duration_value,62
+Screening mental health risks for adolescents in South Korea,duration_text,July-August 2021
+Screening mental health risks for adolescents in South Korea,population_size,6689
+Screening mental health risks for adolescents in South Korea,population_text,"N=6689 adolescents, including 5937 students from 4th grade to 3rd grade in high school and 752 out-of-school adolescents aged 10–18 years."
+Screening mental health risks for adolescents in South Korea,medical_conditions,"Depressive Disorder, Generalized Anxiety Disorder, Suicide Risk"

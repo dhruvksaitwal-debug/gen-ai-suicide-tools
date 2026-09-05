@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold20,studies_tool,yes,0.0,0.7187509409205286,0.0
+Gold20,tool_name,Mental Wellness Tool-13,1.0,0.7871759446074241,1.0
+Gold20,tool_type,screening,1.0,0.7127582091336435,1.0
+Gold20,outcome_summary,"The mwTool-13 demonstrated high sensitivity for identifying common mental disorders (CMD) at 91.48% and suicide risk (SR) at 86.84%. However, it showed sub-optimal sensitivity for alcohol-use disorders (AUD) at 56.67% and substance-use disorders (SUD) at 64.52%. Modifications to the tool improved its performance for AUD and SUD, raising sensitivities above 70%. The study highlights the need for expanded mental health screening in South Africa, particularly in primary and community care settings.",1.0,0.7557367877001174,1.0
+Gold20,clinical_setting,primary and tertiary healthcare facilities,1.0,0.7676089904532644,1.0
+Gold20,demographics_summary,"The study included a total of 1885 participants with an average age of 39 years, ranging from 18 to 88 years. 65% of participants were female, while 35% were male. Nearly all participants identified as black, and the dominant language was isiXhosa. A significant portion of participants were single, and many were seeking health services for themselves.",1.0,0.8326704544728102,1.0
+Gold20,location,"Eastern Cape Province, South Africa",1.0,0.7741598957459686,1.0
+Gold20,duration_value,14,0.0,0.742269953626007,0.0
+Gold20,duration_text,2 weeks,1.0,0.7601991202346542,1.0
+Gold20,population_size,1885,1.0,0.7238893149350596,1.0
+Gold20,population_text,N=1885 participants,1.0,0.769763417414424,1.0
+Gold20,medical_conditions,"Common Mental Disorders (CMD), Alcohol Use Disorder (AUD), Severe Mental Disorders (SMD), Suicide Risk (SR), Substance Use Disorder (SUD), tuberculosis (TB), HIV, hypertension, diabetes, epilepsy, asthma",1.0,0.8043897089567875,1.0

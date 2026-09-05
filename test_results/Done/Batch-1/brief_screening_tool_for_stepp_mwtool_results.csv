@@ -1,0 +1,13 @@
+doc_id,question,answer
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,studies_tool,yes
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,tool_name,mwTool
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,tool_type,screening
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,outcome_summary,"The mwTool demonstrated high sensitivity (0.94) for identifying any mental disorder, but lower sensitivity for proxy responses. Specificity varied, with the highest for suicide risk (0.93) and lowest for severe mental disorder (0.47). The tool effectively classified specific disorders, achieving sensitivities of 0.89 for severe mental disorders and 0.96 for common mental disorders. Overall, the mwTool is a reliable screening tool that can improve access to mental health care in low-resource settings."
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,clinical_setting,"primary care and community-based care environments, emergency situations"
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,demographics_summary,"The development sample included 911 participants with a mean age of 32 years, of which 63% were female. The validation sample had 480 participants with a mean age of 31 years, with 59% being female. Both samples included individuals with various mental disorders, highlighting the importance of demographic factors in screening outcomes."
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,location,Mozambique
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,duration_value,28
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,duration_text,"May 16-June 8, 2018; December 5-12, 2018"
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,population_size,911
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,population_text,N=911 participants included in the analysis
+Brief Screening Tool for Stepped-Care Management of Mental and Substance Use Disorders,medical_conditions,"Severe Mental Disorder, Common Mental Disorder, Substance Use Disorder, Suicide Risk"

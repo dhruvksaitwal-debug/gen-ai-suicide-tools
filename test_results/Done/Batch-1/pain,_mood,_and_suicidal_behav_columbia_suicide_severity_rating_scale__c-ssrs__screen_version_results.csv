@@ -1,0 +1,13 @@
+doc_id,question,answer
+"Pain, mood, and suicidal behavior among injured working adults in Chile",studies_tool,yes
+"Pain, mood, and suicidal behavior among injured working adults in Chile",tool_name,Columbia Suicide Severity Rating Scale (C-SSRS) Screen version
+"Pain, mood, and suicidal behavior among injured working adults in Chile",tool_type,screening
+"Pain, mood, and suicidal behavior among injured working adults in Chile",outcome_summary,"The study concluded that chronic pain is significantly associated with increased rates of depression, anxiety, and suicidal behaviors among injured working adults in Chile. Approximately 46% of participants were classified as having high perceived chronic pain, with those in this group showing much higher rates of depression (60.5% vs. 26.1%) and generalized anxiety symptoms. High pain participants reported a 4.37-fold increase in suicidal ideation and a 5.16-fold increase in suicidal behavior compared to those with low pain. The findings highlight the need for integrated pain management and mental health support."
+"Pain, mood, and suicidal behavior among injured working adults in Chile",clinical_setting,workers' compensation hospital systems
+"Pain, mood, and suicidal behavior among injured working adults in Chile",demographics_summary,"The study involved injured working adults in Santiago, Chile, with a mean age of 45.9 years. Participants included 7.2% aged 18–24, 17.8% aged 25–34, and 23.2% aged 55–64. The majority were men (72.9%), and most were born in Chile (94.1%). Educational attainment varied, with 16.1% having completed elementary school, 54.8% high school, and 29.1% holding a college or technical degree."
+"Pain, mood, and suicidal behavior among injured working adults in Chile",location,"Santiago, Chile"
+"Pain, mood, and suicidal behavior among injured working adults in Chile",duration_value,910
+"Pain, mood, and suicidal behavior among injured working adults in Chile",duration_text,September 2015 - February 2018
+"Pain, mood, and suicidal behavior among injured working adults in Chile",population_size,1946
+"Pain, mood, and suicidal behavior among injured working adults in Chile",population_text,N=1946 participants
+"Pain, mood, and suicidal behavior among injured working adults in Chile",medical_conditions,"Spinal Cord Injuries, Mild Brain Injuries, Bone Fractures, Burns, Soft Tissue Injuries"

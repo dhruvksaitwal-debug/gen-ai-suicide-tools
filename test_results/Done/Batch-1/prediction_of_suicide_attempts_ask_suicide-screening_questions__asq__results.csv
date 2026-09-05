@@ -1,0 +1,13 @@
+doc_id,question,answer
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,studies_tool,yes
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,tool_name,Ask Suicide-Screening Questions (ASQ)
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,tool_type,screening
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,outcome_summary,"Both the Ask Suicide-Screening Questions (ASQ) and the Computerized Adaptive Screen for Suicidal Youth (CASSY) showed strong predictive validity for identifying adolescents at risk for suicide attempts, with high sensitivity. The ASQ had a specificity of 0.588, while the CASSY had better specificity, particularly for those with psychiatric symptoms. The CASSY outperformed the ASQ in terms of AUROC among adolescents with psychiatric issues. Both tools demonstrated a high negative predictive value, allowing clinicians to rule out suicide risk effectively."
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,clinical_setting,pediatric emergency departments
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,demographics_summary,"The study involved a total of 2,740 participants, showcasing a diverse demographic representation. The participants included 1,749 girls (62.2%) and 991 boys (36.2%), with a mean age of 15.0 years (SD = 1.7). In terms of race/ethnicity, the breakdown included 1,618 White adolescents (59.1%), 678 Hispanic adolescents (24.7%), and 469 Black or African American adolescents (17.1%). Additionally, 325 adolescents (11.9%) had unknown race."
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,location,USA
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,duration_value,463
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,duration_text,"July 24, 2017 - October 29, 2018"
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,population_size,2740
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,population_text,N=2740 adolescents who completed both the CASSY and ASQ assessments
+Prediction of Suicide Attempts and Suicide-Related Events Among Adolescents-Good,medical_conditions,"physical symptoms, psychiatric symptoms"

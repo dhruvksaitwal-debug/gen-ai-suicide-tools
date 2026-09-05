@@ -1,0 +1,12 @@
+doc_id,question,answer
+Firearms Access among Pediatric Patients at Risk for Suicide,studies_tool,yes
+Firearms Access among Pediatric Patients at Risk for Suicide,tool_name,Ask Suicide-Screening Questions (ASQ)
+Firearms Access among Pediatric Patients at Risk for Suicide,tool_type,screening
+Firearms Access among Pediatric Patients at Risk for Suicide,outcome_summary,"The study highlights the effectiveness of the Ask Suicide-Screening Questions (ASQ) tool in identifying youth at risk for suicide, with significant differences in gender and age between groups. Males were more likely to have positive ASQ outcomes, and older youth tended to screen positive for suicide risk. The context of assessment also influenced outcomes, with a higher percentage of ASQ positive individuals in medical settings. Further research is needed to explore demographic and contextual factors affecting ASQ outcomes."
+Firearms Access among Pediatric Patients at Risk for Suicide,clinical_setting,"emergency departments, inpatient medical/surgical units, outpatient specialty and primary care clinics, inpatient psychiatric units"
+Firearms Access among Pediatric Patients at Risk for Suicide,demographics_summary,"The sample consists of 1,065 individuals with a notable gender disparity. Males make up 45.5% of the sample, representing 70% of the ASQ positive group, while females account for 53.4% of the sample. The mean age of participants is 14.2 years, with the ASQ positive group averaging 14.9 years. Participants were assessed in various medical settings, including outpatient, inpatient, and emergency departments."
+Firearms Access among Pediatric Patients at Risk for Suicide,location,USA
+Firearms Access among Pediatric Patients at Risk for Suicide,duration_value,4015
+Firearms Access among Pediatric Patients at Risk for Suicide,duration_text,2008-2019
+Firearms Access among Pediatric Patients at Risk for Suicide,population_size,1065
+Firearms Access among Pediatric Patients at Risk for Suicide,population_text,N=1065 individuals segmented into two groups based on ASQ outcomes

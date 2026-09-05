@@ -1,0 +1,37 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold05,studies_tool,yes,0.0,0.7247580026485674,1.0
+Gold05,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS),1.0,0.6954684877193358,1.0
+Gold05,tool_type,screening,0.0,0.7302781405624879,1.0
+Gold05,outcome_summary,"The study demonstrated that a within-person classification model using voice features achieved an accuracy of 79.2% for predicting worsening suicidality in patients with mood disorders. However, external validation showed a lower accuracy of 61.8%. The findings suggest that voice characteristics can be valuable for predicting suicidality, emphasizing personalized approaches in mental health assessments. This supports the potential for automated systems to assist in screening high-risk patients, especially in telemedicine settings.",1.0,0.7789425867399118,1.0
+Gold05,clinical_setting,primary care and telemedicine,0.5,0.735072896757202,1.0
+Gold05,demographics_summary,"The study included participants diagnosed with mood disorders. The mean age of participants in the high risk group was 28.53 years, while the low risk group had a mean age of 34.70 years. The distribution of sex was similar in both groups, with 79% female and 21% male. A higher percentage of participants in the high risk group were single compared to the low risk group.",0.8571428571428571,0.7976931499133366,1.0
+Gold05,location,South Korea,1.0,0.7712701338746448,0.0
+Gold05,duration_value,780,0.0,0.7422699536260072,0.0
+Gold05,duration_text,one year,1.0,0.7637521830004383,0.0
+Gold05,population_size,104,1.0,0.7488612150271644,1.0
+Gold05,population_text,104 patients diagnosed with mood disorders,1.0,0.7366380104307186,1.0
+Gold05,medical_conditions,"mood disorders, bipolar disorder, major depressive disorder, psychotic disorders, neurocognitive disorders, laryngeal disease, organic brain diseases, epilepsy, traumatic brain injury, multiple sclerosis",1.0,0.7892830403048255,1.0
+Gold05,studies_tool,yes,0.0,0.7247580026485674,1.0
+Gold05,tool_name,Scale for Suicide Ideation (SSI),0.5,0.6944172821087892,1.0
+Gold05,tool_type,screening,0.0,0.7302781405624879,1.0
+Gold05,outcome_summary,"The study demonstrated that a within-person classification model using voice features achieved an accuracy of 79.2% for predicting worsening suicidality in patients with mood disorders. However, external validation showed a lower accuracy of 61.8%. The findings suggest that voice characteristics can be valuable for predicting suicidality, emphasizing personalized approaches in mental health assessments. This supports the potential for automated systems to assist in screening high-risk patients, especially in telemedicine settings.",1.0,0.7789425867399119,1.0
+Gold05,clinical_setting,primary care and telemedicine,0.5,0.735072896757202,1.0
+Gold05,demographics_summary,"The study included participants diagnosed with mood disorders. The mean age of participants in the high risk group was 28.53 years, while the low risk group had a mean age of 34.70 years. The distribution of sex was similar in both groups, with 79% female and 21% male. A higher percentage of participants in the high risk group were single compared to the low risk group.",0.7142857142857143,0.797693149913337,0.5
+Gold05,location,South Korea,1.0,0.7693570544732307,0.0
+Gold05,duration_value,780,0.0,0.7422699536260072,0.0
+Gold05,duration_text,one year,1.0,0.7645351053565358,0.0
+Gold05,population_size,104,1.0,0.7488612150271643,1.0
+Gold05,population_text,104 patients diagnosed with mood disorders,1.0,0.7366380104307187,1.0
+Gold05,medical_conditions,"mood disorders, bipolar disorder, major depressive disorder, psychotic disorders, neurocognitive disorders, laryngeal disease, organic brain diseases, epilepsy, traumatic brain injury, multiple sclerosis",0.6,0.7961294697495488,1.0
+Gold05,studies_tool,yes,0.0,0.7255734538047416,1.0
+Gold05,tool_name,Beck Scale for Suicide Ideation (BSS),0.5,0.7368053061582064,1.0
+Gold05,tool_type,screening,1.0,0.7322624555811313,1.0
+Gold05,outcome_summary,"The study demonstrated that a within-person classification model using voice features achieved an accuracy of 79.2% for predicting worsening suicidality in patients with mood disorders. However, external validation showed a lower accuracy of 61.8%. The findings suggest that voice characteristics can be valuable for predicting suicidality, emphasizing personalized approaches in mental health assessments. This supports the potential for automated systems to assist in screening high-risk patients, especially in telemedicine settings.",1.0,0.7764860204325754,1.0
+Gold05,clinical_setting,primary care and telemedicine,0.5,0.735072896757202,1.0
+Gold05,demographics_summary,"The study included participants diagnosed with mood disorders. The mean age of participants in the high risk group was 28.53 years, while the low risk group had a mean age of 34.70 years. The distribution of sex was similar in both groups, with 79% female and 21% male. A higher percentage of participants in the high risk group were single compared to the low risk group.",0.8571428571428571,0.797693149913337,1.0
+Gold05,location,South Korea,1.0,0.771270133874645,0.0
+Gold05,duration_value,780,0.0,0.742269953626007,0.0
+Gold05,duration_text,one year,1.0,0.7636596812377238,0.0
+Gold05,population_size,104,1.0,0.7488612150271644,1.0
+Gold05,population_text,104 patients diagnosed with mood disorders,1.0,0.7366380104307186,1.0
+Gold05,medical_conditions,"mood disorders, bipolar disorder, major depressive disorder, psychotic disorders, neurocognitive disorders, laryngeal disease, organic brain diseases, epilepsy, traumatic brain injury, multiple sclerosis",0.8,0.8029063403762123,1.0

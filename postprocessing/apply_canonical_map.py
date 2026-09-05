@@ -1,12 +1,21 @@
-import pandas as pd
 import json
+import logging
 from pathlib import Path
+
+import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 INPUT_FILE = "data/collated_results_v1.csv"
 INPUT_MAP = "data/tool_name_map.canonical.json"
 OUTPUT_FILE = "data/collated_results_with_canonical.csv"
 
-def main():
+
+def main() -> None:
+    for path in (INPUT_FILE, INPUT_MAP):
+        if not Path(path).exists():
+            raise FileNotFoundError(f"Required input '{path}' does not exist.")
+
     df = pd.read_csv(INPUT_FILE)
     mapping = json.loads(Path(INPUT_MAP).read_text(encoding="utf-8"))
 
@@ -28,8 +37,10 @@ def main():
         df = df[cols]
 
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"Saved updated dataset with canonical tool names to {OUTPUT_FILE}")
+    logger.info("Saved updated dataset with canonical tool names to %s", OUTPUT_FILE)
+
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     main()
 

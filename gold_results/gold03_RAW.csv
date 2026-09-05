@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold03,studies_tool,yes,0.0,0.7247580026485674,0.0
+Gold03,tool_name,Comprehensive Suicide Risk Evaluation (CSRE),1.0,0.6876152820338975,1.0
+Gold03,tool_type,assessment,1.0,0.7120836372379267,1.0
+Gold03,outcome_summary,"The study found that the Clinical Suicide Risk Evaluation (CSRE) is useful in predicting suicide risk, with 10 out of 43 constructs significantly associated with risk in adjusted models. Limitations include non-standardized constructs and potential clinician bias. The analysis revealed that some factors are relevant for short-term (30 days) while others are more applicable for long-term (365 days) risk. Recommendations include refining the CSRE and developing risk prediction algorithms to improve clinical evaluations.",1.0,0.7822059969419324,1.0
+Gold03,clinical_setting,Veterans Health Administration (VHA),1.0,0.7140830233185462,1.0
+Gold03,demographics_summary,"The majority of participants are male (approximately 86.26%), while females account for about 13.74%. The racial composition includes a significant proportion of Black participants (24.69%) and White participants (63.54%). The mean age of participants is approximately 50.48 years, with a standard deviation of 15.26 years. A notable percentage of participants (73.64%) are service-connected, indicating a disability related to military service.",0.875,0.8392010986011161,0.0
+Gold03,location,USA,0.0,0.7364706584742924,1.0
+Gold03,duration_value,395,0.0,0.7422699536260072,0.0
+Gold03,duration_text,"November 1, 2019 - December 31, 2020",1.0,0.7508265200515488,1.0
+Gold03,population_size,153736,1.0,0.7624184797943178,1.0
+Gold03,population_text,"153,736 unique patients from the Veterans Health Administration (VHA)",1.0,0.7420313156626565,1.0
+Gold03,medical_conditions,"depressive disorder, bipolar disorder, schizophrenia spectrum disorder, posttraumatic stress disorder (PTSD), anxiety disorder, alcohol use disorder (AUD), substance use disorder (SUD), insomnia disorder, chronic medical conditions",0.7777777777777778,0.8036538195273366,1.0

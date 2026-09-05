@@ -1,0 +1,12 @@
+doc_id,question,answer
+Elevated rate of suicide risk in individuals with opioid use disorder,studies_tool,yes
+Elevated rate of suicide risk in individuals with opioid use disorder,tool_name,Ask Suicide-Screening Questions (ASQ)
+Elevated rate of suicide risk in individuals with opioid use disorder,tool_type,screening
+Elevated rate of suicide risk in individuals with opioid use disorder,outcome_summary,"The study revealed significant differences in suicide risk (SR) detection rates among three screening tools over a 1-year period. The Ask Suicide-Screening Questions (ASQ) identified the highest SR rates at 30.6% at Day 0, while the PHQ-9 and CCSM-Item-12 showed lower rates. Despite high SR identification, no participants screened positive for acute suicidal ideation, indicating a chronic risk among individuals with opioid use disorder (OUD). The findings emphasize the effectiveness of the ASQ in identifying those at risk and the necessity for targeted mental health interventions."
+Elevated rate of suicide risk in individuals with opioid use disorder,clinical_setting,"adult inpatient and outpatient environments, pediatric emergency departments, substance use populations"
+Elevated rate of suicide risk in individuals with opioid use disorder,demographics_summary,"The study involved 121 participants, with a median age of 57 years. The gender distribution was predominantly male, with 64.5% identifying as male, 33.1% as female, and 2.5% as other. Racially, the group was primarily Black (81.0%), followed by White (10.7%) and individuals identifying as more than one race or other (8.3%). In terms of education, 65.3% had completed at least a high school education, while 34.7% had less than a high school education."
+Elevated rate of suicide risk in individuals with opioid use disorder,duration_value,730
+Elevated rate of suicide risk in individuals with opioid use disorder,duration_text,2 years
+Elevated rate of suicide risk in individuals with opioid use disorder,population_size,121
+Elevated rate of suicide risk in individuals with opioid use disorder,population_text,N=121 participants
+Elevated rate of suicide risk in individuals with opioid use disorder,medical_conditions,"opioid use disorder, psychosis, mania, depression, poor sleep quality"

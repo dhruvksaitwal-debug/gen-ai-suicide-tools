@@ -1,0 +1,11 @@
+doc_id,question,answer
+PREVAL~1_compressed,studies_tool,yes
+PREVAL~1_compressed,tool_name,unspecified_tool
+PREVAL~1_compressed,tool_type,screening
+PREVAL~1_compressed,outcome_summary,"The study found that 13.4% of participants reported suicidal ideation, 7.8% reported planning, and 6.1% reported attempts, consistent with higher suicide rates in prison populations. The nomograms demonstrated good predictive capabilities with AUC values indicating strong performance for both genders. Sensitivity and specificity were reasonable, confirming the models' effectiveness in identifying at-risk individuals. The findings highlight the need for validated prediction models to inform targeted interventions in mental health care for incarcerated populations."
+PREVAL~1_compressed,clinical_setting,prison mental health services
+PREVAL~1_compressed,demographics_summary,"The study involved a total of 1,700 participants, with a demographic breakdown showing that males accounted for 62.1% (1,055 participants) and females for 37.9% (645 participants). The participants were incarcerated individuals aged 18-24, 25-34, and over 35, with the largest group being those aged 18-24 (642 participants, 37.8%). Educational levels varied, with 26.8% having primary education or below and 73.2% having secondary education or above. In terms of residence, 69.9% were from rural areas, while 30.1% were from urban areas."
+PREVAL~1_compressed,location,Zhejiang district of China
+PREVAL~1_compressed,population_size,1705
+PREVAL~1_compressed,population_text,N=1705 participants completed the questionnaire
+PREVAL~1_compressed,medical_conditions,"mental health conditions, suicidality, suicidal ideation, suicidal planning, suicide attempts, hopelessness, anxiety, depression, childhood trauma"

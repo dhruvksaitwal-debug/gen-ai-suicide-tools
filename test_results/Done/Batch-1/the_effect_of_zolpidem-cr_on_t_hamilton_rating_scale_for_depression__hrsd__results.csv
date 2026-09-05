@@ -1,0 +1,13 @@
+doc_id,question,answer
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,studies_tool,yes
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,tool_name,Hamilton Rating Scale for Depression (HRSD)
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,tool_type,assessment
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,outcome_summary,"The study found that adding zolpidem-controlled release (CR) to a selective serotonin reuptake inhibitor (SSRI) significantly reduced the suicide item of the Hamilton Rating Scale for Depression (HRSD) compared to placebo, with a treatment effect of p = 0.035. However, no significant differences were observed between the groups at subsequent visits after adjusting for multiple comparisons. This indicates that the initial effect did not persist over time. The study highlights the importance of using observer-rated scales for detecting changes in suicidal ideation."
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,clinical_setting,outpatient psychiatric settings
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,demographics_summary,"The study included 103 adult outpatients aged 18 to 65 years with major depressive disorder, insomnia, and suicidal ideation. The mean age of participants was 40.5 years, with a gender distribution of 62% female. Ethnically, 63% identified as Caucasian. The participants were recruited from three clinic sites: Georgia (49%), Duke (29%), and Wisconsin (22%)."
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,location,USA
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,duration_value,56
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,duration_text,8 weeks
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,population_size,103
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,population_text,"N=103 adult outpatients aged 18–65 years diagnosed with major depressive disorder, insomnia, and suicidal ideation."
+The effect of zolpidem-CR on the suicide item of the Hamilton Rating Scale for Depression in outpatients,medical_conditions,"major depressive disorder, insomnia, suicidal ideation"

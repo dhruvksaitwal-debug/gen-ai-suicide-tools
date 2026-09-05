@@ -1,0 +1,12 @@
+doc_id,question,answer
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,studies_tool,yes
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,tool_type,screening
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,outcome_summary,"The study found that the Columbia-Suicide Severity Rating Scale (C-SSRS) has high specificity but decreasing sensitivity with larger sample sizes, indicating potential limitations in identifying at-risk individuals in emergency departments. The positive predictive value improves with larger samples, while the negative predictive value remains high. However, the overall performance, as indicated by likelihood ratios and area under the curve (AUC), weakens with larger populations, raising concerns about its utility in universal screening. Cultural factors and user feedback are essential for improving the effectiveness of suicide assessment tools."
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,clinical_setting,emergency departments
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,demographics_summary,"The study focused on adults aged 18 years and older presenting to emergency departments. While specific demographic details were not provided, the analysis indicated notable differences in self-harm incidents based on age, gender, and socioeconomic status. The average ages of the two groups analyzed were 39.0 years and 31.0 years, with a higher incidence of self-harm among males. Male sex was identified as a significant risk factor."
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,duration_value,821
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,duration_text,April 2016 - June 2018
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,population_size,108000
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,population_text,"approximately 108,000 adult ED and urgent care encounters annually"
+Suicidal ideation is insensitive to suicide risk after emergency department discharge,medical_conditions,"depression, anxiety disorders, borderline personality disorder, mood disorders, substance use disorders"

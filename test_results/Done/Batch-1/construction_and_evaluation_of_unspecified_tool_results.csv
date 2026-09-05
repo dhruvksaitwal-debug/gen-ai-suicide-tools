@@ -1,0 +1,11 @@
+doc_id,question,answer
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,studies_tool,yes
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,tool_name,unspecified_tool
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,tool_type,assessment
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,outcome_summary,"The study reveals that lower income significantly increases the risk of adverse health outcomes among leukemia patients, with a hazard ratio of 1.83. Additionally, residence type impacts health risks, with individuals in small cities and rural areas showing notably higher hazard ratios of 2.65 and 2.75, respectively. Age is also a critical factor, particularly for those over 80 years, who have a hazard ratio of 12.23. Overall, the findings underscore the importance of socioeconomic and demographic factors in health outcomes."
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,clinical_setting,oncology clinics
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,demographics_summary,"The participants are predominantly older, with 43.9% aged 61-80 and 22.0% aged 41-60. Males represent 58.2% and females 41.8%, indicating a gender disparity. The racial composition is primarily White (71.4%), with smaller groups of Black (8.1%) and Hispanic (14.1%) participants. A majority are married (54.0%), followed by singles (24.9%) and others (21.1%)."
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,duration_text,follow-up period for assessing survival probabilities extends up to 250 units of time
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,population_size,194584
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,population_text,"total of 194,584 participants"
+Construction and evaluation of leukemia suicide risk predictive model based on SEER database,medical_conditions,leukemia

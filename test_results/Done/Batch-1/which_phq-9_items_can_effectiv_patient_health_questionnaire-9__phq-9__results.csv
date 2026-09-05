@@ -1,0 +1,13 @@
+doc_id,question,answer
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,studies_tool,yes
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,tool_name,Patient Health Questionnaire-9 (PHQ-9)
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,tool_type,screening
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,outcome_summary,"The study confirms that the PHQ-9, particularly when analyzed through machine learning techniques, is an effective tool for screening suicidal ideation. The random forest model achieved an AUC of 0.841 and an accuracy of 94.3%, indicating high diagnostic accuracy. Limitations include potential respondent bias and the sample being drawn from a single university, which may affect generalizability. The findings support the use of PHQ-9 in primary care settings for early identification and intervention."
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,clinical_setting,primary care environments
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,demographics_summary,"The study analyzed a total of 8,761 participants, comprising 4,354 males and 4,406 females. The average age of participants was 18.25 years, with no significant age difference observed between the groups with and without suicidal ideation. Among these, 742 participants (8.5%) were classified as being in the suicidal ideation group, while the remaining 8,019 participants (91.5%) did not exhibit suicidal ideation. Notably, the proportion of women in the suicidal ideation group was significantly higher than that of men, highlighting a gender difference in the prevalence of suicidal thoughts."
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,location,South Korea
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,duration_value,1097
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,duration_text,2013-2015
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,population_size,8761
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,population_text,"N=8761 participants, including 4,354 males and 4,406 females"
+Which PHQ-9 Items Can Effectively Screen for Suicide-Machine Learning Approaches,medical_conditions,depression

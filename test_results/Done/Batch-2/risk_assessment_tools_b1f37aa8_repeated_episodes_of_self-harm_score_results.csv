@@ -1,0 +1,9 @@
+doc_id,question,answer
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],studies_tool,yes
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],tool_name,Repeated Episodes of Self-Harm score
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],tool_type,assessment
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],outcome_summary,"The study highlights the limitations of traditional risk assessment tools for suicide prediction, noting their inadequate reliability and low positive predictive value (PPV), which averages only 5.5% over 63 months. Most suicides occurred in patients deemed 'low-risk' by these tools. In contrast, data-driven methods like machine learning and Natural Language Processing (NLP) show potential for improving predictive accuracy but are still under development and face challenges. The study calls for further research and interdisciplinary collaboration to enhance these methodologies for better suicide prevention."
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],clinical_setting,psychiatry
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],location,"United Kingdom, Sweden, Spain, Chile"
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],duration_value,3715
+Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior [PMC6381841],duration_text,average follow-up period of 63 months

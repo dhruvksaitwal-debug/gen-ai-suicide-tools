@@ -1,0 +1,11 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold18,studies_tool,yes,0.0,0.7247580026485674,0.0
+Gold18,tool_name,Suicide Behaviors Questionnaire–Autism Spectrum Conditions (SBQ-ASC),1.0,0.7272508824810887,1.0
+Gold18,tool_type,assessment,1.0,0.7212669815283416,0.0
+Gold18,outcome_summary,"The study found that entrapment significantly mediated the relationship between defeat and suicidal ideation in autistic adults. Individuals feeling defeated were more likely to experience entrapment, which increased suicidal thoughts. Camouflaging and intolerance of uncertainty were associated with suicidal ideation but did not moderate the relationship between defeat and entrapment. The SBQ-ASC indicated that 58.3% of the sample scored above the cutoff for lifetime suicidality.",1.0,0.7922158576876246,1.0
+Gold18,clinical_setting,mental health care settings,0.0,0.8097294728355053,1.0
+Gold18,demographics_summary,"The participants in the study were aged between 18 and 63 years, with a mean age of 32.14 years and a standard deviation of 11.45. The sample included 117 males (31.3%), 159 females (42.5%), 46 nonbinary individuals (12.3%), and 52 who preferred not to say (13.9%). Nearly 70% had A-Level qualifications or above, indicating a cognitively able group.",1.0,0.8366180182458768,1.0
+Gold18,duration_value,28105,0.0,0.6870316719870005,0.0
+Gold18,population_size,421,1.0,0.7488612150271644,1.0
+Gold18,population_text,N=421 autistic adults ages 18–63,1.0,0.7444303738978361,1.0
+Gold18,medical_conditions,"autism spectrum conditions, depression, suicidality",0.0,0.803051020731344,1.0

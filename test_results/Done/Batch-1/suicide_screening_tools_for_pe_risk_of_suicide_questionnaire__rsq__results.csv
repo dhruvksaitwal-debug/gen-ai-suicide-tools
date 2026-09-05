@@ -1,0 +1,10 @@
+doc_id,question,answer
+Suicide Screening Tools for Pediatric Emerge,studies_tool,yes
+Suicide Screening Tools for Pediatric Emerge,tool_name,Risk of Suicide Questionnaire (RSQ)
+Suicide Screening Tools for Pediatric Emerge,tool_type,screening
+Suicide Screening Tools for Pediatric Emerge,outcome_summary,"The systematic review found that several validated screening tools exist for detecting suicidality in pediatric populations in emergency departments. The Ask Suicide-Screening Questions (ASQ) showed good sensitivity (60-93%) and specificity (43-92%), while the Columbia-Suicide Severity Rating Scale (C-SSRS) effectively identified individuals at risk for suicide. Positivity rates varied significantly, with higher rates observed in psychiatric patients compared to those with medical/surgical complaints. The review emphasizes the need for routine suicide screening to improve patient outcomes."
+Suicide Screening Tools for Pediatric Emerge,clinical_setting,pediatric emergency departments
+Suicide Screening Tools for Pediatric Emerge,demographics_summary,"Participants primarily include adolescents aged 8 to 24 years, with a significant focus on those aged 12 to 17. Most studies are conducted in the United States, with additional research from Canada, the United Kingdom, and Australia. The majority of participants are female, with percentages ranging from 39% to 73%. The racial and ethnic composition varies, with many studies reporting a predominance of White participants and significant proportions of Black/African American and Hispanic/Latinx individuals."
+Suicide Screening Tools for Pediatric Emerge,location,USA
+Suicide Screening Tools for Pediatric Emerge,population_text,"total of 43 eligible papers with sample sizes varying from 30 to 31,610 participants"
+Suicide Screening Tools for Pediatric Emerge,medical_conditions,suicide risk

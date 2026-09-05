@@ -1,0 +1,46 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold16,studies_tool,yes,0.0,0.7187509409205286,1.0
+Gold16,tool_name,Ask Suicide-Screening Questions (ASQ),1.0,0.7187683614146941,1.0
+Gold16,tool_type,screening,1.0,0.7244381634195394,1.0
+Gold16,outcome_summary,"The study evaluated various suicide screening and assessment tools for their effectiveness in identifying suicide risk among transition-age youth in child welfare settings. The Suicidal Ideation Questionnaire Junior (SIQ-JR) and the Columbia-Suicide Severity Rating Scale (C-SSRS) were highlighted for their strong psychometric properties. While these tools demonstrated good internal consistency and reliability, further research is needed to assess their utility specifically within child welfare settings. The findings underscore the critical need for effective tools to address the mental health needs of vulnerable youth populations.",1.0,0.7891279859615921,1.0
+Gold16,clinical_setting,"pediatric emergency departments, outpatient specialty clinics, primary care clinics",1.0,0.756935111777378,1.0
+Gold16,demographics_summary,"The assessment tools are primarily used for adolescents and young adults approximately aged 11 to 21 years old. The populations assessed include diverse groups, such as racial/ethnic minorities and poverty-impacted youth. Participants have been involved in various systems, including mental health, child welfare, juvenile justice, and education. The tools have also been utilized with low-income participants.",1.0,0.7737863267187567,0.6666666666666666
+Gold16,location,United States,1.0,0.7393439658678833,1.0
+Gold16,duration_value,7300,0.0,0.7742544155012009,1.0
+Gold16,population_text,"diverse populations of adolescents and young adults, including racial/ethnic minorities and low-income youth",1.0,0.7529180153065836,1.0
+Gold16,studies_tool,yes,0.0,0.7245509638107533,1.0
+Gold16,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS),1.0,0.6954684877193361,1.0
+Gold16,tool_type,screening,1.0,0.7185981862765914,1.0
+Gold16,outcome_summary,"The study evaluated various suicide screening and assessment tools for their effectiveness in identifying suicide risk among transition-age youth in child welfare settings. The Suicidal Ideation Questionnaire Junior (SIQ-JR) and the Columbia-Suicide Severity Rating Scale (C-SSRS) were highlighted for their strong psychometric properties. While these tools demonstrated good internal consistency and reliability, further research is needed to assess their utility specifically within child welfare settings. The findings underscore the critical need for effective tools to address the mental health needs of vulnerable youth populations.",1.0,0.7891279859615921,1.0
+Gold16,clinical_setting,"pediatric emergency departments, outpatient specialty clinics, primary care clinics",1.0,0.7660874388591313,1.0
+Gold16,demographics_summary,"The assessment tools are primarily used for adolescents and young adults approximately aged 11 to 21 years old. The populations assessed include diverse groups, such as racial/ethnic minorities and poverty-impacted youth. Participants have been involved in various systems, including mental health, child welfare, juvenile justice, and education. The tools have also been utilized with low-income participants.",1.0,0.7649909378235403,0.6666666666666666
+Gold16,location,United States,1.0,0.745243955274754,1.0
+Gold16,duration_value,7300,0.0,0.7670939696880766,1.0
+Gold16,population_text,"diverse populations of adolescents and young adults, including racial/ethnic minorities and low-income youth",,0.7529117402384874,1.0
+Gold16,studies_tool,yes,0.0,0.7285556716294453,1.0
+Gold16,tool_name,Suicidal Ideation Questionnaire Junior (SIQ-JR),1.0,0.7320347697786523,1.0
+Gold16,tool_type,screening,1.0,0.7204882238521507,1.0
+Gold16,outcome_summary,"The study evaluated various suicide screening and assessment tools for their effectiveness in identifying suicide risk among transition-age youth in child welfare settings. The Suicidal Ideation Questionnaire Junior (SIQ-JR) and the Columbia-Suicide Severity Rating Scale (C-SSRS) were highlighted for their strong psychometric properties. While these tools demonstrated good internal consistency and reliability, further research is needed to assess their utility specifically within child welfare settings. The findings underscore the critical need for effective tools to address the mental health needs of vulnerable youth populations.",1.0,0.7891279859615921,1.0
+Gold16,clinical_setting,"pediatric emergency departments, outpatient specialty clinics, primary care clinics",1.0,0.7634652910414362,1.0
+Gold16,demographics_summary,"The assessment tools are primarily used for adolescents and young adults approximately aged 11 to 21 years old. The populations assessed include diverse groups, such as racial/ethnic minorities and poverty-impacted youth. Participants have been involved in various systems, including mental health, child welfare, juvenile justice, and education. The tools have also been utilized with low-income participants.",1.0,0.7649909378235403,1.0
+Gold16,location,United States,1.0,0.7436366073387898,1.0
+Gold16,duration_value,7300,0.0,0.7751996672767781,1.0
+Gold16,population_text,"diverse populations of adolescents and young adults, including racial/ethnic minorities and low-income youth",1.0,0.7641704624221437,1.0
+Gold16,studies_tool,yes,0.0,0.732160452384413,1.0
+Gold16,tool_name,Self-Harm Behavior Questionnaire (SHBQ),1.0,0.7510851262064624,1.0
+Gold16,tool_type,screening,1.0,0.7200841475679747,1.0
+Gold16,outcome_summary,"The study evaluated various suicide screening and assessment tools for their effectiveness in identifying suicide risk among transition-age youth in child welfare settings. The Suicidal Ideation Questionnaire Junior (SIQ-JR) and the Columbia-Suicide Severity Rating Scale (C-SSRS) were highlighted for their strong psychometric properties. While these tools demonstrated good internal consistency and reliability, further research is needed to assess their utility specifically within child welfare settings. The findings underscore the critical need for effective tools to address the mental health needs of vulnerable youth populations.",1.0,0.7888468972661654,1.0
+Gold16,clinical_setting,"pediatric emergency departments, outpatient specialty clinics, primary care clinics",1.0,0.7628177453771959,1.0
+Gold16,demographics_summary,"The assessment tools are primarily used for adolescents and young adults approximately aged 11 to 21 years old. The populations assessed include diverse groups, such as racial/ethnic minorities and poverty-impacted youth. Participants have been involved in various systems, including mental health, child welfare, juvenile justice, and education. The tools have also been utilized with low-income participants.",1.0,0.7676213849315024,0.6666666666666666
+Gold16,location,United States,1.0,0.7444969716544806,1.0
+Gold16,duration_value,7300,0.0,0.7804451946527428,1.0
+Gold16,population_text,"diverse populations of adolescents and young adults, including racial/ethnic minorities and low-income youth",1.0,,1.0
+Gold16,studies_tool,yes,0.0,0.7214476823101755,1.0
+Gold16,tool_name,Suicide Probability Scale (SPS),0.5,0.7280407966036854,1.0
+Gold16,tool_type,screening,1.0,0.7244381634195394,1.0
+Gold16,outcome_summary,"The study evaluated various suicide screening and assessment tools for their effectiveness in identifying suicide risk among transition-age youth in child welfare settings. The Suicidal Ideation Questionnaire Junior (SIQ-JR) and the Columbia-Suicide Severity Rating Scale (C-SSRS) were highlighted for their strong psychometric properties. While these tools demonstrated good internal consistency and reliability, further research is needed to assess their utility specifically within child welfare settings. The findings underscore the critical need for effective tools to address the mental health needs of vulnerable youth populations.",1.0,0.7891279859615921,1.0
+Gold16,clinical_setting,"pediatric emergency departments, outpatient specialty clinics, primary care clinics",1.0,0.7598097531810794,1.0
+Gold16,demographics_summary,"The assessment tools are primarily used for adolescents and young adults approximately aged 11 to 21 years old. The populations assessed include diverse groups, such as racial/ethnic minorities and poverty-impacted youth. Participants have been involved in various systems, including mental health, child welfare, juvenile justice, and education. The tools have also been utilized with low-income participants.",1.0,0.7682297550986391,0.6666666666666666
+Gold16,location,United States,1.0,0.7428490346461335,1.0
+Gold16,duration_value,7300,0.0,0.758323729561219,1.0
+Gold16,population_text,"diverse populations of adolescents and young adults, including racial/ethnic minorities and low-income youth",1.0,0.7529180153065836,1.0

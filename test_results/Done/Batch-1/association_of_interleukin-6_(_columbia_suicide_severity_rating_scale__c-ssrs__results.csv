@@ -1,0 +1,11 @@
+doc_id,question,answer
+Association of interleukin-6 (IL-6) with suicide attempt,studies_tool,yes
+Association of interleukin-6 (IL-6) with suicide attempt,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+Association of interleukin-6 (IL-6) with suicide attempt,tool_type,assessment
+Association of interleukin-6 (IL-6) with suicide attempt,outcome_summary,"The study found a significant positive correlation between elevated IL-6 levels and the severity, intensity, and lethality of suicide attempts. Higher serum IL-6 levels were linked to increased severity and intensity of suicidal ideation, suggesting IL-6 could serve as a biomarker for assessing suicide risk. The findings indicate that systemic inflammation may contribute to the pathophysiology of suicidal behavior. However, further research is needed to explore the underlying mechanisms of this relationship."
+Association of interleukin-6 (IL-6) with suicide attempt,clinical_setting,various clinical environments for mental health assessment
+Association of interleukin-6 (IL-6) with suicide attempt,demographics_summary,"The study participants predominantly consist of young adults, with 48.39% aged 18–30 years and 45.16% aged 31–45 years. Gender representation is nearly balanced, with 51.61% male and 48.39% female. A significant portion, 58.06%, are unmarried, and 67.74% are unemployed, indicating socio-economic factors that may influence mental health and suicidal behavior."
+Association of interleukin-6 (IL-6) with suicide attempt,location,India
+Association of interleukin-6 (IL-6) with suicide attempt,population_size,31
+Association of interleukin-6 (IL-6) with suicide attempt,population_text,"31 patients, comprising 16 males and 15 females"
+Association of interleukin-6 (IL-6) with suicide attempt,medical_conditions,"psychological distress, depression, anxiety"

@@ -1,0 +1,13 @@
+doc_id,question,answer
+A call for better validation of opioid overdose risk algorithms,studies_tool,yes
+A call for better validation of opioid overdose risk algorithms,tool_name,Stratification Tool for Opioid Risk Mitigation (STORM)
+A call for better validation of opioid overdose risk algorithms,tool_type,screening
+A call for better validation of opioid overdose risk algorithms,outcome_summary,"The study highlights significant differences in the validation processes of NarxCare and STORM. NarxCare shows some predictive capability for opioid-related outcomes but lacks clinical evaluation for broader populations, raising concerns about its generalizability and potential harm. In contrast, STORM has undergone both technical and clinical evaluations, demonstrating effectiveness in improving opioid-related health outcomes and integrating into clinical workflows. The findings emphasize the need for rigorous validation of clinical decision support systems to ensure patient safety and care quality."
+A call for better validation of opioid overdose risk algorithms,clinical_setting,"hospitals, outpatient clinics, community health centers"
+A call for better validation of opioid overdose risk algorithms,demographics_summary,"The demographics of participants in suicide screening tools can greatly affect their effectiveness. Different populations, such as adolescents, veterans, and LGBTQ+ individuals, may have unique experiences and cultural contexts that influence their responses to these assessments. Cultural and demographic factors can impact the validity and reliability of screening tools, as existing assessments may not adequately address the specific needs or perspectives of diverse groups."
+A call for better validation of opioid overdose risk algorithms,location,"Ohio, Indiana, and Michigan"
+A call for better validation of opioid overdose risk algorithms,duration_value,730
+A call for better validation of opioid overdose risk algorithms,duration_text,two years
+A call for better validation of opioid overdose risk algorithms,population_size,1135601
+A call for better validation of opioid overdose risk algorithms,population_text,"N=1,135,601 VHA patients with opioid prescriptions in 2010"
+A call for better validation of opioid overdose risk algorithms,medical_conditions,"Opioid Use Disorder (OUD), increased risk of overdose, increased risk of suicide"

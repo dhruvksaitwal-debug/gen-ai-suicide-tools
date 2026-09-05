@@ -1,0 +1,2 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold12,studies_tool,no,0.0,0.7003065222427173,0.0

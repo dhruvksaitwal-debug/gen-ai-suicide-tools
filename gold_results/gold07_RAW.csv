@@ -1,0 +1,37 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold07,studies_tool,yes,0.0,0.7322029306277333,1.0
+Gold07,tool_name,Beck Scale for Suicidal Ideation (SSI),1.0,0.7368053061582069,1.0
+Gold07,tool_type,assessment,1.0,0.7120836372379267,1.0
+Gold07,outcome_summary,"The study highlights that individuals with a history of substance use disorder exhibit higher levels of aggression and impulsivity compared to those without such a history. However, subjective distress levels were similar across both groups. Key metrics include significant differences in aggression-impulsivity-hostility factor scores between multiple and single attempters, but no correlation with the lethality of suicide attempts. This suggests that while substance use may influence certain behavioral traits related to suicidal behavior, it does not necessarily affect the level of subjective distress experienced.",0.75,0.7660483169549643,1.0
+Gold07,clinical_setting,psychiatric and clinical settings,1.0,0.8200856316469594,1.0
+Gold07,demographics_summary,"The participants were categorized into two groups based on their history of substance use disorder (SUD): those with a lifetime history of SUD (AT+SUD) and those without (AT−SUD). The mean age for the AT+SUD group was 36.1 years, while for the AT−SUD group, it was 36.7 years. A significant difference was observed in sex distribution, with a higher prevalence of SUD among males. Education levels also differed significantly, with a larger percentage of the AT+SUD group being less than high school graduates.",1.0,0.7558843553074427,1.0
+Gold07,location,USA,0.0,0.7364706584742924,1.0
+Gold07,duration_value,9983,0.0,0.7690388210880031,0.0
+Gold07,duration_text,January 1990 - May 2017,1.0,0.7706839008330229,1.0
+Gold07,population_size,354,1.0,0.7488612150271643,1.0
+Gold07,population_text,N=354 participants,1.0,0.7697634174144224,1.0
+Gold07,medical_conditions,"Mood Disorders, Substance Use Disorder (SUD), Suicidal Behavior",0.6666666666666666,0.7911235198007065,1.0
+Gold07,studies_tool,yes,0.0,0.7059468345509725,1.0
+Gold07,tool_name,Beck Suicide Intent Scale (SIS),1.0,0.7382365212115333,1.0
+Gold07,tool_type,assessment,1.0,0.7120836372379267,1.0
+Gold07,outcome_summary,"The study highlights that individuals with a history of substance use disorder exhibit higher levels of aggression and impulsivity compared to those without such a history. However, subjective distress levels were similar across both groups. Key metrics include significant differences in aggression-impulsivity-hostility factor scores between multiple and single attempters, but no correlation with the lethality of suicide attempts. This suggests that while substance use may influence certain behavioral traits related to suicidal behavior, it does not necessarily affect the level of subjective distress experienced.",0.625,0.7660483169549643,1.0
+Gold07,clinical_setting,psychiatric and clinical settings,1.0,0.8145415660155978,1.0
+Gold07,demographics_summary,"The participants were categorized into two groups based on their history of substance use disorder (SUD): those with a lifetime history of SUD (AT+SUD) and those without (AT−SUD). The mean age for the AT+SUD group was 36.1 years, while for the AT−SUD group, it was 36.7 years. A significant difference was observed in sex distribution, with a higher prevalence of SUD among males. Education levels also differed significantly, with a larger percentage of the AT+SUD group being less than high school graduates.",1.0,0.7558843553074429,1.0
+Gold07,location,USA,1.0,0.7325489125058638,1.0
+Gold07,duration_value,9983,0.0,0.7670939696880766,0.0
+Gold07,duration_text,January 1990 - May 2017,1.0,0.7733132970667408,1.0
+Gold07,population_size,354,1.0,0.7488612150271644,1.0
+Gold07,population_text,N=354 participants,1.0,0.769763417414424,1.0
+Gold07,medical_conditions,"Mood Disorders, Substance Use Disorder (SUD), Suicidal Behavior",0.6666666666666666,0.7911235198007062,1.0
+Gold07,studies_tool,yes,0.0,0.7347330703739593,1.0
+Gold07,tool_name,Beck Lethality Scale (BLS),0.5,0.7240294658162499,1.0
+Gold07,tool_type,assessment,1.0,0.7245510738685262,1.0
+Gold07,outcome_summary,"The study highlights that individuals with a history of substance use disorder exhibit higher levels of aggression and impulsivity compared to those without such a history. However, subjective distress levels were similar across both groups. Key metrics include significant differences in aggression-impulsivity-hostility factor scores between multiple and single attempters, but no correlation with the lethality of suicide attempts. This suggests that while substance use may influence certain behavioral traits related to suicidal behavior, it does not necessarily affect the level of subjective distress experienced.",0.625,0.7684222786412899,1.0
+Gold07,clinical_setting,psychiatric and clinical settings,0.5,0.8172756103430903,1.0
+Gold07,demographics_summary,"The participants were categorized into two groups based on their history of substance use disorder (SUD): those with a lifetime history of SUD (AT+SUD) and those without (AT−SUD). The mean age for the AT+SUD group was 36.1 years, while for the AT−SUD group, it was 36.7 years. A significant difference was observed in sex distribution, with a higher prevalence of SUD among males. Education levels also differed significantly, with a larger percentage of the AT+SUD group being less than high school graduates.",1.0,0.7558843553074429,1.0
+Gold07,location,USA,0.0,0.7364706584742923,1.0
+Gold07,duration_value,9983,0.0,0.7670939696880765,0.0
+Gold07,duration_text,January 1990 - May 2017,1.0,0.7709300503246711,1.0
+Gold07,population_size,354,1.0,0.7488612150271644,1.0
+Gold07,population_text,N=354 participants,1.0,0.769763417414424,1.0
+Gold07,medical_conditions,"Mood Disorders, Substance Use Disorder (SUD), Suicidal Behavior",0.6666666666666666,0.7911235198007062,1.0

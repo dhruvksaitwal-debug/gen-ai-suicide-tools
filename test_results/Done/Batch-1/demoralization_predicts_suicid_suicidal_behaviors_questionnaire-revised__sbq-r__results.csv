@@ -1,0 +1,12 @@
+doc_id,question,answer
+Demoralization predicts suicidality in patients with cluster headache,studies_tool,yes
+Demoralization predicts suicidality in patients with cluster headache,tool_name,Suicidal Behaviors Questionnaire-Revised (SBQ-R)
+Demoralization predicts suicidality in patients with cluster headache,tool_type,screening
+Demoralization predicts suicidality in patients with cluster headache,outcome_summary,"The study found that individuals with cluster headache (CH) have significantly higher rates of both passive and active suicidal ideation (SI) compared to controls, with odds of lifetime SI more than two-fold in those with CH. Demoralization was identified as a critical factor influencing SI, increasing the likelihood of lifetime SI more than three-fold. A cutoff score of ≥7 on the Suicidal Behavior Questionnaire-Revised (SBQ-R) indicated high suicide risk, with 38% of CH patients falling into this category. The study concluded that CH is associated with increased suicidality, particularly influenced by demoralization."
+Demoralization predicts suicidality in patients with cluster headache,clinical_setting,"various clinical environments including neurology, psychiatry, primary care, emergency departments, inpatient units, outpatient clinics, schools, and community centers"
+Demoralization predicts suicidality in patients with cluster headache,demographics_summary,"The study involved a total cohort of 235 individuals, comprising 100 participants suffering from cluster headache (CH) and 135 controls. The mean age of participants was 46.1 years, with no significant age difference between the CH group (45.5 years) and controls (46.5 years). In terms of sex, 55.3% of the overall cohort were male, with 53.0% in the CH group and 57.0% in the control group. The racial composition was predominantly Caucasian, with 94.0% overall."
+Demoralization predicts suicidality in patients with cluster headache,duration_value,459
+Demoralization predicts suicidality in patients with cluster headache,duration_text,October 2019 - January 2021
+Demoralization predicts suicidality in patients with cluster headache,population_size,235
+Demoralization predicts suicidality in patients with cluster headache,population_text,"N=235 participants, including 100 individuals suffering from cluster headache and 135 control participants."
+Demoralization predicts suicidality in patients with cluster headache,medical_conditions,cluster headache

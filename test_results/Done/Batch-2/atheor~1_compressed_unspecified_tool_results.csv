@@ -1,0 +1,12 @@
+doc_id,question,answer
+ATHEOR~1_compressed,studies_tool,yes
+ATHEOR~1_compressed,tool_name,unspecified_tool
+ATHEOR~1_compressed,tool_type,screening
+ATHEOR~1_compressed,outcome_summary,"The study demonstrated that an adaptable implementation strategy, supported by a user-centered design approach, can effectively promote sustainability in collaborative care for depression treatment in primary care settings. Key aspects included the identification of essential sustainability behaviors and determinants that impact the effectiveness of the collaborative care program. Continuous feedback and adaptations were crucial in addressing barriers to implementation, ensuring the strategies remained relevant and effective."
+ATHEOR~1_compressed,clinical_setting,large academic primary care clinic
+ATHEOR~1_compressed,demographics_summary,"The tool targets minority patients who speak English and Spanish, indicating a focus on diverse populations. It is designed for patients with elevated depressive symptoms, particularly those from low socioeconomic backgrounds. The development process involved historically marginalized patient stakeholders, highlighting the emphasis on equitable access."
+ATHEOR~1_compressed,location,New York State
+ATHEOR~1_compressed,duration_value,900
+ATHEOR~1_compressed,duration_text,approximately 30 months
+ATHEOR~1_compressed,population_text,"various stakeholders, including historically marginalized patients, care managers, and primary care providers (PCPs)"
+ATHEOR~1_compressed,medical_conditions,"depression, anxiety"

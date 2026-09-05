@@ -1,0 +1,12 @@
+doc_id,question,answer
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,studies_tool,yes
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,tool_type,assessment
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,outcome_summary,"The study found that the ketamine followed by NRX-101 treatment was significantly more effective in reducing depression and suicidal ideation compared to the ketamine followed by lurasidone treatment, with p-values of 0.03, 0.02, and 0.03 for various scales. There was a trend indicating lower relapse rates in the NRX-101 group, although not statistically significant. The safety profile showed a high incidence of adverse events in the ketamine group, but none were severe. Overall, the findings suggest potential benefits of NRX-101 in treating severe bipolar disorder with acute suicidal ideation."
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,demographics_summary,"The study included 22 patients with a mean age of 39.5 years, ranging from 19 to 60 years. The sex distribution was 72.7% male and 27.3% female. The racial composition was predominantly White (86.4%), with 13.6% identifying as Black or African-American. All participants were non-Hispanic."
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,location,"Birmingham, Alabama, USA"
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,duration_value,42
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,duration_text,48 hours - 42 days
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,population_size,22
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,population_text,N=22 patients
+NRX-101 (D-cycloserine plus lurasidone) vs. lurasidone for the maintenance of initial stabilization after ketamine,medical_conditions,"Bipolar Disorder, Acute Suicidal Ideation or Behavior"

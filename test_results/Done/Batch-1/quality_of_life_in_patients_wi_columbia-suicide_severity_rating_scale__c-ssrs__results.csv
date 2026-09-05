@@ -1,0 +1,13 @@
+doc_id,question,answer
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,studies_tool,yes
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,tool_type,screening
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,outcome_summary,"The study outcomes underscore the substantial impact of spinal CSF leaks on mental health and quality of life, revealing areas of concern that warrant further investigation and potential intervention. Key findings included notably low median scores for the SF-36, with physical and mental component scores of 30.3 and 36.9, respectively, indicating poor health and well-being. Additionally, 74.5% of respondents experienced severe headache-related disability, and 64.2% reported some degree of suicidal ideation. The correlation matrix highlighted significant interrelationships among the measures, indicating that higher levels of depression were associated with greater headache impact."
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,clinical_setting,Headache and Facial Pain Program at the University of Texas Southwestern Medical Center
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,demographics_summary,"The average age of participants was 51.1 years (SD 15.5), with a significant majority, 69.5%, being female. In terms of race, 91.6% identified as White, and 56.8% held a bachelor's degree or higher. Most respondents were married or in a common-law relationship (70.5%), while 16.8% were single, and 11.6% were divorced or separated."
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,location,"Dallas, Texas, USA"
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,duration_value,122
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,duration_text,December 2021 - April 2022
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,population_size,95
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,population_text,N=95 participants with demographic data
+Quality of Life in Patients With Confirmed and Suspected Spinal CSF Leaks,medical_conditions,spontaneous intracranial hypotension (SIH)

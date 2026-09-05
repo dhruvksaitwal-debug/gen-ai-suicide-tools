@@ -1,0 +1,13 @@
+doc_id,question,answer
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,studies_tool,yes
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,tool_name,Suicidal Ideation Attributes Scale (SIDAS)
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,tool_type,screening
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,outcome_summary,"The study developed a machine learning model to estimate suicidal ideation (SI) using demographic features, coping strategies, and life satisfaction aspects. Approximately 9.7% of respondents reported experiencing SI in the past month. The logistic regression model achieved an AUROC of 0.83, indicating reasonable specificity and sensitivity for detecting SI. The study emphasizes the need for further research to improve the validity and reliability of suicide screening tools."
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,clinical_setting,"hospitals, primary care clinics, mental health facilities"
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,demographics_summary,"The study included 1,790 respondents from the Slovenian adult population. Key demographic characteristics included marital status, education levels, household composition, and health status. A majority were married or living with a partner, and a significant portion had completed high school or higher education. Health issues were reported by some participants, including physical and mental illnesses, as well as COVID-19 cases."
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,location,Slovenia
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,duration_value,180
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,duration_text,July 2020 - January 2021
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,population_size,1790
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,population_text,"1,790 respondents in Slovenia"
+A pilot predictive model based on COVID-19 data to assess suicidal ideation indirectly,medical_conditions,"mental illness, physical illness"

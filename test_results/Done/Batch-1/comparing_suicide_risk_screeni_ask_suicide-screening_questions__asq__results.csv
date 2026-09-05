@@ -1,0 +1,10 @@
+doc_id,question,answer
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,studies_tool,yes
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,tool_name,Ask Suicide-Screening Questions (ASQ)
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,tool_type,screening
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,outcome_summary,"The study concluded that the Ask Suicide-Screening Questions (ASQ) tool is more effective than the Patient Health Questionnaire-A (PHQ-A) item 9 for identifying suicide risk in pediatric patients. The ASQ showed a sensitivity of 95.1% and an area under the curve (AUC) of 0.94, indicating superior performance. Both tools had similar specificity, but the PHQ-A item 9 failed to capture suicidal ideation adequately. The findings emphasize the need for specialized screening tools in youth suicide risk assessment."
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,clinical_setting,pediatric services
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,demographics_summary,"The sample consisted of 267 individuals with a mean age of 14.08 years, indicating a relatively young cohort. The participants' education level averaged 8.74 years, suggesting that most are in middle school or early high school. In terms of biological sex, 37.45% identified as male and 62.54% as female. A significant majority (83.89%) lacked social insurance, and 43.07% reported having a medical illness."
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,location,"Buenos Aires, Argentina"
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,population_size,301
+Comparing suicide risk screening strategies in Spanish-speaking pediatric patients,population_text,301 pediatric patients aged 10–18

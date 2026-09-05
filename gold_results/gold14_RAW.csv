@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold14,studies_tool,yes,0.0,0.7059468345509725,1.0
+Gold14,tool_name,Computerized Adaptive Screen for Suicidal Youth (CASSY),1.0,0.7067528777234179,1.0
+Gold14,tool_type,screening,1.0,0.7302781405624879,1.0
+Gold14,outcome_summary,"The study concluded that the CASSY is a valuable tool for assessing suicide risk in adolescents, effectively stratifying youth into four levels of predicted risk. It demonstrated strong associations with clinical consensus risk groups and predictive validity, with low rates of suicide attempts among those classified as low risk. High engagement and completion rates indicated that the tool is user-friendly and well-accepted. However, limitations such as the exclusion of non-English speaking youths were noted, suggesting the need for further evaluation in diverse settings.",1.0,0.7858919154152318,1.0
+Gold14,clinical_setting,emergency departments,1.0,0.7481331963732546,1.0
+Gold14,demographics_summary,"The study involved 1452 adolescents with a median age of 15.2 years. The gender distribution was 40.5% male and 59.5% female. The racial composition included 55.6% White, 22.0% Black or African American, and smaller percentages of other races. Additionally, 22.3% identified as Hispanic or Latino, with 42.8% of families receiving public assistance.",1.0,0.8302345592416627,1.0
+Gold14,location,USA,1.0,0.7364706584742923,0.0
+Gold14,duration_value,272,0.0,0.7422699536260072,0.0
+Gold14,duration_text,"April 26, 2023 - February 6, 2024",1.0,0.7435936625304399,1.0
+Gold14,population_size,1452,1.0,0.7105196445490268,1.0
+Gold14,population_text,N=1452 adolescents,1.0,0.7584241434688682,1.0
+Gold14,medical_conditions,"unintentional injuries, psychiatric complaints, non-suicidal self-injury, suicidal ideation or attempts",1.0,0.778317097479215,1.0

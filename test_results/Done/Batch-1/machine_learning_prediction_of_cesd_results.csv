@@ -1,0 +1,13 @@
+doc_id,question,answer
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",studies_tool,yes
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",tool_name,CESD
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",tool_type,screening
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",outcome_summary,"The study found that machine learning algorithms achieved satisfactory classification performance in predicting suicidal ideation and suicide planning or attempts, with accuracy rates between 80% and 90%. XGBoost was the best-performing model, showing high sensitivity and accuracy for both outcomes. However, limitations in reporting suicidal ideation and behaviors may affect the validity of the screening tool, potentially underestimating the prevalence of suicidal thoughts. The study emphasizes the need for culturally sensitive approaches and ongoing research to enhance the effectiveness of suicide screening tools."
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",clinical_setting,primary care and community settings
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",demographics_summary,"The study examined a sample of 60,568 Korean adults aged 19 to 64 years, with a mean age of 43.9 years. Approximately 54% of participants were female. About 67% were married, and 71% were employed. The average household size was 3.28 members, and 25% reported poor self-rated health."
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",location,South Korea
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",duration_value,2922
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",duration_text,2012-2019
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",population_size,11114
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",population_text,N=11114 individuals aged 19 to 64 years
+"Machine learning prediction of suicidal ideation, planning, and attempt among Korean adults- A population-based study",medical_conditions,"suicidal ideation, suicide planning or attempt, depressive symptoms, self-esteem"

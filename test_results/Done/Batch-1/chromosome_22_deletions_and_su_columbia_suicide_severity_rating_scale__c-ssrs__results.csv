@@ -1,0 +1,11 @@
+doc_id,question,answer
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,studies_tool,yes
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,tool_type,assessment
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,outcome_summary,"The study found that chromosome 22 copy number variant (CNV) analysis did not show differences in deletion events between suicide attempters and nonattempters among individuals with schizophrenia. Despite the use of two algorithms, SVS and PennCNV, inconsistencies were noted, and the hypothesis that CNV deletions increase suicide risk was not supported. The findings suggest that other factors may be more significant in determining suicide risk in this population. Overall, the study emphasizes the complexity of genetic contributions to suicidal behavior."
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,clinical_setting,"various healthcare environments, such as hospitals, outpatient clinics, mental health facilities, and primary care settings"
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,demographics_summary,"The study involved 263 individuals diagnosed with schizophrenia or schizoaffective disorder. A significant portion identified as White European, with 87.1% of nonattempters and 84% of attempters belonging to this ethnic group. The gender distribution showed that 30.9% of nonattempters were female, compared to 33.7% of attempters. Employment rates indicated that 35.7% of nonattempters were employed, while 30.4% of attempters were employed."
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,location,"Toronto, Ontario, Canada"
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,population_size,263
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,population_text,N=263 participants comprising 162 nonattempters and 101 attempters
+Chromosome 22 Deletions and Suicidal Behavior in Schizophrenia,medical_conditions,"schizophrenia, schizoaffective disorder"

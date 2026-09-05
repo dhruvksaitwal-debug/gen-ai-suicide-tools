@@ -1,0 +1,13 @@
+doc_id,question,answer
+Validation of the German Version of the P4 Suicidality Tool,studies_tool,yes
+Validation of the German Version of the P4 Suicidality Tool,tool_name,P4
+Validation of the German Version of the P4 Suicidality Tool,tool_type,screening
+Validation of the German Version of the P4 Suicidality Tool,outcome_summary,"The study found that the P4 Suicidality Tool effectively categorizes patients into different risk levels for suicide: minimal, lower, and higher risk. In a sample of 223 participants, 30.5% were classified as minimal risk, 53.8% as lower risk, and 15.7% as higher risk. The tool demonstrated convergent validity with established measures, although it may not adequately capture protective factors. Limitations included the lack of a detailed psychiatric evaluation and the inability to assess test-retest reliability."
+Validation of the German Version of the P4 Suicidality Tool,clinical_setting,primary care practices and psychiatric clinics
+Validation of the German Version of the P4 Suicidality Tool,demographics_summary,"The study included a total of 223 participants with a mean age of 47.6 years. The demographic breakdown reveals that 61.9% were women and 38.1% were men. Participants were recruited from both primary care and specialized care settings. The majority had diagnoses classified as affective disorders and/or neurotic, stress, and somatoform disorders."
+Validation of the German Version of the P4 Suicidality Tool,location,Germany
+Validation of the German Version of the P4 Suicidality Tool,duration_value,154
+Validation of the German Version of the P4 Suicidality Tool,duration_text,September 2019 - February 2020
+Validation of the German Version of the P4 Suicidality Tool,population_size,223
+Validation of the German Version of the P4 Suicidality Tool,population_text,"N=223 patients, including 139 women and 84 men"
+Validation of the German Version of the P4 Suicidality Tool,medical_conditions,"affective disorders (F3), neurotic disorders (F4)"

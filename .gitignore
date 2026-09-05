@@ -34,11 +34,27 @@ ragas_evaluation_results.csv
 Thumbs.db
 
 # Data artifacts
-/test_data/         # Ignore test_data folder
-extracted_images/   # Ignore extracted images created on the fly
-*_db/               # Ignore temporary database folders
-audit_logs/         # Ignore runtime audit logs
-/test_results/      # Ignore test_results folder
+# Note: gitignore does not support inline comments after a pattern on the same line --
+# the "# ..." text was previously being read as part of the pattern itself, silently
+# breaking every rule below except the three that happened to have their own nested
+# .gitignore as a backup (test_data/, test_results/, extracted_images/). doc_rag_db/,
+# audit_logs/, and pipeline_cache/ had no such backup and were fully unprotected.
+
+# Ignore test_data folder
+/test_data/
+# Ignore extracted images created on the fly
+extracted_images/
+# Ignore temporary database folders
+*_db/
+# Ignore runtime audit logs
+audit_logs/
+# test_results/ is handled by its own nested .gitignore (tracks the pipeline's *.csv
+# outputs, excludes everything else) -- a blanket rule here would override that, since a
+# parent-directory exclusion always wins over a child's negation patterns.
+# Ignore disk cache of extraction/hypo-question LLM outputs
+pipeline_cache/
+# Copyrighted source-article copies; licenses vary, don't redistribute
+gold_data/*.pdf
 
 # Environment variables
 .env

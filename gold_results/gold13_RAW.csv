@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold13,studies_tool,yes,0.0,0.7059468345509725,0.0
+Gold13,tool_name,Suicide Crisis Inventory-2 (SCI-2),1.0,0.75359003082563,1.0
+Gold13,tool_type,assessment,1.0,0.726968942131191,1.0
+Gold13,outcome_summary,"The study found that the Korean version of the Suicide Crisis Inventory-2 (SCI-2) demonstrated good model fit, with the five-factor model evaluated as superior. It showed high internal consistency and strong concurrent validity, correlating well with measures of suicidal ideation, depression, and anxiety. Limitations included a non-representative sample and the cross-sectional nature of the data, which restricts predictive validity. Further research, particularly longitudinal studies, is recommended to enhance understanding and generalizability.",1.0,0.7790562736990939,1.0
+Gold13,clinical_setting,"inpatient and outpatient populations, emergency departments, mental health clinics, community health settings",0.4,0.811588489274155,1.0
+Gold13,demographics_summary,"The study included 1,061 participants with a mean age of 30.56 years (±8.49), ranging from 19 to 68 years. The sample was predominantly female, with 72.2% identifying as women. Most participants were single (69.1%), and educational attainment varied, with 59.8% holding a bachelor's degree or higher. A notable portion, 13.2%, were receiving treatment for mental health issues.",1.0,0.8287495048160679,1.0
+Gold13,location,South Korea,1.0,0.7712701338746448,1.0
+Gold13,duration_value,62,0.0,0.7422699536260072,0.0
+Gold13,duration_text,August 2020 - October 2020,1.0,0.7719334532747983,1.0
+Gold13,population_size,1061,1.0,0.7513856016101382,1.0
+Gold13,population_text,"N=1,061 participants",1.0,0.769763417414424,1.0
+Gold13,medical_conditions,"depression, anxiety, suicidal thoughts and behaviors",0.5,0.7863612251292417,1.0

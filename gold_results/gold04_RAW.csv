@@ -1,0 +1,25 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold04,studies_tool,yes,0.0,0.7249823636248052,1.0
+Gold04,tool_name,Ask Suicide-Screening Questions (ASQ),1.0,0.7044202564620229,1.0
+Gold04,tool_type,screening,0.0,0.7302781405624879,1.0
+Gold04,outcome_summary,"The study found that the suicide risk algorithm identified 50.7% of those who attempted suicide, significantly outperforming traditional screening methods like the ASQ and C-BSSRS, which identified only 36.5%. The algorithm also produced 45% more true-positive results, indicating higher predictive validity. With a positive predictive value of 0.16 and sensitivity of 0.51, the algorithm demonstrated superior effectiveness in identifying at-risk individuals. The findings suggest that integrating such algorithms into screening processes could improve patient outcomes.",0.7777777777777778,0.7845864496167079,1.0
+Gold04,clinical_setting,pediatric emergency department,1.0,0.7410944746754964,0.0
+Gold04,demographics_summary,"The study included a total of 19,653 patients who visited the emergency department between September 2019 and August 2021. The population was nearly evenly split by sex, with 50.9% females and 49.1% males. The median age of participants was 14.3 years, with a slight increase to 14.5 years for those who attempted suicide. Racially, the population consisted of 15.8% Black, 33.9% Hispanic or Latino, 39.9% White, and 10.4% from other races.",0.9090909090909091,0.8210423841189711,1.0
+Gold04,location,northeastern United States,1.0,0.7627570901263153,1.0
+Gold04,duration_value,6570,0.0,0.7422893077548326,0.0
+Gold04,duration_text,"September 1, 2019 - August 31, 2021",1.0,0.7582352114644533,1.0
+Gold04,population_size,19653,1.0,0.7611506943775653,1.0
+Gold04,population_text,"N=19,653 patients aged 10 to 18 years",1.0,0.7531264922074715,1.0
+Gold04,medical_conditions,"Major Depressive Disorder, Anxiety Disorders, Emotional State Symptoms, Personal Risk Factors, Prior Suicide Attempts",1.0,0.8171626093770712,0.1111111111111111
+Gold04,studies_tool,yes,0.0,0.7164852593733558,1.0
+Gold04,tool_name,Columbia–Suicide Severity Rating Scale (C-BSSRS),1.0,0.7175176525256247,1.0
+Gold04,tool_type,screening,0.0,0.7185981862765908,1.0
+Gold04,outcome_summary,"The study found that the suicide risk algorithm identified 50.7% of those who attempted suicide, significantly outperforming traditional screening methods like the ASQ and C-BSSRS, which identified only 36.5%. The algorithm also produced 45% more true-positive results, indicating higher predictive validity. With a positive predictive value of 0.16 and sensitivity of 0.51, the algorithm demonstrated superior effectiveness in identifying at-risk individuals. The findings suggest that integrating such algorithms into screening processes could improve patient outcomes.",0.7777777777777778,0.7845864496167079,1.0
+Gold04,clinical_setting,pediatric emergency department,1.0,0.7286377700843284,0.0
+Gold04,demographics_summary,"The study included a total of 19,653 patients who visited the emergency department between September 2019 and August 2021. The population was nearly evenly split by sex, with 50.9% females and 49.1% males. The median age of participants was 14.3 years, with a slight increase to 14.5 years for those who attempted suicide. Racially, the population consisted of 15.8% Black, 33.9% Hispanic or Latino, 39.9% White, and 10.4% from other races.",0.9090909090909091,0.8210423841189711,1.0
+Gold04,location,northeastern United States,1.0,0.7538319016199532,1.0
+Gold04,duration_value,6570,0.0,0.7403153663384421,0.0
+Gold04,duration_text,"September 1, 2019 - August 31, 2021",1.0,0.7648910960752032,1.0
+Gold04,population_size,19653,1.0,0.7562584897595763,1.0
+Gold04,population_text,"N=19,653 patients aged 10 to 18 years",1.0,0.7538915916418306,1.0
+Gold04,medical_conditions,"Major Depressive Disorder, Anxiety Disorders, Emotional State Symptoms, Personal Risk Factors, Prior Suicide Attempts",0.8,0.817175606277077,0.125

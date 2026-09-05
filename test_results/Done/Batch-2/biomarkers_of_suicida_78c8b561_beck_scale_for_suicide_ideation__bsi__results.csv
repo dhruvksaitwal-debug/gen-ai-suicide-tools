@@ -1,0 +1,12 @@
+doc_id,question,answer
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,studies_tool,yes
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,tool_name,Beck Scale for Suicide Ideation (BSI)
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,tool_type,assessment
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,outcome_summary,"The study found that the Composite Regions had the highest diagnostic performance for distinguishing between patients with Major Depressive Disorder with Suicidal Ideation (MDDSI) and those without (MDDNSI), achieving an accuracy of 86.8%. The Temporal Inf region showed moderate performance with an accuracy of 81.6%, but lower sensitivity. The Frontal Sup Media region had a balanced performance, while regions with missing data performed poorly. These findings emphasize the importance of specific brain regions in understanding suicidal ideation in depression."
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,clinical_setting,psychiatric evaluation
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,demographics_summary,"The study includes two groups: participants with Major Depressive Disorder with Suicidal Ideation (MDDSI) and those without Suicidal Ideation (MDDNSI). The SI group has 48 participants, while the NSI group has 44 participants. In the SI group, 58% are female, and in the NSI group, 72% are female. The mean age for the SI group is 42.73 years, and for the NSI group, it is 43.41 years."
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,location,"China, Shanghai"
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,duration_value,23725
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,population_size,92
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,population_text,N=92 patients with Major Depressive Disorder
+Biomarkers of Suicidal Ideation in Depression- Insights From VMHC Analysis and Machine Learning_compressed,medical_conditions,"Major Depressive Disorder (MDD), Suicidal Ideation (SI), Non-Suicidal Ideation (NSI)"

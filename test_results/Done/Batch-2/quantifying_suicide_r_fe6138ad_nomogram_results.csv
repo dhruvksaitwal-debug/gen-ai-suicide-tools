@@ -1,0 +1,13 @@
+doc_id,question,answer
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,studies_tool,yes
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,tool_name,nomogram
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,tool_type,screening
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,outcome_summary,"The study developed a nomogram that effectively identifies seven independent predictors of suicide risk among prostate cancer patients. It demonstrated good predictive accuracy with a C-index of 0.746 in the training cohort and 0.703 in the validation cohort. The model's discriminative ability was confirmed through ROC curve analysis, showing AUC values of 0.831 for 1-year predictions. However, limitations include reliance on the SEER database and the need for external validation."
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,clinical_setting,"oncology clinics, psychiatric services, primary care settings, palliative care, research and public health"
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,demographics_summary,"The study included 176,730 prostate cancer patients diagnosed between 2004 and 2021. Participants were categorized by age, with 42.4% aged 64 years or younger and 57.6% older than 64 years. The majority were White (79.3%), followed by Black (12.8%). Most patients had localized cancer (73.6%) and were predominantly married (76.0%)."
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,location,United States
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,duration_value,6205
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,duration_text,"January 1, 2004 - December 31, 2021"
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,population_size,176730
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,population_text,"N=176,730 prostate cancer patients diagnosed"
+Quantifying Suicide Risk in Prostate Cancer- A SEER-Based Predictive Model_compressed,medical_conditions,prostate cancer

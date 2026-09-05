@@ -1,0 +1,13 @@
+doc_id,question,answer
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,studies_tool,yes
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,tool_name,Self-rating Idea of Suicide Scale (SIOSS)
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,tool_type,screening
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,outcome_summary,"The study found an overall incidence of suicidal ideation (SI) among cancer patients to be 25.98%. A predictive nomogram was developed, demonstrating strong predictive performance with an AUC of 0.859 in the training set and 0.818 in the validation set. The model's predicted probabilities closely matched observed probabilities, indicating reliability. The findings suggest integrating psychosocial resources into patient care could help reduce the risk of SI."
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,clinical_setting,"oncology clinics, psychiatric services, palliative care units, emergency departments, primary care settings"
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,demographics_summary,"The study involved 820 cancer patients, with a median age of 57 years (IQR 51-65). There were 338 males (60.36%) and 222 females (39.64%). A significant majority were married (95.44%), and most did not live alone (95.68%). The educational background varied, with 34.77% having primary education or below."
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,location,"Guangzhou, China"
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,duration_value,246
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,duration_text,May 2021 - January 2022
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,population_size,820
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,population_text,820 cancer patients
+Risk factor analysis and nomogram construction for predicting suicidal ideation in patients with cancer_compressed,medical_conditions,"cancer, mental illness, demoralization, depression"

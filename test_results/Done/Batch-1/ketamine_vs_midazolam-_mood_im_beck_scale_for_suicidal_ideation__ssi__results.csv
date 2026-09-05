@@ -1,0 +1,12 @@
+doc_id,question,answer
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,studies_tool,yes
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,tool_name,Beck Scale for Suicidal Ideation (SSI)
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,tool_type,assessment
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,outcome_summary,"The study suggests that ketamine may be more effective than midazolam in reducing suicidal ideation and improving depressive symptoms, particularly in the context of specific depression factors. Key findings indicate a significant reduction in Beck Scale for Suicidal Ideation (SSI) scores with ketamine compared to midazolam. While ketamine showed trends towards improvement in depressive symptoms, not all measures were statistically significant. The study highlights the correlation between changes in suicidal ideation and depression factors, indicating the potential of ketamine as a treatment for individuals with depression and suicidal ideation."
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,clinical_setting,"mental health care facilities, psychiatric hospitals, emergency or acute care settings, outpatient settings"
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,demographics_summary,"The study included 80 participants, with 40 in the Midazolam group and 40 in the Ketamine group. The mean age for the Midazolam group was 40.7 years, while for the Ketamine group, it was 38.4 years. Gender distribution revealed that 65% of the Midazolam group were female, compared to 55% in the Ketamine group. Participants had a history of major depressive disorder, with a median of 3 episodes for the Midazolam group and 4.5 for the Ketamine group."
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,location,"New York, USA"
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,duration_text,1 day
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,population_size,80
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,population_text,"N=80 participants, 40 in midazolam group and 40 in ketamine group"
+Ketamine vs midazolam- Mood improvement reduces suicidal ideation in depression,medical_conditions,Major Depressive Disorder (MDD)

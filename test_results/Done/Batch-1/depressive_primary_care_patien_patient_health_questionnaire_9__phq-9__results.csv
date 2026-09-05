@@ -1,0 +1,12 @@
+doc_id,question,answer
+Depressive primary care patients' assessment of received collaborative care,studies_tool,yes
+Depressive primary care patients' assessment of received collaborative care,tool_name,Patient Health Questionnaire 9 (PHQ-9)
+Depressive primary care patients' assessment of received collaborative care,tool_type,assessment
+Depressive primary care patients' assessment of received collaborative care,outcome_summary,"The study found significant differences in PACIC scores between intervention and control groups, with higher median scores in the intervention groups. This indicates that patients receiving case management perceived their care as more aligned with the Chronic Care Model compared to those receiving standard treatment. The analysis also highlighted that higher PHQ-9 scores were associated with higher PACIC scores, suggesting greater engagement in care among more severely depressed patients. Overall, the PACIC is a robust measure of patients' perspectives on chronic care, emphasizing the importance of patient-centered care."
+Depressive primary care patients' assessment of received collaborative care,clinical_setting,"primary care environments, hospitals, mental health clinics, schools, community centers"
+Depressive primary care patients' assessment of received collaborative care,demographics_summary,"The median age of the pooled sample of 280 patients using the PACIC tool is 51 years, with the PARADIES group having a median age of 47 years and the PRoMPT group at 53 years. The sample includes both male and female participants, with 25.4% being men. Significant differences in both median and mean ages between the two groups highlight the importance of age in response to screening tools. Gender can influence outcomes in suicide assessments, as males and females may exhibit different patterns of suicidal ideation and behavior."
+Depressive primary care patients' assessment of received collaborative care,duration_value,180
+Depressive primary care patients' assessment of received collaborative care,duration_text,baseline - 6 months - 1 year
+Depressive primary care patients' assessment of received collaborative care,population_size,280
+Depressive primary care patients' assessment of received collaborative care,population_text,N=280 patients from two groups: PARADIES (86 participants) and PRoMPT (194 participants)
+Depressive primary care patients' assessment of received collaborative care,medical_conditions,"panic disorder, major depression"

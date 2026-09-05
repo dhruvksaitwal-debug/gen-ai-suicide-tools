@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold01,studies_tool,yes,0.0,0.7247580026485674,0.0
+Gold01,tool_name,Ask Suicide-Screening Questions (ASQ),1.0,0.7045736475960901,1.0
+Gold01,tool_type,screening,1.0,0.7302781405624879,1.0
+Gold01,outcome_summary,"The study concluded that the Ask Suicide-Screening Questions (ASQ) tool is effective in identifying suicide risk among pediatric patients in emergency department settings. Positive ASQ screens were significantly associated with higher rates of subsequent suicide-related ED visits, with hazard ratios indicating strong associations. The study also revealed that many youths who screened positive did not initially present with suicidal ideation or behavior, highlighting the tool's ability to detect at-risk individuals. Overall, the findings support the implementation of the ASQ for early identification and intervention.",0.6666666666666666,0.7890874533227508,1.0
+Gold01,clinical_setting,pediatric emergency departments,1.0,0.734620234751928,0.0
+Gold01,demographics_summary,"The participants predominantly identified as black and were mostly adolescents. A total of 15,003 participants were screened, with 7,044 (47.0%) identifying as male and 7,959 (53.0%) as female, including 3 transgender individuals. The mean age of participants was 14.5 years with a standard deviation of 3.1 years.",0.875,0.8366180182458768,0.25
+Gold01,location,"Baltimore, Maryland, USA",1.0,0.8119710500896957,0.0
+Gold01,duration_value,2115,0.0,0.742269953626007,0.0
+Gold01,duration_text,"March 18, 2013 - December 31, 2018",1.0,0.7463198865730888,1.0
+Gold01,population_size,15003,1.0,0.7624184797943175,1.0
+Gold01,population_text,"N=15,003 participants screened",1.0,0.7728046910773325,1.0
+Gold01,medical_conditions,"psychiatric or behavioral concerns, broader range of medical conditions",0.5,0.0,1.0

@@ -1,0 +1,12 @@
+doc_id,question,answer
+Improving Depression Screening in Adult Patients With Cance,studies_tool,yes
+Improving Depression Screening in Adult Patients With Cance,tool_name,9-item Patient Health Questionnaire (PHQ-9)
+Improving Depression Screening in Adult Patients With Cance,tool_type,screening
+Improving Depression Screening in Adult Patients With Cance,outcome_summary,"The study demonstrated a significant increase in depression screening rates among adult cancer patients after implementing a modified protocol using the PHQ-9. Initially, only 2% of visits included depression screening, which increased to 12% post-implementation. The chi-squared test confirmed a statistically significant relationship between pre- and post-implementation screening rates. However, the study also highlighted the need to consider the broader context of mental health assessments, including the effectiveness of various tools."
+Improving Depression Screening in Adult Patients With Cance,clinical_setting,oncology and primary care
+Improving Depression Screening in Adult Patients With Cance,demographics_summary,"The participants were adult cancer patients aged 18 years and older who could read and write in English. The study considered various demographic factors such as age, gender, and ethnicity, which can influence the effectiveness of screening tools. Younger individuals may show different risk factors compared to older adults, and cultural differences can affect perceptions of mental health. This highlights the importance of selecting relevant screening tools for diverse patient populations."
+Improving Depression Screening in Adult Patients With Cance,duration_value,82
+Improving Depression Screening in Adult Patients With Cance,duration_text,"July 17 - October 6, 2023"
+Improving Depression Screening in Adult Patients With Cance,population_size,7590
+Improving Depression Screening in Adult Patients With Cance,population_text,"7,590 visits at the outpatient cancer center"
+Improving Depression Screening in Adult Patients With Cance,medical_conditions,"cancer, depression"

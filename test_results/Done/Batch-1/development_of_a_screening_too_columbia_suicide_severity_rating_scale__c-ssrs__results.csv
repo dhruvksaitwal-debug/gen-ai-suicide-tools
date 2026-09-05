@@ -1,0 +1,13 @@
+doc_id,question,answer
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,studies_tool,yes
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,tool_type,screening
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,outcome_summary,"The Happiness Index Scale (HIS) is a validated and reliable screening tool for depressive and anxiety disorders among non-psychiatric inpatients. It demonstrated good reliability with a Cronbach’s α of 0.83 and strong test-retest reliability. The HIS showed high diagnostic ability with AUC values of 0.960 for mild, 0.921 for moderate, and 0.955 for severe psychological problems. It is designed for quick completion in under 30 seconds, making it practical for busy hospital settings."
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,clinical_setting,non-psychiatric clinical settings
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,demographics_summary,"The total sample size consists of 916 participants, with a gender distribution of 50.2% male (460) and 49.8% female (456). In terms of age, 58.9% (540) are under 60 years old, while 41.1% (376) are 60 years old and above. Educational attainment shows that 65.6% (601) have completed junior high school or below, and 91.0% (834) are married."
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,location,"Guangzhou, China"
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,duration_value,2
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,duration_text,"February 4-5, 2021"
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,population_size,916
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,population_text,"916 non-psychiatric inpatients from a third-class general hospital in Guangzhou, China"
+Development of a Screening Tool for Common Mental Disorders Among General Hospital Inpatients in China,medical_conditions,"mental disorders, depression, anxiety, dizziness, headache, palpitation, chest pain, fatigue, insomnia, abdominal pain"

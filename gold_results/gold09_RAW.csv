@@ -1,0 +1,61 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold09,studies_tool,yes,0.0,0.7187509409205286,0.0
+Gold09,tool_name,Ask Suicide-Screening Questions (ASQ),1.0,0.7259424138910303,1.0
+Gold09,tool_type,screening,1.0,0.7303958253299632,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.780693057460463,0.6666666666666666
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346202347519274,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",1.0,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7398136627882668,1.0
+Gold09,duration_value,8760,0.0,0.7593278883500733,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442863723103468,0.5
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",1.0,0.0,1.0
+Gold09,studies_tool,yes,0.0,0.7290349603798211,0.0
+Gold09,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS),1.0,0.6954684877193358,1.0
+Gold09,tool_type,screening,1.0,0.7233410395773298,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.7761239757752563,1.0
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346202347519274,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",1.0,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7429920806759328,1.0
+Gold09,duration_value,8760,0.0,0.7593278883500739,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442845547209335,0.5
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",1.0,0.0,1.0
+Gold09,studies_tool,yes,0.0,0.7205454243423612,0.0
+Gold09,tool_name,Suicidal Ideation Questionnaire (SIQ),1.0,0.7400196360414245,1.0
+Gold09,tool_type,screening,1.0,0.7127582091336429,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.7753377202839239,1.0
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346202347519274,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",0.8888888888888888,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7408616517968166,1.0
+Gold09,duration_value,8760,0.0,0.7593278883500733,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442863723103468,0.5
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",0.6666666666666666,0.0,1.0
+Gold09,studies_tool,yes,0.0,0.7164852593733558,0.0
+Gold09,tool_name,Risk of Suicide Questionnaire (RSQ),0.5,0.7376809316371543,1.0
+Gold09,tool_type,screening,1.0,0.7200841475679747,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.7813884397344019,1.0
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346114340053016,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",0.8888888888888888,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7445760011795558,1.0
+Gold09,duration_value,8760,0.0,0.7588916084848408,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442863723103468,0.5
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",1.0,0.0,1.0
+Gold09,studies_tool,yes,0.0,0.7184876132827017,0.0
+Gold09,tool_name,Behavioral Health Screener (BHS),1.0,0.713037810195334,1.0
+Gold09,tool_type,screening,1.0,0.7205825012952342,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.7775898541231072,1.0
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346202347519274,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",1.0,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7423793377257507,1.0
+Gold09,duration_value,8760,0.0,0.7593278883500733,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442863723103468,0.5
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",1.0,0.0,1.0
+Gold09,studies_tool,yes,0.0,0.7122172239168373,0.0
+Gold09,tool_name,Children and Young People-Mental Health Self-harm Assessment in Pediatric healthcare Environments (CYP-MH SAPhE),1.0,0.7286564052767815,1.0
+Gold09,tool_type,screening,1.0,0.7096547850385116,1.0
+Gold09,outcome_summary,"The study found that positivity rates for suicide risk varied significantly across studies, with psychiatric samples showing rates from 66% to 86%, while medical/surgical patients had lower rates. The RSQ was noted for high positivity rates, raising concerns about false positives. Being female was associated with a higher likelihood of a positive screening result. The findings suggest that while several tools are available, the choice may depend on departmental needs and the balance between detecting true positives and minimizing false positives.",1.0,0.7799454828085949,0.6666666666666666
+Gold09,clinical_setting,pediatric emergency departments,1.0,0.7346202347519274,1.0
+Gold09,demographics_summary,"The studies included participants aged between 10 to 21 years, with a focus on adolescents aged 12 to 17 years. The majority of samples had a higher percentage of females, with female representation ranging from 40% to 73%. Ethnically, many studies had predominantly White participants, but significant proportions of Black/African American participants were also noted. Other ethnic groups included Hispanic/Latino and Asian participants, reflecting diverse demographics.",0.8888888888888888,0.8314210461058934,1.0
+Gold09,location,United States,1.0,0.7408616517968171,1.0
+Gold09,duration_value,8760,0.0,0.7593278883500733,0.0
+Gold09,population_text,"Sample sizes of adolescent ED patients varied from 30 to 31,610 participants.",1.0,0.7442863723103468,1.0
+Gold09,medical_conditions,"psychiatric conditions, medical/surgical conditions",0.6666666666666666,0.8390549135746431,1.0

@@ -1,0 +1,13 @@
+doc_id,question,answer
+EFFICA~1_compressed,studies_tool,yes
+EFFICA~1_compressed,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+EFFICA~1_compressed,tool_type,assessment
+EFFICA~1_compressed,outcome_summary,"The study found that BI 1358894 did not significantly outperform the placebo in treating Major Depressive Disorder, with no proof-of-concept established for its efficacy. Statistical analysis revealed negative estimates and high p-values, indicating a lack of significant treatment effects. However, the drug was well tolerated, with no completed suicides or increases in suicidal ideation reported during the trial. Most adverse events were nonserious, and treatment discontinuation due to adverse events was less frequent in the BI 1358894 group compared to others."
+EFFICA~1_compressed,clinical_setting,psychiatric or mental health facilities
+EFFICA~1_compressed,demographics_summary,"The trial included 388 participants with a mean age of approximately 42.9 years. The sample consisted of 263 females, making up 67.8% of the total. The racial composition was predominantly White (76.0%), with 17.5% Asian and 6.4% Black or African American. Additionally, 13.1% identified as Hispanic or Latino."
+EFFICA~1_compressed,location,14 countries
+EFFICA~1_compressed,duration_value,23823
+EFFICA~1_compressed,duration_text,screening period: up to 28 days - treatment period: 6 weeks - follow-up period: 28 days
+EFFICA~1_compressed,population_size,940
+EFFICA~1_compressed,population_text,N=940 patients aged 18–65 with Major Depressive Disorder
+EFFICA~1_compressed,medical_conditions,Major Depressive Disorder (MDD)

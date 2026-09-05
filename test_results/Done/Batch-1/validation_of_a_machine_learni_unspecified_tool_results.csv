@@ -1,0 +1,12 @@
+doc_id,question,answer
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,studies_tool,yes
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,tool_name,unspecified_tool
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,tool_type,screening
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,outcome_summary,"The study found that 18.6% of participants reported suicidal ideation (SI) in the past month, nearly double the earlier rate of 9.7%. The machine learning model, particularly the logistic regression model, demonstrated strong performance with an AUROC of 0.81, comparable to 0.83 in the original test set. Important predictors of SI included coping strategies and demographic factors. The study emphasizes the need for accessible screening tools, especially for younger populations."
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,clinical_setting,variety of clinical settings
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,demographics_summary,"The average age of participants is 39.38 years in the Wave 1 training set and 39.34 years in the test set, decreasing to 37.72 years in the Omicron wave test set. Approximately 79% of participants are female, indicating a potential bias towards women. The percentage of married individuals declined from 71.2% in Wave 1 to 57.6% in the Omicron wave, while singles increased from 14.7% to 25.3%. Employment rates dropped from 85.6% in Wave 1 to 66.8% in the Omicron wave, with an increase in students from 8.1% to 27.1%."
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,location,Slovenia
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,duration_value,216
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,population_size,2989
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,population_text,N=2989 participants across two waves
+Validation of a machine learning model for indirect screening of suicidal ideation in the general population,medical_conditions,"suicidal ideation, depression, anxiety, stress"

@@ -1,0 +1,13 @@
+doc_id,question,answer
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,studies_tool,yes
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,tool_name,Montgomery–Åsberg Depression Rating Scale (MADRS)
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,tool_type,assessment
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,outcome_summary,"The study outcomes indicate that racemic ketamine treatment is effective and well-tolerated for patients with treatment-resistant depression (TRD) over a six-month period, with significant improvements in depressive symptoms and suicidality. The Montgomery-Åsberg Depression Rating Scale (MADRS) scores showed a decrease from a mean of 31.11 at baseline to 18.33 at six months. Additionally, 73.3% of patients experienced improvement in suicidality. The treatment was well-tolerated, with only 27.7% experiencing adverse effects, and no serious adverse effects reported."
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,clinical_setting,clinical settings that provide ketamine treatment for treatment-resistant depression
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,demographics_summary,"The study involved 65 adult patients with a mean age of 46.1 years. The sample included 31 males (47.7%) and 34 females (52.3%). A significant portion of participants had varying durations of depressive episodes, with 20% experiencing acute episodes, 9.2% sub-acute, and 36.9% chronic episodes. Additionally, 26.2% had a history of more than three previous depressive episodes."
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,location,Australia
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,duration_value,236
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,duration_text,"up to 6 months, minimum 8 weeks"
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,population_size,65
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,population_text,N=65 adult patients with treatment-resistant depression
+Real-world clinical data on the long-term effectiveness and safety of generic racemic ketamine treatment,medical_conditions,"Major Depressive Disorder, Bipolar Affective Disorder, treatment-resistant depression"

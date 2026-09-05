@@ -1,0 +1,13 @@
+doc_id,question,answer
+THEGEO~1_compressed,studies_tool,yes
+THEGEO~1_compressed,tool_name,Columbia-Suicide Severity Rating Scale Screen Version (C-SSRS Screen)
+THEGEO~1_compressed,tool_type,screening
+THEGEO~1_compressed,outcome_summary,"The GIESR model shows promise for evaluating neighborhood-level suicide risk, but its predictive accuracy is limited. The study found that positive screens for suicidal ideation and attempts were not significantly associated with actual suicide fatalities. A minimum of 10 data points is necessary for reliable predictions, highlighting the importance of sufficient data. Future research should focus on refining the model and exploring additional community-level risk factors."
+THEGEO~1_compressed,clinical_setting,"primary care, emergency departments, hospital settings, pediatric care"
+THEGEO~1_compressed,demographics_summary,"The study focused on adolescents aged 11 to 17 years. The demographics of the participants are not explicitly detailed, but the emphasis on this age group suggests a pediatric population. The study also indicates that the participants may reflect socio-economic and geographic diversity based on the neighborhoods represented by the census tracts used in the analysis."
+THEGEO~1_compressed,location,Texas
+THEGEO~1_compressed,duration_value,1796
+THEGEO~1_compressed,duration_text,January 2018 - December 2022
+THEGEO~1_compressed,population_size,41296
+THEGEO~1_compressed,population_text,"N=41,296 adolescents aged 11–17"
+THEGEO~1_compressed,medical_conditions,"suicidal ideation, suicide attempts, mental health"

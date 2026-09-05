@@ -1,11 +1,19 @@
-import pandas as pd
 import json
+import logging
 from pathlib import Path
+
+import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 INPUT_FILE = "data/collated_results.csv"
 OUTPUT_MAP = "data/tool_name_map.raw.json"
 
-def main():
+
+def main() -> None:
+    if not Path(INPUT_FILE).exists():
+        raise FileNotFoundError(f"Input file '{INPUT_FILE}' does not exist.")
+
     df = pd.read_csv(INPUT_FILE)
 
     tool_names = (
@@ -27,7 +35,9 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"Initial tool map written to {OUTPUT_MAP} with {len(mapping)} entries")
+    logger.info("Initial tool map written to %s with %d entries", OUTPUT_MAP, len(mapping))
+
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     main()

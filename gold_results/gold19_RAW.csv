@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold19,studies_tool,yes,0.0,0.7247580026485674,0.0
+Gold19,tool_name,Global Nurse Assessment of Suicide Risk (NGASR) Index,1.0,0.7079999369593225,1.0
+Gold19,tool_type,assessment,1.0,0.7120836372379267,1.0
+Gold19,outcome_summary,"The study validated the Nurses' Global Assessment of Suicide Risk (NGASR) for the Spanish population, particularly among university students. It demonstrated high reliability with a Kuder–Richardson Index of 0.83 and adequate content validity with a content validity index of 0.81. The exploratory factor analysis revealed a six-factor structure, supporting its construct validity. Additionally, significant correlations with established measures of depression and suicidal behavior were found, indicating the tool's effectiveness in assessing suicide risk.",1.0,0.769861574692795,0.8571428571428571
+Gold19,clinical_setting,psychiatric environments,0.0,0.7863322047801715,0.5
+Gold19,demographics_summary,"The study included two main groups: mental health experts and young university students. The expert group consisted of 30 healthcare professionals, predominantly registered nurses, with a mean age of 46 years. The university student group comprised 151 individuals with a mean age of 22.83 years, with a majority being male. This diverse demographic provides a comprehensive context for the application of the NGASR tool.",0.9,0.8337207730165174,1.0
+Gold19,location,Spain,1.0,0.750596679624598,1.0
+Gold19,duration_value,120,0.0,0.7422699536260072,0.0
+Gold19,duration_text,February to May 2022; May 2022 to May 2023,0.5,0.7793894249609463,1.0
+Gold19,population_size,181,0.0,0.7488612150271644,1.0
+Gold19,population_text,N=181 participants (30 mental health experts and 151 university students),0.6666666666666666,0.7657144761785079,1.0
+Gold19,medical_conditions,mental health conditions,1.0,0.7676566958840932,1.0

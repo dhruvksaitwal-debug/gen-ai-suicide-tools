@@ -1,0 +1,61 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold10,studies_tool,yes,0.0,0.7247580026485674,1.0
+Gold10,tool_name,Suicide Behavior Questionnaire (SBQ),1.0,0.7366753189851538,1.0
+Gold10,tool_type,assessment,0.0,0.7143907734913783,1.0
+Gold10,outcome_summary,"The studies highlight the significant impact of the COVID-19 pandemic on mental health, particularly regarding suicidal ideation and attempts. Key findings indicate that individuals facing relationship problems and fear of illness in loved ones exhibited a higher likelihood of suicidal thoughts. Additionally, marginalized groups, such as Black and Hispanic individuals, reported elevated suicide risk scores, underscoring the role of social determinants in mental health. These outcomes emphasize the necessity for targeted interventions to support vulnerable populations during and after the pandemic.",1.0,0.7589992930122019,1.0
+Gold10,clinical_setting,"mental health clinics, public health research, academic institutions, healthcare policy development",0.0,0.7413021785876938,1.0
+Gold10,demographics_summary,"The studies primarily target adults aged over 18 years, encompassing all sexes and ethnicities. Exclusion criteria eliminate children, adolescents, pregnant women, the elderly, healthcare professionals, and students. This focus on adults is essential for understanding the pandemic's effects on suicidal behavior across diverse groups, but it may limit the generalizability of the findings.",1.0,0.7562598052195769,0.4
+Gold10,location,"United States, Peru, Colombia, Cuba, Nepal, Argentina",1.0,0.7235225872532355,1.0
+Gold10,duration_value,1432,0.0,0.7403153663384425,1.0
+Gold10,duration_text,July 2017 - June 2021,1.0,0.7963677186220787,1.0
+Gold10,population_size,24350,1.0,0.7624184797943175,0.0
+Gold10,population_text,"N=24,350 adults",1.0,0.775531300510809,1.0
+Gold10,medical_conditions,"suicidal ideation, suicide attempts, suicide mortality",1.0,0.7348823283469065,1.0
+Gold10,studies_tool,yes,0.0,0.7265533177200995,1.0
+Gold10,tool_name,Self-Injurious Thoughts and Behaviors Interview (SITBI),1.0,0.7255522722813518,1.0
+Gold10,tool_type,assessment,0.0,0.722146533047011,1.0
+Gold10,outcome_summary,"The studies highlight the significant impact of the COVID-19 pandemic on mental health, particularly regarding suicidal ideation and attempts. Key findings indicate that individuals facing relationship problems and fear of illness in loved ones exhibited a higher likelihood of suicidal thoughts. Additionally, marginalized groups, such as Black and Hispanic individuals, reported elevated suicide risk scores, underscoring the role of social determinants in mental health. These outcomes emphasize the necessity for targeted interventions to support vulnerable populations during and after the pandemic.",1.0,0.7574930346941687,1.0
+Gold10,clinical_setting,"mental health clinics, public health research, academic institutions, healthcare policy development",0.0,0.7451718611278122,1.0
+Gold10,demographics_summary,"The studies primarily target adults aged over 18 years, encompassing all sexes and ethnicities. Exclusion criteria eliminate children, adolescents, pregnant women, the elderly, healthcare professionals, and students. This focus on adults is essential for understanding the pandemic's effects on suicidal behavior across diverse groups, but it may limit the generalizability of the findings.",1.0,0.7598658844721555,0.4
+Gold10,location,"United States, Peru, Colombia, Cuba, Nepal, Argentina",1.0,0.7232522377530787,1.0
+Gold10,duration_value,1432,0.0,0.742269953626007,1.0
+Gold10,duration_text,July 2017 - June 2021,,0.7859545348619522,1.0
+Gold10,population_size,24350,1.0,0.7624184797943175,0.0
+Gold10,population_text,"N=24,350 adults",1.0,0.7697893076566839,1.0
+Gold10,medical_conditions,"suicidal ideation, suicide attempts, suicide mortality",1.0,0.7327323809011416,1.0
+Gold10,studies_tool,yes,0.0,0.7146988665765592,1.0
+Gold10,tool_name,Depression Symptom Index-Suicide Subscale (DSI-SS),1.0,0.7240682927115839,1.0
+Gold10,tool_type,assessment,0.0,0.7168312221170804,1.0
+Gold10,outcome_summary,"The studies highlight the significant impact of the COVID-19 pandemic on mental health, particularly regarding suicidal ideation and attempts. Key findings indicate that individuals facing relationship problems and fear of illness in loved ones exhibited a higher likelihood of suicidal thoughts. Additionally, marginalized groups, such as Black and Hispanic individuals, reported elevated suicide risk scores, underscoring the role of social determinants in mental health. These outcomes emphasize the necessity for targeted interventions to support vulnerable populations during and after the pandemic.",1.0,0.7589992930122019,1.0
+Gold10,clinical_setting,"mental health clinics, public health research, academic institutions, healthcare policy development",0.0,0.7455737406930658,1.0
+Gold10,demographics_summary,"The studies primarily target adults aged over 18 years, encompassing all sexes and ethnicities. Exclusion criteria eliminate children, adolescents, pregnant women, the elderly, healthcare professionals, and students. This focus on adults is essential for understanding the pandemic's effects on suicidal behavior across diverse groups, but it may limit the generalizability of the findings.",1.0,0.763997658290808,0.4
+Gold10,location,"United States, Peru, Colombia, Cuba, Nepal, Argentina",1.0,0.7235225872532355,1.0
+Gold10,duration_value,1432,0.0,0.7421986844887659,1.0
+Gold10,duration_text,July 2017 - June 2021,1.0,0.7963677186220787,1.0
+Gold10,population_size,24350,1.0,0.7624184797943175,0.0
+Gold10,population_text,"N=24,350 adults",1.0,0.77459231430178,1.0
+Gold10,medical_conditions,"suicidal ideation, suicide attempts, suicide mortality",1.0,,1.0
+Gold10,studies_tool,yes,0.0,0.7218699766773966,1.0
+Gold10,tool_name,Beck Suicidal Ideas Scale (SSI),0.5,0.739890531277262,1.0
+Gold10,tool_type,assessment,0.0,0.7198103268310748,1.0
+Gold10,outcome_summary,"The studies highlight the significant impact of the COVID-19 pandemic on mental health, particularly regarding suicidal ideation and attempts. Key findings indicate that individuals facing relationship problems and fear of illness in loved ones exhibited a higher likelihood of suicidal thoughts. Additionally, marginalized groups, such as Black and Hispanic individuals, reported elevated suicide risk scores, underscoring the role of social determinants in mental health. These outcomes emphasize the necessity for targeted interventions to support vulnerable populations during and after the pandemic.",1.0,0.7589992930122025,1.0
+Gold10,clinical_setting,"mental health clinics, public health research, academic institutions, healthcare policy development",0.0,0.7487551977997676,1.0
+Gold10,demographics_summary,"The studies primarily target adults aged over 18 years, encompassing all sexes and ethnicities. Exclusion criteria eliminate children, adolescents, pregnant women, the elderly, healthcare professionals, and students. This focus on adults is essential for understanding the pandemic's effects on suicidal behavior across diverse groups, but it may limit the generalizability of the findings.",1.0,0.7582894751245378,0.4
+Gold10,location,"United States, Peru, Colombia, Cuba, Nepal, Argentina",1.0,0.7237100179247937,1.0
+Gold10,duration_value,1432,0.0,0.742269953626007,1.0
+Gold10,duration_text,July 2017 - June 2021,1.0,0.7963677186220787,1.0
+Gold10,population_size,24350,1.0,0.7624184797943178,0.0
+Gold10,population_text,"N=24,350 adults",1.0,0.775531300510809,1.0
+Gold10,medical_conditions,"suicidal ideation, suicide attempts, suicide mortality",1.0,0.7327323809011416,1.0
+Gold10,studies_tool,yes,0.0,0.7272777610654463,1.0
+Gold10,tool_name,Depression Scale of the Center for Epidemiological Studies (CES-D),1.0,0.7212322817550104,1.0
+Gold10,tool_type,assessment,0.0,0.7238989578060718,1.0
+Gold10,outcome_summary,"The studies highlight the significant impact of the COVID-19 pandemic on mental health, particularly regarding suicidal ideation and attempts. Key findings indicate that individuals facing relationship problems and fear of illness in loved ones exhibited a higher likelihood of suicidal thoughts. Additionally, marginalized groups, such as Black and Hispanic individuals, reported elevated suicide risk scores, underscoring the role of social determinants in mental health. These outcomes emphasize the necessity for targeted interventions to support vulnerable populations during and after the pandemic.",1.0,0.754086642912129,1.0
+Gold10,clinical_setting,"mental health clinics, public health research, academic institutions, healthcare policy development",0.0,0.7455737406930655,1.0
+Gold10,demographics_summary,"The studies primarily target adults aged over 18 years, encompassing all sexes and ethnicities. Exclusion criteria eliminate children, adolescents, pregnant women, the elderly, healthcare professionals, and students. This focus on adults is essential for understanding the pandemic's effects on suicidal behavior across diverse groups, but it may limit the generalizability of the findings.",1.0,0.7830425059008664,0.2
+Gold10,location,"United States, Peru, Colombia, Cuba, Nepal, Argentina",1.0,0.7235225872532355,1.0
+Gold10,duration_value,1432,0.0,0.742297395120162,1.0
+Gold10,duration_text,July 2017 - June 2021,1.0,0.7963677186220787,1.0
+Gold10,population_size,24350,1.0,0.7624184797943175,0.0
+Gold10,population_text,"N=24,350 adults",1.0,0.775531300510809,1.0
+Gold10,medical_conditions,"suicidal ideation, suicide attempts, suicide mortality",1.0,0.7378725137441574,1.0

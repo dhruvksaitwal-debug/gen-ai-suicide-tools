@@ -1,5 +1,9 @@
-import pandas as pd
+import logging
 from pathlib import Path
+
+import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 INPUT_FILE = "data/collated_results_with_canonical.csv"
 OUTPUT_TOOL_COUNTS = "data/tool_usage_counts.csv"
@@ -31,7 +35,10 @@ def classify_tool(name: str):
 # Main analysis
 # ------------------------------------------------------------
 
-def main():
+def main() -> None:
+    if not Path(INPUT_FILE).exists():
+        raise FileNotFoundError(f"Input file '{INPUT_FILE}' does not exist.")
+
     df = pd.read_csv(INPUT_FILE)
 
     # Normalize canonical names
@@ -93,12 +100,7 @@ def main():
     # --------------------------------------------------------
     # 5. GLOBAL frequency of each tool across ALL articles
     # --------------------------------------------------------
-    tool_counts = (
-        df_tools["tool_name_canonical"]
-        .value_counts()
-        .reset_index()
-        .rename(columns={"index": "tool_name_canonical", "tool_name_canonical": "count"})
-    )
+    tool_counts = df_tools["tool_name_canonical"].value_counts().reset_index()
 
     tool_counts.to_csv(OUTPUT_TOOL_COUNTS, index=False)
 
@@ -120,8 +122,9 @@ Global tool usage counts saved to: {OUTPUT_TOOL_COUNTS}
 """
 
     Path(OUTPUT_SUMMARY).write_text(summary)
-    print(summary)
+    logger.info(summary)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
     main()

@@ -1,0 +1,13 @@
+doc_id,question,answer
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,studies_tool,yes
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,tool_type,assessment
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,outcome_summary,"The study found that nearly half of the participants reported experiencing death- or suicide-related thoughts during the trial, but no acute or frequent suicidal thoughts, plans, or attempts were reported. A significant predictor of STBs was baseline suicide thought severity, with 40% of participants having a history of active suicidal thoughts. Limitations included a high percentage of missing data on STB assessments and potential issues with the precision of the assessment tool. Overall, the study suggests that conducting an RCT of a digital mental health intervention is feasible among individuals with high rates of lifetime STBs."
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,clinical_setting,outpatient settings
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,demographics_summary,"The study's participant sample was predominantly female (84%), non-Hispanic (88%), and White (71%), with a mean age of 27 years and a standard deviation of 9.6 years. Notably, demographic information was not collected from individuals excluded from the trial. This demographic composition highlights the importance of considering how participant characteristics can influence the validity and reliability of suicide screening tools. Different demographic factors, such as age, gender, ethnicity, and sexual orientation, can significantly affect how individuals respond to assessments."
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,location,USA
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,duration_value,84
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,duration_text,12 weeks
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,population_size,80
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,population_text,80 adults diagnosed with body dysmorphic disorder (BDD)
+The Prevalence and Incidence of Suicidal Thoughts and Behavior in a Smartphone,medical_conditions,Body Dysmorphic Disorder (BDD)

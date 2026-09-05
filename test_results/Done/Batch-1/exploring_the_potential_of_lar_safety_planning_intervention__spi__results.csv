@@ -1,0 +1,9 @@
+doc_id,question,answer
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,studies_tool,yes
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,tool_name,Safety Planning Intervention (SPI)
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,tool_type,assessment
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,outcome_summary,"The study found that LLaMA 3 and o3-mini outperformed GPT-4 in scoring safety plans, with LLaMA 3 achieving the highest performance in identifying warning signs and reasons for living. A three-point scoring system improved SPIFR accuracy compared to the original four-point system. Variations in precision and recall were noted, with LLaMA 3 showing high precision but moderate recall. The findings highlight the potential of LLMs to enhance the implementation of Safety Planning Interventions and reduce patient suicide risk."
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,clinical_setting,outpatient mental health settings
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,location,"New York State, USA"
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,population_size,266
+Exploring the Potential of Large Language Models for Automated Safety Plan Scoring in Outpatient Mental Health Settings,population_text,N=266 patients who received the Safety Planning Intervention (SPI)

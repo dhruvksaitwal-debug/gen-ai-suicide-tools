@@ -1,0 +1,10 @@
+doc_id,question,answer
+Deaths Related to Domestic Violence in Washington State,studies_tool,yes
+Deaths Related to Domestic Violence in Washington State,tool_name,unspecified_tool
+Deaths Related to Domestic Violence in Washington State,tool_type,screening
+Deaths Related to Domestic Violence in Washington State,outcome_summary,"The study found that 12.9% of violent deaths in Washington from 2015 to 2020 were linked to domestic violence (DV). It revealed that 44.3% of these fatalities had prior interactions with social services or the legal system. The natural language processing (NLP) tool used achieved a sensitivity of 0.70 and specificity of 0.98. However, 55.7% of DV-related deaths lacked textual descriptions of prior system contacts, indicating gaps in documentation and the need for improved data collection."
+Deaths Related to Domestic Violence in Washington State,clinical_setting,"public health, forensic analysis, social services, law enforcement"
+Deaths Related to Domestic Violence in Washington State,demographics_summary,"The demographics of participants involved in domestic violence-related fatalities in Washington from 2015 to 2020 reveal critical insights. Among the decedents, 56.7% were female and 43.3% were male, indicating a gender disparity. The age distribution shows that 13.1% were under 10 years old, 12.5% aged 10-24, 30.8% aged 25-40, 23.1% aged 41-54, 13.6% aged 55-70, and 6.9% aged 71 and older. Racially, 61.7% were White, 14.4% Latino or Hispanic, 9.2% Black, 5.6% Asian or Pacific Islander, and 2.5% American Indian or Alaska Native."
+Deaths Related to Domestic Violence in Washington State,location,"Washington State, USA"
+Deaths Related to Domestic Violence in Washington State,population_size,948
+Deaths Related to Domestic Violence in Washington State,population_text,948 individuals identified as domestic violence-related fatalities

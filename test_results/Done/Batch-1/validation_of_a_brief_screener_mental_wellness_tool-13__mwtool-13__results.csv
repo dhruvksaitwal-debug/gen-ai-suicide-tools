@@ -1,0 +1,13 @@
+doc_id,question,answer
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,studies_tool,yes
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,tool_name,Mental Wellness Tool-13 (mwTool-13)
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,tool_type,screening
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,outcome_summary,"The mwTool-13 demonstrated a diagnosis rate of 36% among 1,885 participants, with significant sensitivity for identifying various mental health disorders. It showed strong sensitivity for common mental disorders (91.50%) and suicide risk (86.84%), but lower sensitivity for alcohol-use (56.67%) and substance-use disorders (64.52%). Modifications led to the improved mwTool-12, enhancing sensitivity for AUD and SUD. The study underscores the importance of cultural validation for effective screening in diverse populations."
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,clinical_setting,primary care clinics and tertiary care facilities
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,demographics_summary,"The study involved 1,885 participants with an average age of 39 years and a standard deviation of 13.1 years. A significant majority, 65%, were female, while 35% were male. The participant pool was predominantly black (97.3%), with isiXhosa as the primary language for 97.4% of participants. Most participants were single (59.1%) and had varying levels of education, with 56.3% reporting an income of less than R1000."
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,location,Eastern Cape Province of South Africa
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,duration_value,14
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,duration_text,2 weeks
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,population_size,1885
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,population_text,"1,885 participants"
+Validation of a brief screener for broad-spectrum mental and substance-use disorders in South Africa,medical_conditions,"Common Mental Disorders (CMD), Alcohol Use Disorders (AUD), Severe Mental Disorders (SMD), Substance Use Disorders (SUD), Suicide Risk (SR)"

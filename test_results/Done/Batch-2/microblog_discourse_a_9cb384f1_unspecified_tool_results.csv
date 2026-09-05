@@ -1,0 +1,13 @@
+doc_id,question,answer
+Microblog discourse analysis for parenting style assessment_compressed,studies_tool,yes
+Microblog discourse analysis for parenting style assessment_compressed,tool_name,unspecified_tool
+Microblog discourse analysis for parenting style assessment_compressed,tool_type,assessment
+Microblog discourse analysis for parenting style assessment_compressed,outcome_summary,"The study developed a novel method for assessing parenting styles using students' microblog posts, demonstrating superior performance with an average Mean Square Error (MSE) of 0.12 and Mean Absolute Error (MAE) of 0.28 compared to traditional methods. Key findings indicate that specific model layers significantly enhance accuracy in assessments. The method provides educational institutions with a cost-effective solution for identifying students affected by negative parenting styles, potentially leading to timely psychological interventions. Future research is needed to explore limitations and improve assessment performance over time."
+Microblog discourse analysis for parenting style assessment_compressed,clinical_setting,mental health and healthcare institutions
+Microblog discourse analysis for parenting style assessment_compressed,demographics_summary,"The participants consist of 575 microblog student users, including 281 males and 294 females. The age distribution ranges from 14 to 51 years, with an average age of 24.0 years and a standard deviation of 5.8 years."
+Microblog discourse analysis for parenting style assessment_compressed,location,China
+Microblog discourse analysis for parenting style assessment_compressed,duration_value,1096
+Microblog discourse analysis for parenting style assessment_compressed,duration_text,"November 1, 2019 - October 31, 2022"
+Microblog discourse analysis for parenting style assessment_compressed,population_size,575
+Microblog discourse analysis for parenting style assessment_compressed,population_text,N=575 microblog student users
+Microblog discourse analysis for parenting style assessment_compressed,medical_conditions,"anxiety, depression"

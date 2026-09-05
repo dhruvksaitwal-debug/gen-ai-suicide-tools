@@ -1,5 +1,5 @@
 {
-  "Gold1": {
+  "Gold01": {
     "studies_tool": "yes",
     "tool_name": "Ask Suicide-Screening Questions (ASQ)",
     "tool_type": "screening",
@@ -11,9 +11,9 @@
     "duration_text": "March 18, 2013 – December 31, 2018",
     "population_size": "15,003",
     "population_text": "15,003 youths screened (4,666 selective; 10,337 universal)",
-    "medical_conditions.": "Behavioral and psychiatric presenting problems (suicidal ideation, suicide attempts)"
+    "medical_conditions": "Behavioral and psychiatric presenting problems (suicidal ideation, suicide attempts)"
   },
-  "Gold2": {
+  "Gold02": {
     "studies_tool": "yes",
     "tool_name": "Columbia-Suicide Severity Rating Scale (C-SSRS)",
     "tool_type": "screening",
@@ -25,9 +25,9 @@
     "duration_text": "Phase I: June 5–21, 2020; Phase II: December 6–13, 2020",
     "population_size": "398",
     "population_text": "During both phases, 400 patients were admitted, 398 of whom completed either mode of the screening.",
-    "medical_conditions.": "Patients with physical illnesses; many oncology patients plus other internal medicine and surgical patients. Not typically focus on managing their patients' mental health issues"
+    "medical_conditions": "Patients with physical illnesses; many oncology patients plus other internal medicine and surgical patients. Not typically focus on managing their patients' mental health issues"
   },
-  "Gold3": {
+  "Gold03": {
     "studies_tool": "yes",
     "tool_name": "Veterans Health Administration (VHA): Comprehensive Suicide Risk Evaluation (CSRE)",
     "tool_type": "assessment",
@@ -39,9 +39,9 @@
     "duration_text": "CSRE evaluation between November 1, 2019, and December 31, 2020. Data collection and analysis were performed from April 5 to August 20, 2024.",
     "population_size": "272,335",
     "population_text": "A total of 272 335 CSREs were completed from November 1, 2019, to December 31, 2020, with 269 374 (98.91%) marked valid and included in analyses (including 153 736 unique VHA patients). This includes 138 invalid CSREs that were completed on the same day as an invalid CSRE. Among the 269 374 CSREs, 86.26% were for male and 13.74% for female patients; 24.69% were for Black and 63.54% for White patients, with 7.22% of unknown race.",
-    "medical_conditions.": "Patients with a positive primary suicide screening who then received a CSRE; include veterans with mental health conditions- Depressive disorder, Bipolar disorder, Schizophrenia spectrum disorder, anxiety disorder, Alcohol Use Disorder, Substance Use Disorder, insomnia disorder, chronic conditions, and various suicide risk factors."
+    "medical_conditions": "Patients with a positive primary suicide screening who then received a CSRE; include veterans with mental health conditions- Depressive disorder, Bipolar disorder, Schizophrenia spectrum disorder, anxiety disorder, Alcohol Use Disorder, Substance Use Disorder, insomnia disorder, chronic conditions, and various suicide risk factors."
   },
-  "Gold4": {
+  "Gold04": {
     "studies_tool": "yes",
     "tool_name": "Ask Suicide-Screening Questions (ASQ) and Columbia–Brief Suicide Severity Rating Scale (C-BSSRS)",
     "tool_type": "screening",
@@ -53,6 +53,230 @@
     "duration_text": "September 1, 2019, and August 31, 2021. To observe the presence or absence of a suicide attempt, patients were followed up from their first ED encounter for a minimum of 6 months and a maximum of 2.5 years, through March 2, 2022. Data were analyzed from May 2023 to December 2024.",
     "population_size": "19,653",
     "population_text": "19,653 patients included in the analysis, the median age was 14.3 (IQR, 12.1-16.2) years, and 10 007 (50.9%) were female. Four hundred ninety-five patients (2.5%) were treated for a suicide attempt. Among patients screening positive for suicide risk in testing samples (mean, 8.1% [95% CI, 7.6%-8.6%]) and patients in the top 8.1% of the distribution on the algorithm, the algorithm correctly identified a mean of 50.7% (95% CI, 47.3%-54.1%) of those who attempted suicide in contrast to 36.5% (95% CI, 31.9%-41.2%) identified by screening. The algorithm uniquely identified 127% more youths who attempted suicide (125) than did screening (55).",
-    "medical_conditions.": "Major depressive disorder, single episode, symptoms and signs involving emotional state, other anxiety disorders, personal risk factors, not elsewhere classified, symptoms and signs involving appearance and behavior, Prior suicide attempt, attention-deficit hyperactivity disorders, place of occurrence of the external cause, reaction to severe stress, and adjustment disorders, activity codes, long-term (current) drug therapy, conduct disorders, persistent mood (affective) disorders, intentional self-harm by sharp object, problems related to upbringing, personal history of other diseases and conditions, headache, nausea and vomiting, abdominal and pelvic pain, asthma, contact with and (suspected) exposure to communicable diseases, major depressive disorder, recurrent, abnormalities of heart beat, other symptoms and signs with general sensations and perceptions, other behavioral and emotional disorders with onset usually occur in childhood and adolescence, superficial injury of elbow and forearm, open wound of elbow and forearm, pervasive developmental disorders, cannabis-related disorders, other problem relative to primary support group, including family circumstances"
+    "medical_conditions": "Major depressive disorder, single episode, symptoms and signs involving emotional state, other anxiety disorders, personal risk factors, not elsewhere classified, symptoms and signs involving appearance and behavior, Prior suicide attempt, attention-deficit hyperactivity disorders, place of occurrence of the external cause, reaction to severe stress, and adjustment disorders, activity codes, long-term (current) drug therapy, conduct disorders, persistent mood (affective) disorders, intentional self-harm by sharp object, problems related to upbringing, personal history of other diseases and conditions, headache, nausea and vomiting, abdominal and pelvic pain, asthma, contact with and (suspected) exposure to communicable diseases, major depressive disorder, recurrent, abnormalities of heart beat, other symptoms and signs with general sensations and perceptions, other behavioral and emotional disorders with onset usually occur in childhood and adolescence, superficial injury of elbow and forearm, open wound of elbow and forearm, pervasive developmental disorders, cannabis-related disorders, other problem relative to primary support group, including family circumstances"
+  },
+  "Gold05": {
+    "studies_tool": "yes",
+    "tool_name": "Beck Scale for Suicidal Ideation; suicidal behavior using the Columbia Suicide Severity Rating Scale",
+    "tool_type": "prediction (machine learning classifier using acoustic voice features; not a clinician-administered screening instrument",
+    "outcome_summary": "Outcome measures: high suicide risk classification via between-person model, defined as SSI ≥15 (69% accuracy, 74% sensitivity, 62% specificity, AUC 0.62); clinically significant worsening of suicidality via within-person model, defined as ≥25% increase in SSI score or a suicide attempt/self-injurious behavior (79% accuracy, 68% sensitivity, 84% specificity, AUC 0.67 on internal validation; 62% accuracy, AUC 0.56 on external validation)",
+    "clinical_setting": "Outpatient Mood and Anxiety Clinic, Seoul National University Hospital, Republic of Korea",
+    "demographics_summary": "Age: mean 28.53 (SD 9.08) in high suicide risk group vs 34.70 (SD 11.67) in low risk group. Gender: 76% female (79/104), 24% male. Diagnosis: 88.5% bipolar disorder (92/104), 11.5% major depressive disorder (12/104). 14.4% (15/104) had a history of suicide attempt.",
+    "location": "Republic of Korea (Seoul)",
+    "duration_value": "31 Months",
+    "duration_text": "January 2019 – July 2021",
+    "population_size": "104",
+    "population_text": "104 patients diagnosed with mood disorders (bipolar disorder or major depressive disorder); 348 total voice recordings collected at baseline and follow-up (2, 4, 8, 12 months)",
+    "medical_conditions": "Mood disorders (bipolar disorder, major depressive disorder) with suicidal ideation and/or suicidal behavior"
+  },
+  "Gold06": {
+    "studies_tool": "yes",
+    "tool_name": "Proxy Mental Wellness Tool-3 (mwTool-3-proxy)",
+    "tool_type": "screening (ultra-brief 3-item proxy screener for any mental disorder, substance use disorder, and suicide risk)",
+    "outcome_summary": "Outcome measures: sensitivity and specificity of the mwTool-3-proxy for identifying any MINI-diagnosed disorder in the proxy individual. Pooled: sensitivity 73.01% (95% CI 65.5-79.65), specificity 46.10% (95% CI 40.31-51.97). Mozambique: sensitivity 70.24% (95% CI 59.27-79.73), specificity 43.28%. South Africa: sensitivity 80.00% (95% CI 69.17-88.35), specificity 48.45%. Performance remained >70% sensitivity when restricted to household members, relatives, those without SMD, and isiXhosa-speaking respondents (South Africa). Pooled prevalence of any MINI-diagnosed disorder was 35.6% (38.5% Mozambique; 32.9% South Africa).",
+    "clinical_setting": "Primary healthcare clinics (Mozambique: 3 primary care clinics in Nampula; South Africa: 4 government primary healthcare facilities and 1 provincial tertiary hospital in Buffalo City Metro Health District, Eastern Cape Province)",
+    "demographics_summary": "Age: mean 34 years (SD 12.5), range 18-78 (Mozambique mean 30.6, SD 10.3; South Africa mean 37.1, SD 13.5). Sex: 63.5% female (291/458), 36.5% male (167/458). Race: 96.8% Black in Mozambique, 97.5% Black in South Africa. Relationship to proxy: 33.6% relative, 29% friend, 14.2% partner/spouse, 6.1% parent, 5.7% child, 11.4% other. 50.7% lived in the same household as the person they screened.",
+    "location": "Mozambique (Nampula) and South Africa (Eastern Cape Province, Buffalo City Metro Health District)",
+    "duration_value": "<1 Month (Mozambique); 4 Months (South Africa)",
+    "duration_text": "Mozambique: December 5–12, 2018. South Africa: February–May 2022",
+    "population_size": "458",
+    "population_text": "458 participants (229 pairs of adults); 218 individuals (109 pairs) in Mozambique and 240 individuals (120 pairs) in South Africa",
+    "medical_conditions": "Any mental and/or substance use disorder and suicide risk, including common mental disorder (major depressive episode, PTSD, generalized anxiety disorder), severe mental disorder (manic/hypomanic episode, psychotic disorder), alcohol use disorder, substance use disorder, and moderate-to-high suicide risk, as diagnosed by the Mini International Neuropsychiatric Interview (MINI)"
+  },
+  "Gold07": {
+    "studies_tool": "Yes",
+    "tool_name": "N/A — this study does not develop or validate a novel screening/diagnostic tool. It uses established validated clinical rating scales (Beck Depression Inventory, Hamilton Depression Rating Scale-17, Beck Hopelessness Scale, Barratt Impulsiveness Scale, Brown-Goodwin Aggression Inventory, Buss-Durkee Hostility Inventory, Beck Scale for Suicidal Ideation, Beck Suicide Intent Scale, Beck Lethality Scale) as outcome/predictor measures to compare characteristics between two groups of suicide attempters.",
+    "tool_type": "N/A (not a tool validation study; comparative/observational clinical characterization study)",
+    "outcome_summary": "Outcome measures: demographic, clinical, and suicidal behavior characteristics compared between AT+SUD and AT−SUD using t-tests and chi-square/Fisher’s exact tests, plus factor-analysis-derived impulsivity/aggression and subjective distress scores. Key findings: AT+SUD made more lifetime suicide attempts (mean 2.7 vs 2.1, p=0.001) with greater maximum lethality (mean 3.3 vs 2.7, p=0.005), despite comparable suicide intent, ideation severity (SSI), and degree of planning between groups. AT+SUD had significantly higher impulsivity (Barratt Impulsiveness Scale, p=0.002), lifetime aggression (p<0.001), and hostility (Buss-Durkee, p=0.003) scores; subjective distress (BDI, BHS) did not differ between groups. In factor analysis, an impulsivity/aggression/hostility composite factor was significantly higher in AT+SUD (p<0.001) and in multiple vs single attempters (p<0.001), but did not correlate with attempt lethality.",
+    "clinical_setting": "Two academic psychiatric research sites: New York State Psychiatric Institute/Columbia University Irving Medical Center (New York, NY) and Western Psychiatric Institute and Clinic (Pittsburgh, PA)",
+    "demographics_summary": "Age: mean 36.1 years (SD 11.2) in AT+SUD vs 36.7 years (SD 12.6) in AT−SUD (not significantly different). Sex: AT+SUD group was significantly more male (only 29.7% of females were in the AT+SUD group vs 70.3% in AT−SUD, p<0.001). Race/ethnicity, marital status, and employment did not differ significantly between groups. AT+SUD had significantly less education (52.6% did not graduate high school, p=0.003) and were more likely to be inpatients at time of interview (43.5%, p=0.013) and to have Cluster B personality disorders, particularly antisocial (84.0%, p<0.001), borderline (50.8%, p<0.001), and narcissistic (68.8%, p=0.016) personality disorder.",
+    "location": "United States (New York, NY and Pittsburgh, PA)",
+    "duration_value": "~27 Years 4 Months",
+    "duration_text": "January 1990 – May 2017",
+    "population_size": "354",
+    "population_text": "354 suicide attempters with a DSM-III/DSM-IV mood disorder (major depressive disorder or bipolar disorder): 135 (38.14%) with lifetime history of remitted substance use disorder (AT+SUD) and 219 (61.86%) without lifetime SUD (AT−SUD)",
+    "medical_conditions": "Mood disorders (major depressive disorder, bipolar disorder) with a lifetime history of suicide attempt; remitted substance use disorders including alcohol use disorder (80% of AT+SUD), cannabis use disorder (27.8%), stimulant/cocaine use disorder (34.1%), benzodiazepine use disorder (11.1%), and hallucinogen use disorder (3.7%); 48.1% had lifetime history of two or more SUDs"
+  },
+  "Gold08": {
+    "studies_tool": "Yes",
+    "tool_name": "N/A — this is a systematic review of a pharmacological treatment (ketamine, S-ketamine/esketamine, and R-ketamine/arketamine), not a screening or diagnostic tool. Across the 16 included trials, suicidal ideation was quantified using various validated rating scales as outcome measures rather than as the object of study, including the Beck Scale for Suicidal Ideation (SSI/BSS), Columbia-Suicide Severity Rating Scale (C-SSRS) Ideation Severity Subscale, MADRS item 10, HDRS item 3, Suicide Probability Scale (SPS), Positive and Negative Suicide Ideation Inventory (PANSI), and the Suicide Ideation and Behavior Assessment Tool (SIBAT).",
+    "tool_type": "N/A (systematic review of a rapid-acting pharmacological treatment for suicidal ideation, not a screening/diagnostic tool validation study)",
+    "outcome_summary": "Outcome measures: change in suicidal ideation severity via various validated scales (SSI/BSS, C-SSRS, MADRS item 10, HDRS item 3, SPS, PANSI, SIBAT) following ketamine/enantiomer treatment. Key findings: multiple-dose IV ketamine or S-ketamine produced anti-SI effects lasting several days to weeks, while single IV doses showed shorter, more variable effects; intranasal ketamine/S-ketamine (single or multiple dose) produced less consistent anti-SI results than IV administration; the one RCT of intramuscular ketamine found effects equivalent to electroconvulsive therapy; R-ketamine appeared to produce fewer side effects but had insufficient data to confirm anti-SI efficacy in humans; IV and IN ketamine/S-ketamine were generally well tolerated. No trials reported outcomes for suicidal behavior, only suicidal ideation.",
+    "clinical_setting": "Multiple inpatient and outpatient psychiatric/emergency settings across 16 clinical trials conducted in various countries (e.g., academic hospitals, inpatient psychiatric units, and multicenter pharmaceutical registration trial sites)",
+    "demographics_summary": "Highly heterogeneous across the 16 included trials. Ages ranged from adolescents (13–18 years in one trial) to older adults (up to 76 years), with most trials enrolling adults ages 18–65/70. Populations included participants with major depressive disorder (including treatment-resistant depression), bipolar depression, and borderline personality disorder, all with clinically significant suicidal ideation. Individual trial sample sizes ranged from n=6 (open-label R-ketamine pilot) to n=456 (secondary pooled analysis of two multicenter RCTs). No detailed pooled demographic data (sex, race) were reported at the review level.",
+    "location": "Multiple countries across the 16 included trials: China, Taiwan, Brazil/South America, Egypt, France, Iran, and the United States; three multicenter Janssen Inc. phase 3 trials additionally spanned Bulgaria, Argentina, Estonia, Germany, Hungary, South Korea, Malaysia, Slovakia, South Africa, Spain, Austria, Belgium, Canada, Czechia, Lithuania, Poland, and Turkey",
+    "duration_value": "~4 Years (review scope)",
+    "duration_text": "Review covers clinical trials published from 2020 through the literature search dates of March 19, 2024 and April 15, 2024",
+    "population_size": "16",
+    "population_text": "16 studies included in the systematic review (10 independent RCTs, 4 secondary analyses of prior RCTs, and 2 open-label R-ketamine trials plus 1 R-ketamine RCT); individual trial enrollment ranged from n=6 to n=456 participants, with substantial overlap in participants between some primary trials and their secondary/pooled analyses (e.g., the Aspire 1 and Aspire 2 esketamine trials and their pooled post-hoc analysis)",
+    "medical_conditions": "Major depressive disorder (including treatment-resistant depression) and bipolar depression, and borderline personality disorder, in participants with clinically significant suicidal ideation (SI); no included trials measured suicidal behavior (SB) as an outcome"
+  },
+  "Gold09": {
+    "studies_tool": "yes",
+    "tool_name": "Not a single-tool study — this is a systematic review identifying the four most commonly researched screening tools for pediatric ED patients: Ask Suicide-Screening Questions (ASQ, n=15 studies), Columbia-Suicide Severity Rating Scale (C-SSRS, n=12), Suicidal Ideation Questionnaire/Junior (SIQ/SIQ-JR, n=11), and Risk of Suicide Questionnaire (RSQ, n=7), plus several less-frequently used tools (e.g., HEADS-ED, CASSY, Behavioral Health Screener, CAPI, Crisis Assessment Tool)",
+    "tool_type": "Systematic review of empirically tested suicide screening tools for youth presenting to emergency departments",
+    "outcome_summary": "Outcome measures: prevalence of positive suicide screens (approximately one-fifth of patients when screening applied universally; over half when applied to psychiatric patients only), tool-specific sensitivity/specificity (e.g., ASQ vs. SIQ: sensitivity 97%, specificity 88%; RSQ: high sensitivity 50–98% but low specificity 37–79%), and associations of positive screens with female sex, older age, and increased likelihood of further assessment and hospital admission",
+    "clinical_setting": "Pediatric emergency departments — predominantly general pediatric EDs (n=33 studies), with smaller numbers in general EDs (n=5), psychiatric EDs (n=3), one pediatric psychiatric ED, and one urgent care center",
+    "demographics_summary": "Not applicable in the single-sample sense — this is a review synthesizing 43 separate studies rather than one cohort. Across included studies, patients ranged from 4–24 years old (most screening tested in patients ≥12 years); most studies had more female than male patients (37/43 studies); most studies had majority White samples, though 10 studies had predominantly Black/African American samples.",
+    "location": "Primarily United States (38 studies), with 3 in Canada and 1 each in the United Kingdom and Australia",
+    "duration_value": "Not applicable (systematic review, not a single-cohort study) — database search covered publications from database inception through 25 August 2021, with no start-date restriction",
+    "duration_text": "Database search conducted on 25 August 2021, covering publications from database inception (no date restriction) through that date",
+    "population_size": "43",
+    "population_text": "Not a participant sample — this is a review of the tool literature. Searches yielded 7,597 initial records (later 11,220 total after citation searching and deduplication), narrowed to 110 papers for full-text review, of which 43 articles met inclusion criteria for this systematic review",
+    "medical_conditions": "Suicidality/suicide risk among pediatric emergency department patients presenting with psychiatric, medical/surgical, or mixed chief complaints"
+  },
+  "Gold10": {
+    "studies_tool": "Yes",
+    "tool_name": "Instruments used across included studies: Self-developed form (Nepal); CES-D; Suicide Behavior Questionnaire (SBQ); Self-Injurious Thoughts and Behaviors Interview (SITBI); Depression Symptom Index-Suicide Subscale (DSI-SS); MPBS-COVID-19; Beck Suicidal Ideas Scale (SSI); Beck Depression Inventory (BDI-II); State-Trait Anxiety Inventory (STAI)",
+    "tool_type": "assessment instruments (varied self-report questionnaires measuring suicidal ideation/behavior, depression, and anxiety) — not a single screening tool",
+    "outcome_summary": "Primary outcomes: prevalence of suicidal ideation, suicide attempts, suicide mortality, and associated risk factors during the COVID-19 pandemic. Factors found to increase suicidal behavior included gender, race/immigrant status, being single with children, marital/legal problems, fear of contamination/social isolation, socioeconomic problems, age, evangelical religion, mental distress (depression, stress, insomnia, frustration, loneliness), and pre-existing mental disorder/suicide attempt history. Methodological quality (MINORS) scores ranged from 5 to 9 out of 16.",
+    "clinical_setting": "General adult population/community settings (not clinical/hospital-based) across 4 countries during COVID-19 lockdown/pandemic periods",
+    "demographics_summary": "Adults >18 years, both sexes, any ethnicity, across 8 included studies. Example breakdowns: Nepal suicide cases 58% male/42% female; US samples included Black, Hispanic, immigrant, and native-born adults; Colombia sample included emerging adults (18-30 years); Argentina sample assessed by gender (female higher risk), age (younger), and pre-existing mental disorder/suicide attempt history",
+    "location": "Multi-country: United States (3 studies), Peru (1 study), Colombia (1 study), Cuba (1 study), Nepal (1 study), Argentina (1 study)",
+    "duration_value": "Review conducted over 5 Months (June-October 2022); included studies published 2020-2022",
+    "duration_text": "Systematic review search/selection: June-October 2022. Included primary studies published between 2020 and 2022, with data largely collected during the early-to-mid COVID-19 pandemic period (2020-2021)",
+    "population_size": "50107",
+    "population_text": "8 observational studies included, with individual study sample sizes ranging from 197 to 24,350 adults (aggregate total across studies approximately 50,107 participants)",
+    "medical_conditions": "Suicidal ideation, suicide attempts, and completed suicide (suicidal behavior) among adults during the COVID-19 pandemic, often associated with depression, anxiety, stress, insomnia, and pre-existing mental disorders"
+  },
+  "Gold11": {
+    "studies_tool": "yes",
+    "tool_name": "Daily Heterosexist Experiences Questionnaire (DHEQ) — Spanish adaptation (six of nine subscales: Gender Expression, Vigilance, Discrimination/Harassment, Vicarious Trauma, Rejection by Family of Origin, Isolation)\nSuicidal Behaviors Questionnaire-Revised; SBQ-R",
+    "tool_type": "psychometric measurement tool (minority stress questionnaire) — validation/adaptation study",
+    "outcome_summary": "Confirmatory factor analysis supported the six-factor structure of the DHEQ (CFI = .912, TLI = .904, RMSEA = .064), with good internal consistency across subscales (α = .77-.86, ω = .79-.86; total ω = .91). DHEQ scores showed low-to-moderate correlations with depression (PHQ-9) and suicidal behavior (SBQ-R total scores, r = .16-.43). Transgender/gender-diverse (TGD) individuals and those with minority sexual orientations (bisexual, asexual, pansexual, demisexual, queer) reported significantly higher heterosexist experiences. Nearly half the sample met cutoff criteria for depressive symptoms (47.4%) and suicidal behavior (46.1%). Higher heterosexism related to gender expression and vigilance predicted increased depression risk; higher heterosexism related to gender expression and family-of-origin rejection predicted increased suicidal-behavior risk, after adjusting for gender identity, sexual orientation, race, and urban/rural residence.",
+    "clinical_setting": "Online community-based survey of LGBTQ+ adults in Spain, recruited via social media and LGBTQ+ associations/influencers (non-clinical, general population)",
+    "demographics_summary": "Age: 18-60 years (M = 29.70, SD = 9.03) Residence: 83% urban, 17% rural Race/Ethnicity: 86.2% Caucasian/White, 7.5% Latinx, 6.4% other/multiracial Gender identity: 33.3% cisgender women, 43.0% cisgender men, 2.6% trans women, 8.4% trans men, 12.6% non-binary/other Sexual orientation: 39.6% gay, 39.5% bisexual, 12.4% lesbian, 3.9% heterosexual, 2.7% asexual, 2.3% pansexual, 0.78% demisexual, 0.59% queer Education: 34.4% Bachelor’s degree, 31.8% postgraduate/advanced degree, 33.8% some college/associate degree, 17.9% high school or less Employment: 35.7% employed, 32.5% full-time students, 17.4% working and studying, 14.2% unemployed",
+    "location": "Spain",
+    "duration_value": "3 Months",
+    "duration_text": "Cross-sectional online survey conducted March to May 2021",
+    "population_size": "509",
+    "population_text": "509 LGBTQ+ identifying adults (18-60 years) residing in Spain",
+    "medical_conditions": "Minority stress/daily heterosexist experiences among LGBTQ+ adults; associated depressive symptoms and suicidal behavior (non-clinical community sample, not a specific diagnosed medical condition)"
+  },
+  "Gold12": {
+    "studies_tool": "yes",
+    "tool_name": "Safety Planning Intervention Fidelity Rater (SPIFR) — an automated LLM-based scoring tool (using GPT-4, LLaMA 3, and o3-mini) built on the Safety Planning Intervention Scoring Algorithm (SPISA)",
+    "tool_type": "automated fidelity/quality scoring tool (AI/LLM-based clinical decision support)",
+    "outcome_summary": "The SPIFR tool (GPT-4, LLaMA 3, o3-mini) was evaluated using weighted F1-scores against SPISA-coded scores across three scoring systems (original 4-point, high precision, low-to-moderate precision) for four SPI steps. Best-performing models: warning signs — LLaMA 3, high precision (F1 = 79.12%); internal coping strategies — o3-mini, low-to-moderate precision (F1 = 81.13%); making environment safe — o3-mini, low-to-moderate precision (F1 = 76.56%); reasons for living — o3-mini, high precision (F1 = 91.99%). Three-point scoring systems outperformed the original four-point SPISA system. No single LLM was optimal across all steps; LLaMA 3 was the most consistent across parameter settings (mean range = 0.72) compared to GPT-4 (1.99) and o3-mini (3.72).",
+    "clinical_setting": "61 outpatient mental health clinics in New York State, as part of a Zero Suicide implementation project (data processed via University of Pennsylvania/Microsoft Azure Databricks)",
+    "demographics_summary": "Not applicable/not reported — unit of analysis is safety plan documents (266 deidentified forms; 2,210 individual responses), not individual patient demographics. Documents were collected from patients who received the Safety Planning Intervention (SPI) at outpatient mental health clinics.",
+    "location": "United States (New York State)",
+    "duration_value": "Not reported",
+    "duration_text": "Data collected as part of a prior Zero Suicide implementation project; exact collection dates not reported. Preprint posted March 27, 2025.",
+    "population_size": "266",
+    "population_text": "266 deidentified Safety Plan forms (2,210 individual responses) collected from patients across 61 outpatient mental health clinics in New York State: 772 responses for warning signs, 770 for internal coping strategies, 405 for making the environment safe, and 263 for reasons for living",
+    "medical_conditions": "Patients receiving the Safety Planning Intervention (SPI) for suicide risk management in outpatient mental health settings"
+  },
+  "Gold13": {
+    "studies_tool": "yes",
+    "tool_name": "Suicide Crisis Inventory-2 (SCI-2) — Korean version",
+    "tool_type": "self-report psychometric assessment (validation/factor structure study)",
+    "outcome_summary": "Outcome measures: model fit of one-, five-, and four-factor CFA/EFA structures (chi-square, CFI, TLI, RMSEA, SRMR); internal consistency (Cronbach's alpha); concurrent validity via correlations with suicidal ideation (C-SSRS lifetime/past-month), depression (PHQ-9), and anxiety (GAD-7)",
+    "clinical_setting": "Community sample recruited via online survey (non-clinical setting), South Korea",
+    "demographics_summary": "Gender: 72.2% women (n=766), 27.8% men (n=295). Age: 19–68 years (mean 30.56, SD 8.49). Education: 59.8% bachelor's degree, 20.3% master's degree, 9.0% some college, 7.7% high school, 2.8% doctorate, 0.3% did not complete high school. Marital status: 69.1% single/never married, 28.7% married. Employment: 36.3% full-time, 29.5% students, 15.0% part-time, 6.0% housewife, 5.1% unemployed, 3.4% self-employed, 0.6% retired.",
+    "location": "South Korea",
+    "duration_value": "3 Months",
+    "duration_text": "August 2020 – October 2020",
+    "population_size": "1061",
+    "population_text": "1,061 South Korean community adults (19 years or older) recruited via online Qualtrics survey",
+    "medical_conditions": "Suicidal ideation and suicide risk (Suicide Crisis Syndrome); comorbid depression and anxiety symptoms"
+  },
+  "Gold14": {
+    "studies_tool": "yes",
+    "tool_name": "Computerized Adaptive Screen for Suicidal Youth (CASSY)",
+    "tool_type": "screening (computerized adaptive test providing individualized suicide attempt risk probability)",
+    "outcome_summary": "Outcome measures: CASSY-predicted suicide risk thresholds (minimal ≤1%, low >1–5%, moderate >5–10%, high >10% probability of suicide attempt within 3 months), validated against baseline clinical consensus suicide risk classification, ED chief complaint, ED disposition, and observed 3-month suicide attempts in the Study Two validation cohort",
+    "clinical_setting": "Pediatric emergency departments — 13 PECARN EDs (Study One derivation cohort) and 14 PECARN EDs plus 1 Indian Health Services ED (Study Two validation cohort); urban children's hospital EDs",
+    "demographics_summary": "Study One cohort (N=1452): median age 15.2 years (range 12.0–17.9). Gender: 40.5% male, 59.5% female. Race: 55.6% White, 22.0% Black, 5.9% multi-racial, 1.4% American Indian/Alaska Native, 1.0% Asian, 0.5% Native Hawaiian/Pacific Islander, 7.6% unknown. Ethnicity: 22.3% Hispanic/Latino. 42.8% of families received public assistance.",
+    "location": "United States",
+    "duration_value": "Not explicitly reported",
+    "duration_text": "Not explicitly reported (enrollment/follow-up dates not specified in text)",
+    "population_size": "1452",
+    "population_text": "1,452 youth analyzed in the Study One (ED-STARS) derivation cohort (of 10,664 approached, 6,641 consented); a separate Study Two validation cohort of 2,754 youth was used to prospectively validate CASSY risk thresholds",
+    "medical_conditions": "Suicidal ideation and suicide attempts among youth presenting to the ED with medical, psychiatric/NSSI, or suicide-related chief complaints"
+  },
+  "Gold15": {
+    "studies_tool": "yes",
+    "tool_name": "Not a single-tool study — this is a scoping review identifying 31 validated tools across 30 studies. The 5 tools highlighted as partially aligning with the biopsychosocial model are: Child and Adolescent Needs and Strengths Mental Health (CANS-MH 3.0), Computerized Adaptive Screen for Suicidal Youth (CASSY), MyHEARTSMAP digital psychosocial self-assessment, HEADS-ED, and Childhood Acuity of Psychiatric Illness scale (CAPI)",
+    "tool_type": "Scoping review synthesizing screening tools (21 identified) and assessment tools (10 identified) for paediatric mental health in emergency care",
+    "outcome_summary": "Outcome measures: thematic synthesis yielding four themes — (1) variability in the scope/purpose of screening tools; (2) contextual exclusion of paramedic-led screening (no tools identified for out-of-hospital/paramedic use); (3) under-representation of the biopsychosocial model (only 5 of 31 tools partially aligned, and only with psychological/social domains); and (4) implementation gaps including limited training (reported in only 11 studies), limited language translation (4 tools), and exclusion of neurodiverse populations (12 studies)",
+    "clinical_setting": "Predominantly hospital-based emergency departments; exceptions included one primary care clinic, one paediatric urgent care centre, and one child protection unit. No included studies examined tools used in paramedic-led or out-of-hospital emergency care.",
+    "demographics_summary": "Not applicable in the single-sample sense — this is a review of the literature rather than a primary study of one cohort. Included studies targeted paediatric populations aged 0–19 years (per WHO definition of childhood/adolescence), assessed in emergency care contexts by hospital-based healthcare professionals (physicians, nurses, social workers, crisis intervention personnel).",
+    "location": "Global literature review (Australian-led review team, Charles Sturt University, NSW); grey literature specifically reviewed from England and Australia",
+    "duration_value": "20 Years",
+    "duration_text": "January 2004 – December 2024 (final search completed 31 December 2024)",
+    "population_size": "30",
+    "population_text": "30 studies met inclusion criteria (from 392 database records plus 7 references from paramedic clinical guidelines, after screening 370 and assessing 42 for eligibility), identifying 31 validated paediatric mental health tools (21 screening, 10 assessment) for ages 0–19",
+    "medical_conditions": "Paediatric mental health concerns broadly, including suicidal ideation and suicide attempts, psychological distress, and general mental health crises presenting to emergency care"
+  },
+  "Gold16": {
+    "studies_tool": "yes",
+    "tool_name": "Not a single-tool study — this is a narrative review identifying one brief screening tool and four in-depth assessment tools as most promising for transition-age youth (TAY): the Ask Suicide-Screening Questions (ASQ; screener), the Suicidal Ideation Questionnaire Junior (SIQ-JR), the Columbia-Suicide Severity Rating Scale (C-SSRS), the Self-Harm Behavior Questionnaire (SHBQ), and the Suicide Probability Scale (SPS)",
+    "tool_type": "Narrative review synthesizing one brief screening tool (ASQ) and four in-depth assessment tools (SIQ-JR, C-SSRS, SHBQ, SPS) for suicide risk",
+    "outcome_summary": "Outcome measures: identification and evaluation of the ASQ, SIQ-JR, C-SSRS, SHBQ, and SPS based on administration requirements, time to complete, testing across diverse/system-involved and low-income populations, psychometric properties (reliability, validity), and presence/absence of an individualized safety-planning component (none of the five tools included one)",
+    "clinical_setting": "Not a single clinical setting — this is a literature review evaluating tools for use in child welfare (CW) settings (e.g., by CW caseworkers, frontline staff, or embedded mental health clinicians), not a study of one clinical site or patient cohort. Underlying tool validation studies span pediatric EDs, outpatient clinics, inpatient psychiatric/residential settings, and juvenile justice/CW placements.",
+    "demographics_summary": "Not applicable in the single-sample sense — this is a review, not a primary study of one cohort. The population of interest is transition-age youth (TAY, ages 17–22) with foster care involvement in the United States. Contextual statistics cited: in the CalYOUTH longitudinal study, 40.9% of TAY reported suicidal ideation and 23.5% reported a suicide attempt by age 17, versus 12% and 2.5% respectively in the general adolescent population (SAMHSA, 2021).",
+    "location": "United States",
+    "duration_value": "Not applicable (literature review, not a single-cohort study) — initial literature search spanned 1990–2021; tool-specific follow-up searches covered publications from the prior 10 years (through 2/21/22)",
+    "duration_text": "Initial search conducted through 9/17/2021 covering literature published 1990–2021; second-stage, tool-specific searches conducted through 2/21/2022",
+    "population_size": "5",
+    "population_text": "Not a participant sample — this is a review of the tool literature. Initial search yielded 527 articles (275 PubMed, 352 PsycINFO), narrowed to 34 candidate suicide assessment tools, then to 10 tools meeting inclusion criteria (self- or entry-level-staff-administered, completable in under 30 min, tested in diverse adolescent/young adult populations, Cronbach’s alpha ≥0.8), and finally to 5 tools identified as most promising for TAY in child welfare settings",
+    "medical_conditions": "Suicidal ideation, suicide attempts, and self-harm behavior among transition-age youth (ages 17–22) with foster care/child welfare involvement"
+  },
+  "Gold17": {
+    "studies_tool": "yes",
+    "tool_name": "Not a single-tool study — this is a state-of-the-art review covering nine commonly used screening and assessment measures (Table 1): screening tools — Ask Suicide-Screening Questions (ASQ), Computerized Adaptive Screen for Suicidal Youth (CASSY), Risk of Suicide Questionnaire (RSQ), Suicidal Behaviors Questionnaire-Revised (SBQ-R); assessment tools — Columbia-Suicide Severity Rating Scale (C-SSRS), Concise Health Risk Tracking (CHRT-14) Scale, Harkavy Asnis Suicide Scale (HASS), Scale for Suicide Ideation-Worst (SSI), Suicidal Ideation Questionnaire (SIQ) and Suicidal Ideation Questionnaire-Junior (SIQ-JR)",
+    "tool_type": "State-of-the-art narrative review covering suicide epidemiology, screening tools, assessment measures, risk formulation, and universal/selective/indicated evidence-based interventions for suicide in young people",
+    "outcome_summary": "Outcome measures: epidemiologic trends in suicide by age, sex, race/ethnicity, and sexual minority status; sensitivity/specificity of nine screening and assessment tools (Table 1); effectiveness of universal, selective, and indicated psychosocial interventions (Table 2), with dialectical behavior therapy (DBT) identified as the only well-established treatment for reducing suicide risk in adolescents; and effectiveness of school- and community-based prevention programs (e.g., SOS, YAM, GBG, Garrett Lee Smith program)",
+    "clinical_setting": "Not a single clinical setting — the review spans multiple clinical and community settings where screening/intervention occurs, including emergency departments, inpatient and acute care hospital settings, specialty behavioral health, primary care, specialty medical clinics (e.g., sports medicine, adolescent medicine, child abuse clinics), school-based clinics, and community settings such as schools",
+    "demographics_summary": "Not applicable in the single-sample sense — this is a review of the epidemiologic and intervention literature rather than a primary study of one cohort. Discusses global and US epidemiology of suicide among young people generally (ages ~5–19), including sex, age, race/ethnicity, and sexual minority status as risk dimensions.",
+    "location": "Primarily United States, with international comparisons (worldwide rates, UK, Israel, Estonia, and other high-/middle-income countries)",
+    "duration_value": "22 Years (approximate)",
+    "duration_text": "1 January 2000 – 15 March 2022 (literature search window)",
+    "population_size": "317",
+    "population_text": "Not a participant sample — this is a literature review. Per the PRISMA flow diagram: 431 records identified from databases, 221 reports sought for retrieval and assessed for eligibility, 9 excluded, 105 added from other sources, yielding 317 reports included in the review",
+    "medical_conditions": "Suicide, suicidal ideation, suicide attempts, and self-harm/non-suicidal self-injury among children and adolescents (young people)"
+  },
+  "Gold18": {
+    "studies_tool": "no",
+    "tool_name": "N/A – study does not develop or test a screening tool; it applies existing validated measures (SBQ-ASC, Defeat Scale, Entrapment Scale, CAT-Q, IUS-12, ADAT-A) to test the Integrated Motivational–Volitional (IMV) model of suicidal behavior",
+    "tool_type": "N/A (theoretical model-testing study, not a tool evaluation)",
+    "outcome_summary": "Outcome measures: lifetime suicidal thoughts and behaviors (SBQ-ASC score, cutoff 12.5); feelings of defeat and entrapment (Defeat Scale, Entrapment Scale); autism-specific depression symptoms (ADAT-A); camouflaging of autistic traits (CAT-Q); intolerance of uncertainty (IUS-12). Key findings: entrapment significantly mediated the defeat–suicidality relationship; camouflaging and intolerance of uncertainty were significantly correlated with suicidality but did not moderate the model pathways.",
+    "clinical_setting": "Community sample recruited online (non-clinical setting) via social media, online autism communities, and autism research group networks",
+    "demographics_summary": "Age: 18–63 years (mean 32.14, SD 11.45) Gender: Male 31.3%, Female 42.5%, Nonbinary 12.3%, Prefer not to say 13.9% Education: No formal qualifications 4.8%, GCSEs 8.3%, A-Levels 10.4%, College diploma 8.6%, Higher education 50.3%, Not specified 17.6% Employment: Not working 23.5%, Student 19.8%, Employed 39.6%, Not specified 17.1%",
+    "location": "United Kingdom",
+    "duration_value": "6 Months",
+    "duration_text": "August 2020 – January 2021",
+    "population_size": "374",
+    "population_text": "374 self-identified autistic adults consented to participate (recruited from 421 who accessed the survey); after data cleaning for incomplete responses, a final analytic sample of 247 was used",
+    "medical_conditions": "Autism (self-identified autistic adults); presence of lifetime suicidal thoughts/behaviors and depressive symptoms assessed as key study variables"
+  },
+  "Gold19": {
+    "studies_tool": "yes",
+    "tool_name": "Nurses’ Global Assessment of Suicide Risk (NGASR) — Spanish version",
+    "tool_type": "nurse-administered suicide risk assessment scale (clinical interview/checklist tool), validated for content, construct, and criterion validity plus factor structure",
+    "outcome_summary": "Outcome measures: content validity index (CVI-S) of 81%; reliability via Kuder–Richardson coefficient of 0.83; exploratory factor analysis yielding a six-factor structure (suicidal desire, withdrawal, psychosis, relationship breakdown, hopelessness, family history) explaining 75.4% of variance; 21.7% of students showed intermediate to very high suicide risk; convergent validity via medium-to-strong correlations with the BDI (r=0.55) and SBQ (r=0.46); discriminant validity confirmed by no correlation with the SEEQ (teaching quality scale, r=−0.10) or age; higher NGASR, BDI, and SBQ scores among students reporting a history of mental health problems",
+    "clinical_setting": "Nonclinical setting — a university population in Spain; the expert content-validity panel was drawn from critical and chronic care mental health units of a Spanish hospital",
+    "demographics_summary": "Two samples. Mental health experts (n=30): mean age 46 years (range 23–63), 25 women/5 men; 26 registered nurses, 3 physicians, 1 occupational therapist; 17 had >10 years of mental health experience. University students (n=151): mean age 22.83 years (range 19–51); 76.8% male, 23.2% female; 69.5% single, 25.2% with partner not living together, 5.3% married/living with partner; 74.2% enrolled in Education faculty, 25.8% in Health; 28.5% employed; 36.4% reported a personal history of a mental health problem.",
+    "location": "Spain",
+    "duration_value": "15 Months (approximate)",
+    "duration_text": "Expert content-validity phase: February–May 2022. Student psychometric validation phase: May 2022 – May 2023",
+    "population_size": "151",
+    "population_text": "30 mental health experts (content validity phase) and 151 university students enrolled in health- and education-related undergraduate/graduate programs (psychometric validation phase), recruited in Spain",
+    "medical_conditions": "Suicide risk, depression, and suicidal ideation/behavior in a nonclinical young-adult (university student) population"
+  },
+  "Gold20": {
+    "studies_tool": "yes",
+    "tool_name": "Mental Wellness Tool-13 (mwTool-13), modified during the study into the SA-mwTool-12",
+    "tool_type": "brief, non-specialist-administered screener for broad-spectrum mental and substance-use disorders (two-step screening tool, validated against a diagnostic interview)",
+    "outcome_summary": "Outcome measures: sensitivity and specificity of the mwTool-13 against the MINI diagnostic interview (gold standard) for each disorder category. Original mwTool-13: CMD sensitivity 91.5%/specificity 44.6%; SMD 71.7%/61.9%; suicide risk 86.8%/80.2%; AUD 56.7%/84.5%; SUD 64.5%/93.4%. After modification (dropping the drinking-frequency item and changing the AUD positive-screen definition), the resulting SA-mwTool-12 improved sensitivity for AUD to 74.4% and SUD to 74.2%, while maintaining sensitivity for CMD (91.5%), SMD (73.0%), and suicide risk (88.6%)",
+    "clinical_setting": "Four primary care clinics and one tertiary care facility within the Buffalo City Metro (BCM) Health District, Eastern Cape Province, South Africa",
+    "demographics_summary": "N=1,885. Mean age 39 years (range 18–88). Gender: 65% female (1,232), 35% male (651), 2 participants identified as trans/non-binary. Race: 97.3% Black, 1.6% Colored, 0.9% White. Dominant language: 97.4% isiXhosa; 95.1% received the mwTool-13 in isiXhosa. Marital status: 59.1% single, 33.1% in a relationship/married. Education: 39.5% completed Grade 12 (matric), 38.9% Grade 8–11. 56.3% unemployed. Health status: 30.6% had a non-communicable disease, 15.1% had ever had TB, 25.8% were HIV-positive, 14.2% reported a prior mental disorder diagnosis.",
+    "location": "South Africa (Eastern Cape Province)",
+    "duration_value": "4 Months",
+    "duration_text": "February 2022 – May 2022 (primary care data collected February–April 2022; tertiary care data added in May 2022 to capture sufficient severe mental disorder cases)",
+    "population_size": "1885",
+    "population_text": "1,885 adults (age ≥18) recruited via targeted, gender-balanced sampling from four primary care clinics and one tertiary care facility in Buffalo City Metro Health District, Eastern Cape Province, South Africa",
+    "medical_conditions": "Common mental disorders (major depressive episode, generalized anxiety disorder, PTSD), severe mental disorders (psychotic disorder, manic/hypomanic episode), alcohol-use disorder, substance-use disorder, and suicide risk"
   }
 }

@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold02,studies_tool,yes,0.0,0.7187509409205286,1.0
+Gold02,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS),1.0,0.6954684877193358,1.0
+Gold02,tool_type,screening,1.0,0.7302781405624879,1.0
+Gold02,outcome_summary,"The study found that the nurse-interview mode of the Columbia-Suicide Severity Rating Scale (C-SSRS) had a significantly higher acceptance rate of 93.8% compared to 74.7% for the self-report mode. Patients who completed the self-report were more likely to report a high risk of suicide, raising questions about the sensitivity of the two methods. Demographic factors influenced acceptance, with male patients and those from surgical departments more likely to refuse the nurse-interview. The findings suggest that the mode of screening impacts both acceptance and identification of suicide risk.",0.875,0.7813211098893643,0.75
+Gold02,clinical_setting,"general hospital settings, particularly in medical and surgical wards",1.0,0.8094805341367631,0.5
+Gold02,demographics_summary,"The study involved a total of 398 patients with a mean age of approximately 58.4 years. The sex distribution was 44% female and 56% male, with variations between groups. Most participants were from medical departments, highlighting the importance of considering age, sex, and departmental affiliation in suicide risk screening.",1.0,0.8168527619546649,1.0
+Gold02,location,"Seoul, South Korea",1.0,0.742015662880539,1.0
+Gold02,duration_value,25,0.0,0.7422699536260072,0.0
+Gold02,duration_text,"Phase I: June 5-21, 2020; Phase II: December 6-13, 2020",1.0,0.7282347789857714,1.0
+Gold02,population_size,400,1.0,0.7488612150271644,1.0
+Gold02,population_text,N=400 patients admitted,1.0,0.7602609333336502,1.0
+Gold02,medical_conditions,cancer-related issues,1.0,0.7993460196402843,1.0

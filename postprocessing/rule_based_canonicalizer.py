@@ -1,7 +1,10 @@
-import re
 import json
-from pathlib import Path
+import logging
+import re
 from difflib import SequenceMatcher
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 INPUT_MAP = "data/tool_name_map.raw.json"
 OUTPUT_MAP = "data/tool_name_map.canonical.json"
@@ -129,7 +132,10 @@ def build_final_map(tool_names):
     return final_map
 
 
-def main():
+def main() -> None:
+    if not Path(INPUT_MAP).exists():
+        raise FileNotFoundError(f"Input map '{INPUT_MAP}' does not exist.")
+
     raw = json.loads(Path(INPUT_MAP).read_text(encoding="utf-8"))
     tool_names = list(raw.keys())
 
@@ -139,7 +145,9 @@ def main():
         json.dumps(canonical_map, indent=2, ensure_ascii=False),
         encoding="utf-8"
     )
-    print(f"Canonical tool map written to {OUTPUT_MAP} with {len(canonical_map)} entries")
+    logger.info("Canonical tool map written to %s with %d entries", OUTPUT_MAP, len(canonical_map))
+
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     main()

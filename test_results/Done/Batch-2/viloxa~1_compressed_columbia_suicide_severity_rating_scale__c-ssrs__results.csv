@@ -1,0 +1,13 @@
+doc_id,question,answer
+VILOXA~1_compressed,studies_tool,yes
+VILOXA~1_compressed,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+VILOXA~1_compressed,tool_type,assessment
+VILOXA~1_compressed,outcome_summary,"The study concluded that viloxazine ER is effective in reducing ADHD symptoms over an extended period, with a favorable safety profile. Participants showed sustained improvement in ADHD symptoms, with significant reductions in hyperactivity/impulsivity and inattention. By the end of the study, 84.2% of participants met the 30% responder rate, and 65.0% met the 50% responder rate. The incidence of suicidal ideation was low at 2.2%, indicating a positive safety outcome."
+VILOXA~1_compressed,clinical_setting,"pediatric and adolescent mental health clinics, outpatient psychiatric practices, schools"
+VILOXA~1_compressed,demographics_summary,"The study included 1100 participants, with 646 children aged 6–11 years and 454 adolescents aged 12–18 years. The mean age for children was 8.6 years and for adolescents was 13.9 years. The sample consisted of 731 males (66.5%) and 369 females (33.5%). Ethnically, 320 participants (29.1%) identified as Hispanic or Latino, while 780 (70.9%) were not."
+VILOXA~1_compressed,location,USA
+VILOXA~1_compressed,duration_value,10585
+VILOXA~1_compressed,duration_text,"April 15, 2016 - December 22, 2021"
+VILOXA~1_compressed,population_size,1100
+VILOXA~1_compressed,population_text,"N=1100 participants, including 646 children (aged 6–11 years) and 454 adolescents (aged 12–18 years)"
+VILOXA~1_compressed,medical_conditions,attention-deficit/hyperactivity disorder (ADHD)

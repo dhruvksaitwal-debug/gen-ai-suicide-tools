@@ -1,0 +1,12 @@
+doc_id,question,answer
+Once-daily oral atogepant for the long-term preventive treatment of migraine,studies_tool,yes
+Once-daily oral atogepant for the long-term preventive treatment of migraine,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+Once-daily oral atogepant for the long-term preventive treatment of migraine,tool_type,assessment
+Once-daily oral atogepant for the long-term preventive treatment of migraine,outcome_summary,"The study on Atogepant at a dosage of 60 mg involved 543 participants, primarily female (87.8% to 88.3%) and predominantly White (74.0% to 76.8%). Adverse events were reported in 18.0% of participants, with low rates of death (0.4%) and serious adverse events (4.4%). However, the lack of specific outcome metrics limits the ability to assess the efficacy and safety of Atogepant compared to Standard Care, which had 196 participants. The findings underscore the need for more comprehensive data in future research to better understand Atogepant's performance in diverse populations."
+Once-daily oral atogepant for the long-term preventive treatment of migraine,clinical_setting,"neurology clinics, primary care settings, pain management clinics, headache centers, emergency rooms, mental health facilities, schools, community centers"
+Once-daily oral atogepant for the long-term preventive treatment of migraine,demographics_summary,"The study participants were predominantly female, with percentages ranging from 87.8% to 88.3%. The majority were White, comprising approximately 74.0% to 76.8%, followed by Black or African American participants at about 18.2% to 19.4%. Asian participants represented a small fraction, ranging from 2.1% to 2.6%. The Hispanic or Latinx population was represented by 14.8% to 15.7%, while non-Hispanic or Latinx participants made up the majority, ranging from 84.3% to 84.7%."
+Once-daily oral atogepant for the long-term preventive treatment of migraine,duration_value,365
+Once-daily oral atogepant for the long-term preventive treatment of migraine,duration_text,52 weeks
+Once-daily oral atogepant for the long-term preventive treatment of migraine,population_size,744
+Once-daily oral atogepant for the long-term preventive treatment of migraine,population_text,N=744 participants
+Once-daily oral atogepant for the long-term preventive treatment of migraine,medical_conditions,migraine

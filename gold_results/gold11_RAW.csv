@@ -1,0 +1,12 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold11,studies_tool,yes,0.0,0.7222452027883518,0.0
+Gold11,tool_name,Suicidal Behaviors Questionnaire-Revised (SBQ-R),1.0,0.7367278117244321,1.0
+Gold11,tool_type,assessment,1.0,0.7190050459982815,1.0
+Gold11,outcome_summary,"The study found significantly higher rates of depression and suicide risk among transgender individuals (65.2% and 68.9%, respectively) compared to cisgender individuals (41.4% and 37.4%). The model's explanatory power improved from an R² value of 0.145 to 0.259, indicating the importance of including a broader range of variables. Strong correlations were revealed between suicidal behaviors, depression, and various dimensions of the Daily Heterosexist Experiences Questionnaire (DHEQ). The findings emphasize the need for targeted mental health interventions for LGBTQ+ individuals, particularly those who are transgender.",1.0,0.7623264752097618,1.0
+Gold11,clinical_setting,"mental health clinics, community health centers, research institutions, university counseling centers, crisis intervention services",0.2,0.736430887264818,1.0
+Gold11,demographics_summary,"The participants in the study consisted of 509 LGBTQ+ identifying adults aged 18 to 60 years old, with a mean age of 29.70 years. The sample included individuals from various regions of Spain, with 83% residing in urban areas and 17% in rural areas. In terms of racial demographics, nearly 86.2% identified as Caucasian/White, 7.5% as Latinx, and 6.4% as other/multiracial. The gender identity distribution showed that most participants identified as cisgender, while a smaller proportion identified as transgender/gender diverse.",1.0,0.836618018245877,1.0
+Gold11,location,Spain,1.0,0.7505990460214541,1.0
+Gold11,duration_value,47450,0.0,0.7824378586504583,0.0
+Gold11,duration_text,March - May 2021,1.0,0.7851845019411663,1.0
+Gold11,population_size,509,1.0,0.7488612150271643,1.0
+Gold11,population_text,509 LGBTQ+ identifying adults aged 18 to 60 years,0.6666666666666666,0.794980883990478,1.0

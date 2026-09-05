@@ -1,0 +1,13 @@
+doc_id,question,answer
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,studies_tool,yes
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,tool_name,Columbia-Suicide Severity Rating Scale (C-SSRS)
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,tool_type,screening
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,outcome_summary,"The study found that the nurse-interview mode of the Columbia-Suicide Severity Rating Scale (C-SSRS) had a higher acceptance rate (93.8%) compared to the self-report mode (74.7%). However, the self-report mode was more effective in identifying high-risk individuals for suicide. Demographic factors such as gender and age influenced the likelihood of refusal for each mode. The findings suggest a need for tailored approaches in clinical practice based on patient characteristics."
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,clinical_setting,general hospitals
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,demographics_summary,"The mean age of participants was 58.4 years (SD = 14.8), with a gender distribution of 44% female and 56% male. A majority of patients (71.3%) were from medical departments, while 28.8% were from surgical departments. Acceptance of screening modes varied by demographic factors, with males and surgical patients more likely to refuse the nurse-interview mode. Older age correlated with a higher likelihood of refusing the self-report mode."
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,location,"Seoul, Korea"
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,duration_value,25
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,duration_text,"Phase I: June 5-21, 2020; Phase II: December 6-13, 2020"
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,population_size,400
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,population_text,N=400 patients admitted during both phases
+Use of the Columbia-Suicide Severity Rating Scale Screener in a General Hospital Setting,medical_conditions,cancer

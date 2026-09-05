@@ -1,0 +1,12 @@
+doc_id,question,answer
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,studies_tool,yes
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,tool_type,assessment
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,outcome_summary,"The implementation of the Columbia Suicide Severity Rating Scale (C-SSRS) significantly improved the identification and documentation of suicide risk in pediatric outpatient behavioral health care. Completion rates of the C-SSRS in the electronic health record (EHR) ranged from 95.5% to 99.5%, indicating successful integration. The mean incidence of patients endorsing suicidal thoughts was 25%, with actual suicide attempts noted at 3%. The study highlights the tool's effectiveness in enhancing patient safety and clinical outcomes."
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,clinical_setting,outpatient behavioral health clinics
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,demographics_summary,"Participants included children and adolescents aged 2 through 19 years. In the preimplementation period, the mean patient age was 10.6 years, with a median of 14.7 years. The age range was from 8.6 to 20.8 years. In the postimplementation period, the mean patient age increased to 11.5 years, with a median of 11.3 years and a range from 2.1 to 30.9 years."
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,duration_value,1188
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,duration_text,October 2015 - December 2018
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,population_size,5690
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,population_text,"1,697 new patient visits in the preimplementation period and 3,972 new patient visits in the postimplementation period."
+Assessing Suicide Risk in a Pediatric Outpatient Behavioral Health System- A Quality Improvement Report,medical_conditions,"depression, anxiety, mood disorders"

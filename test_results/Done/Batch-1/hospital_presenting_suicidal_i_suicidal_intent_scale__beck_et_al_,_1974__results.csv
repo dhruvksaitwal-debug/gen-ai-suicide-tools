@@ -1,0 +1,10 @@
+doc_id,question,answer
+Hospital presenting suicidal ideation- A systematic review,studies_tool,yes
+Hospital presenting suicidal ideation- A systematic review,tool_name,"Suicidal Intent Scale (Beck et al., 1974)"
+Hospital presenting suicidal ideation- A systematic review,outcome_summary,"The analysis of 27 studies revealed that the methodological quality was generally moderate, with two studies rated as weak. Key concerns included variability in addressing selection bias, the predominance of cohort designs, and the presence of confounding variables. High attrition rates in some studies raised questions about the reliability of the results, emphasizing the need for robust assessment tools like the EPHPP to evaluate research quality."
+Hospital presenting suicidal ideation- A systematic review,clinical_setting,emergency departments
+Hospital presenting suicidal ideation- A systematic review,demographics_summary,"The demographics of participants in suicide assessment studies include a predominance of female participants at 86%, with males at 14%. Education levels varied, with less than 30% attending third-level education. Marital status showed that 38% were married and 42% single. Employment status indicated that 42% were employed, while 26% were classified as low socioeconomic status."
+Hospital presenting suicidal ideation- A systematic review,location,"Australia, Italy, Iran, Ireland, Turkey, UK, China, Northern Ireland, USA, Korea"
+Hospital presenting suicidal ideation- A systematic review,population_size,130882
+Hospital presenting suicidal ideation- A systematic review,population_text,"N=130,882 participants across 27 studies"
+Hospital presenting suicidal ideation- A systematic review,medical_conditions,"mental illness diagnoses, suicidal ideation, alcoholism"

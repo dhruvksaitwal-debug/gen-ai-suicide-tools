@@ -1,0 +1,13 @@
+doc_id,question,answer
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,studies_tool,yes
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,tool_name,Patient Health Questionnaire-9 (PHQ-9)
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,tool_type,screening
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,outcome_summary,"The study found a significant prevalence of suicide risk among adolescents and young adults (AYA) with diabetes, particularly higher in those with type 2 diabetes (T2D) compared to type 1 diabetes (T1D). The PHQ-9 demonstrated high sensitivity and specificity for identifying suicide risk, indicating its reliability. Factors such as being female, having T2D, and a history of mental health disorders were associated with increased suicide risk. The ASQ was well-received by providers, suggesting its feasibility in routine diabetes care."
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,clinical_setting,pediatric diabetes clinics
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,demographics_summary,"The study involved 309 participants, with 237 diagnosed with type 1 diabetes (T1D) and 72 with type 2 diabetes (T2D). The mean age for T1D participants was 14.8 years, while for T2D participants it was 16.1 years. The gender distribution included a majority of males and females in both groups, with a small percentage identifying as other. The racial and ethnic backgrounds varied, with a significant proportion being non-Hispanic/Latino."
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,location,USA
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,duration_value,365
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,duration_text,January-December 2023
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,population_size,309
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,population_text,"N=309 patients, 237 with type 1 diabetes and 72 with type 2 diabetes"
+Suicide Risk Screening in a Diverse Cohort of Youth With Type 1 and Type 2 Diabetes,medical_conditions,"Type 1 diabetes, Type 2 diabetes, depression, suicide risk"

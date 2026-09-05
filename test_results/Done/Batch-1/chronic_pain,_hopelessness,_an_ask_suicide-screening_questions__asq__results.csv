@@ -1,0 +1,10 @@
+doc_id,question,answer
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",studies_tool,yes
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",tool_name,Ask Suicide-Screening Questions (ASQ)
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",tool_type,screening
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",outcome_summary,"The study found a significant difference in pain ratings between individuals who screened positive for elevated suicide risk and those who screened negative, with mean pain ratings of 4.69 and 3.47, respectively. Chronic pain was associated with over two times greater odds of screening positive for suicide risk. Additionally, 27.2% of participants reported feelings of hopelessness about their medical condition, correlating with higher suicide risk. The findings emphasize the need for integrating mental health care into chronic pain management to improve patient outcomes."
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",clinical_setting,"primary care, emergency departments, outpatient care, mental health clinics, hospitals"
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",demographics_summary,"The study involved 720 participants with a mean age of 50.1 years, revealing a demographic breakdown of 53.2% male and 62.4% White. Among those screened for elevated suicide risk, the majority were female (54.0%) and White (66.4%), with a mean age of 47.0 years. Additionally, 9.6% identified as Hispanic or Latino. Notably, 50.0% reported chronic pain affecting their daily life."
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",population_size,720
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",population_text,N=720 participants with ages ranging from 18 to 93 years
+"Chronic Pain, Hopelessness, and Suicide Risk Among Adult Medical Inpatients",medical_conditions,"general medical conditions, surgical assessments, psychiatric or neurological issues, injuries"

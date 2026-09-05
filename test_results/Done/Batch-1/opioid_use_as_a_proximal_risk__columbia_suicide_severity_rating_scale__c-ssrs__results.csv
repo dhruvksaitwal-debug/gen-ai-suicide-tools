@@ -1,0 +1,13 @@
+doc_id,question,answer
+Opioid use as a proximal risk factor for suicidal behavior in young adults,studies_tool,yes
+Opioid use as a proximal risk factor for suicidal behavior in young adults,tool_name,Columbia Suicide Severity Rating Scale (C-SSRS)
+Opioid use as a proximal risk factor for suicidal behavior in young adults,tool_type,assessment
+Opioid use as a proximal risk factor for suicidal behavior in young adults,outcome_summary,"The study found significant correlations between substance use, particularly marijuana and cigarettes, and suicidal behavior among various groups. Subjects who attempted suicide reported the highest levels of substance use, with strong statistical associations indicated by F-statistics. While prescription painkillers and OTC medications were also reported, their associations were less significant. The findings suggest a need for targeted interventions addressing substance use in psychiatric populations to mitigate suicide risks."
+Opioid use as a proximal risk factor for suicidal behavior in young adults,clinical_setting,inpatient and outpatient treatment settings for psychiatric disorders
+Opioid use as a proximal risk factor for suicidal behavior in young adults,demographics_summary,"Participants are aged 18–30 years, categorized into four groups based on mental health status and suicidal behavior. The groups include subjects who attempted suicide, those with suicidal ideation, psychiatric patients without suicidal ideation or attempts, and healthy controls. Gender distribution shows a higher percentage of females in healthy controls compared to other groups. Socioeconomic status and psychiatric diagnosis also play a role in influencing outcomes."
+Opioid use as a proximal risk factor for suicidal behavior in young adults,location,USA
+Opioid use as a proximal risk factor for suicidal behavior in young adults,duration_value,365
+Opioid use as a proximal risk factor for suicidal behavior in young adults,duration_text,"follow-up assessments at 3, 6, and 12 months"
+Opioid use as a proximal risk factor for suicidal behavior in young adults,population_size,223
+Opioid use as a proximal risk factor for suicidal behavior in young adults,population_text,N=223 psychiatric patients aged 18–30 years
+Opioid use as a proximal risk factor for suicidal behavior in young adults,medical_conditions,psychiatric disorders

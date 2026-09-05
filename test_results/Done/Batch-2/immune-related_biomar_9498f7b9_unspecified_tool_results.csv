@@ -1,0 +1,13 @@
+doc_id,question,answer
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,studies_tool,yes
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,tool_name,unspecified_tool
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,tool_type,assessment
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,outcome_summary,"The study found that C-Reactive Protein (CRP) levels were significantly higher in patients with major depressive disorder (MDD) who exhibited suicidal behavior (SB), indicating a strong association. In contrast, Interleukin-6 (IL-6), Tumor Necrosis Factor-alpha (TNF-α), and Interleukin-1 beta (IL-1β) showed no significant differences between MDD patients with and without SB. The methodological quality of the studies varied, with most rated as 'fair.' These findings suggest that while CRP may be a useful biomarker for suicidal behavior, further research is needed to clarify the roles of other inflammatory markers."
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,clinical_setting,"emergency departments, psychiatric hospitals, outpatient mental health clinics"
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,demographics_summary,"Participants primarily include individuals with major depressive disorder (MDD) or bipolar disorder (BD), with ages ranging from the early 20s to the late 40s. For example, one study reports a mean age of 26.79 years for individuals with bipolar disorder and suicidal behavior, while another lists a mean age of 44.64 years for those with mood or anxiety disorders. Gender breakdowns indicate a significant number of females, with one study including 39 females out of 50 participants. The sample types vary, including inpatient, outpatient, and community settings."
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,location,"Norway, Argentina, USA, France, Iraq, Brazil, Spain, Turkey, Lithuania, Taiwan, China"
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,duration_value,851
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,duration_text,November 2020 - March 2023
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,population_size,9518
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,population_text,"N=9,518 individuals, comprising 2,679 persons with suicidal behaviors and 6,839 comparison subjects."
+Immune-related biomarkers and suicidal behaviors- A meta-analysis_compressed,medical_conditions,"Major Depressive Disorder (MDD), other psychiatric disorders, suicidal behavior"

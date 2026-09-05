@@ -1,0 +1,13 @@
+doc_id,question,answer
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,studies_tool,yes
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,tool_name,Distress Assessment and Response Tool (DART)
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,tool_type,screening
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,outcome_summary,"The study found that the Distress Assessment and Response Tool (DART) and its suicide risk screening component (DART-SRS) were associated with a significant reduction in suicide risk among cancer patients. Among the 14,517 patients who completed the DART-SRS, only 4 died by suicide, compared to 89 suicides among non-completers. The DART-SRS completers had a statistically significant lower risk of suicide, with an IPTW hazard ratio of 0.29. Limitations included potential biases in clinician responses and missing data, which may affect the generalizability of the findings."
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,clinical_setting,ambulatory clinics at Princess Margaret Cancer Centre
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,demographics_summary,"The mean age of DART-SRS completers was 56.2 years, while non-completers had a mean age of 61.7 years. Among completers, 53.2% were female and 46.8% were male, whereas non-completers had a slightly higher male representation at 52.9%. Completers had a mean of 1.1 malignancies, indicating a similar burden of disease. A higher percentage of completers were married (19.8%) compared to non-completers (22.2%)."
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,location,"Ontario, Canada"
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,duration_value,3287
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,duration_text,"January 1, 2005 - December 31, 2013"
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,population_size,78650
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,population_text,"N=78,650 adult patients with a confirmed malignant cancer diagnosis"
+Suicide Risk Screening and Suicide Prevention in Patients With Cancer,medical_conditions,"malignant cancer, breast cancer, central nervous system cancer, colorectal cancer, esophageal cancer, liver cancer, pancreatic cancer, head and neck cancer, lung cancer, lymphatic cancer, hematologic cancer, melanoma, prostate cancer, unspecified malignancies"

@@ -1,0 +1,12 @@
+doc_id,question,answer
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",studies_tool,yes
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",tool_name,Inventory of Depressive Symptoms-Clinician Rated-30 (IDSC-30)
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",tool_type,assessment
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",outcome_summary,"The study suggests that the emma application is a promising tool for enhancing awareness and addressing suicidal thoughts and behaviors among high-risk patients. Key findings include a 60% completion rate for daily Ecological Momentary Assessments (EMAs) and an 82.6% rate for weekly EMAs. Participants reported a mean satisfaction score of 6.92, indicating a willingness to recommend the app to others. Limitations include a non-randomized sample and concerns about dropout rates, suggesting the need for further research."
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",clinical_setting,mental health clinics and hospitals
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",location,France
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",duration_value,6570
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",duration_text,May 2018 - January 2020
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",population_size,100
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",population_text,N=100 patients aged 18 and older with suicidal ideation or a recent suicide attempt
+"Acceptability and satisfaction with emma, a smartphone application dedicated to suicide ecological assessment and prevention_compressed",medical_conditions,"major depressive disorder, bipolar disorder, anxiety disorders"

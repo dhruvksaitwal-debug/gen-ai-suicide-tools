@@ -1,0 +1,12 @@
+doc_id,question,answer
+Technology-based suicide prevention- An umbrella review,studies_tool,yes
+Technology-based suicide prevention- An umbrella review,tool_name,unspecified_tool
+Technology-based suicide prevention- An umbrella review,outcome_summary,"The study indicates that technology-based interventions are effective in preventing suicidal thoughts and behaviors, with a total sample size of 24,631 participants. The overall effect size was -0.20, suggesting a statistically significant protective effect on suicide-related outcomes, though modest. The methodological quality of the studies was moderate, and there was moderate to substantial variability among them. Publication bias was noted, indicating potential influence from unpublished studies."
+Technology-based suicide prevention- An umbrella review,clinical_setting,"Emergency Rooms, Primary Care, Mental Health Clinics"
+Technology-based suicide prevention- An umbrella review,demographics_summary,"The studies involved adults and adolescents with suicidal thoughts or behaviors. Participants came from diverse settings, including school, community, and clinical environments. Key demographic factors such as age, gender, and ethnicity were considered, as they influence the expression of suicidal ideation and the effectiveness of assessment tools."
+Technology-based suicide prevention- An umbrella review,location,"Germany, England, Australia, China, Hong Kong"
+Technology-based suicide prevention- An umbrella review,duration_value,2191
+Technology-based suicide prevention- An umbrella review,duration_text,2017-2022
+Technology-based suicide prevention- An umbrella review,population_size,24631
+Technology-based suicide prevention- An umbrella review,population_text,"N=24,631 participants"
+Technology-based suicide prevention- An umbrella review,medical_conditions,"suicidal thoughts, ideations, or behaviors"

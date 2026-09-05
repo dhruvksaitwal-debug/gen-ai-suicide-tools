@@ -1,0 +1,10 @@
+doc_id,question,answer
+The Case for Universal Screening for Suicidal Risk in Adolescents,studies_tool,yes
+The Case for Universal Screening for Suicidal Risk in Adolescents,tool_name,Computerized Adaptive Screen for Suicidal Youth (CASSY)
+The Case for Universal Screening for Suicidal Risk in Adolescents,tool_type,screening
+The Case for Universal Screening for Suicidal Risk in Adolescents,outcome_summary,"The study highlights the effectiveness of the Ask Suicide-Screening Questions and the Computerized Adaptive Screen for Suicidal Youth (CASSY) in predicting suicidal behavior and emergency department returns. It critiques the USPSTF for excluding significant studies supporting these tools, emphasizing their reliability over expert clinician predictions. Screening can identify at-risk youth, particularly those without overt behavioral health concerns, and most adolescents who screen positive have a lifetime mental health disorder. The authors conclude that the risks of screening are minimal, and effective interventions exist to prevent suicidal behavior."
+The Case for Universal Screening for Suicidal Risk in Adolescents,clinical_setting,primary care and emergency departments
+The Case for Universal Screening for Suicidal Risk in Adolescents,demographics_summary,"The participants in the studies primarily involved youth, particularly adolescents. There is a notable concern regarding rising suicide rates among Black youth, indicating the relevance of these tools for diverse demographic groups. Factors such as age, gender, and ethnicity significantly influence the outcomes of these assessments. Understanding these demographics is crucial for the effectiveness of suicide screening tools."
+The Case for Universal Screening for Suicidal Risk in Adolescents,population_size,20000
+The Case for Universal Screening for Suicidal Risk in Adolescents,population_text,"over 20,000 youth participants"
+The Case for Universal Screening for Suicidal Risk in Adolescents,medical_conditions,"Suicidal Ideation and Behavior, Mental Health Disorders, Anxiety, Depression"

@@ -1,0 +1,11 @@
+doc_id,question,answer
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,studies_tool,yes
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,tool_name,Minnesota Multiphasic Personality Inventory-2 (MMPI-2)
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,tool_type,assessment
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,outcome_summary,"The study found that machine learning methods, particularly Random Forest, effectively predicted suicidal ideation and attempts. Random Forest achieved high validation and test accuracies, with AUC values indicating strong discrimination ability. K-Nearest Neighbors performed reasonably well but was consistently outperformed by Random Forest. Concerns about overfitting were noted with Random Forest due to its complexity."
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,clinical_setting,"psychiatric treatment sites, schools, hospitals, community centers"
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,demographics_summary,"The study included a total of 7,824 participants, with a nearly balanced gender distribution: 3,685 (47.1%) were male and 4,139 (52.9%) were female. The average age of participants was 19.57 years, indicating that the sample primarily consisted of young adults in their late teens. Key demographic factors include age, gender, socioeconomic status, cultural background, and mental health status, which can significantly impact the reliability and validity of suicide screening tools."
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,location,South Korea
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,population_size,7824
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,population_text,"N=7824 participants, comprising 3,685 males and 4,139 females."
+Detecting suicidal risk using MMPI-2 based on machine learning algorithm,medical_conditions,"mental health issues, suicidal thoughts and behaviors"

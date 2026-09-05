@@ -1,0 +1,13 @@
+doc_id,question,answer
+Youth suicide risk screening in an outpatient child abuse clinic,studies_tool,yes
+Youth suicide risk screening in an outpatient child abuse clinic,tool_name,Ask Suicide-Screening Questions (ASQ)
+Youth suicide risk screening in an outpatient child abuse clinic,tool_type,screening
+Youth suicide risk screening in an outpatient child abuse clinic,outcome_summary,"The study found that the Ask Suicide-Screening Questions (ASQ) tool effectively increased the detection of suicide risk among youth, with 29.2% of those screened testing positive compared to only 11.3% prior to implementation. Most positive screens were classified as nonacute, indicating a need for careful follow-up. The study highlighted the importance of screening preteens, as 14.9% of this group screened positive. However, considerations regarding adaptation for diverse populations and clinician training were raised, suggesting further exploration is needed for comprehensive implementation."
+Youth suicide risk screening in an outpatient child abuse clinic,clinical_setting,"outpatient clinics, emergency departments, primary care clinics"
+Youth suicide risk screening in an outpatient child abuse clinic,demographics_summary,"The study involved 162 patients aged 10 to 18 years who received services at an outpatient child abuse evaluation clinic. Participants were categorized into two age groups: 10–12 years and 13–18 years. Detailed demographic information such as gender and ethnicity was not collected due to privacy concerns. A significant portion of positive suicide risk screenings came from the younger age group, underscoring the necessity of screening this demographic for suicide risk."
+Youth suicide risk screening in an outpatient child abuse clinic,location,"Oregon, USA"
+Youth suicide risk screening in an outpatient child abuse clinic,duration_value,117
+Youth suicide risk screening in an outpatient child abuse clinic,duration_text,"May 7-August 31, 2018"
+Youth suicide risk screening in an outpatient child abuse clinic,population_size,162
+Youth suicide risk screening in an outpatient child abuse clinic,population_text,N=162 patients aged 10–18
+Youth suicide risk screening in an outpatient child abuse clinic,medical_conditions,child abuse

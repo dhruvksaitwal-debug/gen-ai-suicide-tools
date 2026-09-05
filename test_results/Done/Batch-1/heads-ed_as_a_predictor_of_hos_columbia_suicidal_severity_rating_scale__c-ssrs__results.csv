@@ -1,0 +1,13 @@
+doc_id,question,answer
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,studies_tool,yes
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,tool_name,Columbia Suicidal Severity Rating Scale (C-SSRS)
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,tool_type,screening
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,outcome_summary,"The study found that the PHQ-9 and C-SSRS were more effective in identifying mental health disorders, with a positive screening rate of 25.5% compared to 8.9% for HEADS-ED. However, HEADS-ED was significantly more time-efficient, with 58.9% of participants completing the interview in under 5 minutes. This efficiency can enhance workflow in emergency departments, allowing for quicker identification and intervention. Limitations include potential cultural differences affecting the tool's effectiveness among diverse adolescent populations."
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,clinical_setting,pediatric emergency department
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,demographics_summary,"The participants were primarily adolescent patients aged 10-19 years old. The sample included a diverse group of adolescents, but specific details regarding their racial or ethnic backgrounds were not provided. The study focused on a total of 111 adolescent participants enrolled in the pediatric emergency room. Among them, 56 were interviewed using the HEADS-ED tool."
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,location,Philippines
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,duration_value,270
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,duration_text,9 months
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,population_size,111
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,population_text,N=111 adolescent patients
+HEADS-ED as a Predictor of Hospitalization in Children Seeking Emergency Department Care With Mental Health Concerns,medical_conditions,mental health disorders

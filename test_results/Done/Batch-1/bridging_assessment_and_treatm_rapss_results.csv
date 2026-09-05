@@ -1,0 +1,13 @@
+doc_id,question,answer
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,studies_tool,yes
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,tool_name,RAPSS
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,tool_type,assessment
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,outcome_summary,"The RAPSS model demonstrated a 22% prevalence of repeat suicidality within 90 days post-ACCT closure. It showed good calibration and discrimination with a c-statistic of 0.66 in the external validation sample, indicating moderate predictive accuracy. At a 25% threshold, the model achieved a sensitivity of 58% and specificity of 72%, effectively identifying at-risk individuals. The study highlights the need for structured risk assessment tools in prisons to improve management and support for at-risk populations."
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,clinical_setting,prisons
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,demographics_summary,"The sample predominantly consists of males, accounting for 88% of the total participants, with a median age of 34 years, ranging from 17 to 79 years. Ethnic diversity is present, as approximately 28% of participants identify as non-white. A significant majority (90%) of the participants are currently single, which may reflect social isolation, a known risk factor for suicide. Additionally, about 31% had a previous ACCT within six months prior to the index ACCT, indicating a recurring pattern of risk."
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,location,England
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,duration_value,2557
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,duration_text,April 2016 - March 2023
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,population_size,754
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,population_text,N=754 individuals in prison
+Bridging assessment and treatment for repeat suicidality in prisons- development and validation of a risk model,medical_conditions,"mental health issues, self-harm, substance misuse, chronic physical conditions"

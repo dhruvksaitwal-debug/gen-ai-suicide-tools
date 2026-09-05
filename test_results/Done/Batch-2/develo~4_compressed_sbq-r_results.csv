@@ -1,0 +1,12 @@
+doc_id,question,answer
+DEVELO~4_compressed,studies_tool,yes
+DEVELO~4_compressed,tool_name,SBQ-R
+DEVELO~4_compressed,tool_type,assessment
+DEVELO~4_compressed,outcome_summary,"The study validated the Suicidal Behaviours Questionnaire for Autism Spectrum Conditions (SBQ-ASC), emphasizing its content validity and measurement properties. The SBQ-ASC showed higher sensitivity in detecting associations with autistic traits, anxiety, and depression compared to the original SBQ-R. ROC analysis indicated that the tool correctly classified 88% of autistic adults with a history of suicide attempts, though caution was advised against using the cut-off for clinical assessments. The study underscored the importance of adapting suicide risk assessment tools for autistic individuals to accurately reflect their experiences."
+DEVELO~4_compressed,demographics_summary,"The study included 421 individuals, with 308 identified as autistic, 113 as possibly autistic, and 268 as non-autistic adults. The participants were predominantly White or Caucasian, with a significant portion living independently or with flatmates. The mean age for autistic individuals was 39.71 years, while possibly autistic individuals had a mean age of 40.34 years. A majority of participants had a university degree, particularly among non-autistic individuals."
+DEVELO~4_compressed,location,UK
+DEVELO~4_compressed,duration_value,14
+DEVELO~4_compressed,duration_text,initial survey - follow-up two weeks later
+DEVELO~4_compressed,population_size,1319
+DEVELO~4_compressed,population_text,N=1319 participants initially accessed the survey
+DEVELO~4_compressed,medical_conditions,"Autism Spectrum Condition (ASC), anxiety, depression, non-suicidal self-injury (NSSI)"

@@ -1,0 +1,13 @@
+doc_id,user_input,GenAI_answer,faithfulness,answer_relevancy,context_recall
+Gold06,studies_tool,yes,0.0,0.7059468345509725,0.0
+Gold06,tool_name,Proxy Mental Wellness Tool-3 (mwTool-3-proxy),1.0,0.7899504136664364,1.0
+Gold06,tool_type,screening,1.0,0.6992469652444616,1.0
+Gold06,outcome_summary,"The mwTool-3-proxy demonstrated high sensitivity for identifying mental disorders, with an overall sensitivity of 73.01%. However, its specificity was lower, ranging from 32.1% to 55.4%, indicating a potential for false positives. The tool is designed for screening rather than diagnosis, facilitating early detection in community settings. Further research is needed to evaluate its acceptability across different cultural contexts.",1.0,0.7434153483927731,1.0
+Gold06,clinical_setting,primary care clinics and community healthcare facilities,1.0,0.7697890135845503,1.0
+Gold06,demographics_summary,"The study included 458 individuals with a mean age of 37.1 years in South Africa and 30.6 years in Mozambique. The age range of participants was from 18 to 78 years, indicating a relatively young population. The sample had a significant female predominance, with 167 males (36.5%) and 291 females (63.5%). Various subpopulations were included, such as household members and relatives, providing a nuanced understanding of responses to the screening tool.",1.0,0.8103537319172972,0.4
+Gold06,location,Mozambique and South Africa,1.0,0.7232535989865805,1.0
+Gold06,duration_value,120,0.0,0.742269953626007,0.0
+Gold06,duration_text,"December 5-12, 2018; February-May 2022",1.0,0.7455412600946052,1.0
+Gold06,population_size,458,1.0,0.7488612150271643,1.0
+Gold06,population_text,"N=458 participants, including 229 pairs of proxy individuals from Mozambique and South Africa",0.5,0.7708958146014903,1.0
+Gold06,medical_conditions,"Any Disorder, Common Mental Disorder (CMD), Alcohol Use Disorder (AUD), Substance Use Disorder (SUD), Severe Mental Disorder (SMD), Suicide Risk (SR)",1.0,0.7919367896183652,1.0

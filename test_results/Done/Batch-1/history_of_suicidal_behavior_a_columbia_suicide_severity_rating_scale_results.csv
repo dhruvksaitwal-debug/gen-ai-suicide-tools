@@ -1,0 +1,13 @@
+doc_id,question,answer
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,studies_tool,yes
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,tool_name,Columbia Suicide Severity Rating Scale
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,tool_type,screening
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,outcome_summary,"The study found that 12.3% of patients had a history of self-harm, with a significant association between suicidal behavior and clozapine prescription. Specifically, 4.1% of patients with a self-harm history were prescribed clozapine upon admission compared to 0.8% without such history. The Cox regression analysis indicated that a history of suicidal behavior increased the likelihood of switching to clozapine, with hazard ratios of 4.18 and 6.09 within 56 days of admission. Demographic factors also influenced clozapine usage, with females and older age groups showing lower likelihoods of switching to the medication."
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,clinical_setting,psychiatric hospital
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,demographics_summary,"The study included 1,057 participants diagnosed with early-stage schizophrenia. Approximately 44.9% were male and 55.1% were female. The median age was 26 years, with 43.6% aged 10–24, 39.1% aged 25–39, and 17.3% aged 40–59. A significant majority were minimally treated, with 92.9% not meeting criteria for prior treatment."
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,location,"Beijing, China"
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,duration_value,2160
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,duration_text,"February 2, 2015 - December 31, 2020"
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,population_size,967
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,population_text,N=967 hospitalized patients diagnosed with early-stage schizophrenia
+History of suicidal behavior and clozapine prescribing among people with schizophrenia in China- a cohort study,medical_conditions,schizophrenia

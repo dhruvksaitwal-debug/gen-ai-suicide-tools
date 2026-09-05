@@ -1,0 +1,10 @@
+doc_id,question,answer
+Suicide Screening Among Youth at First Court Contact,studies_tool,yes
+Suicide Screening Among Youth at First Court Contact,tool_name,Massachusetts Youth Screening Instrument-2 (MAYSI-2)
+Suicide Screening Among Youth at First Court Contact,tool_type,screening
+Suicide Screening Among Youth at First Court Contact,outcome_summary,"The study found that 12.7% of youth endorsed suicide ideation, with 3.3% in the caution range and 9.4% in the warning range on the SI scale. A significant majority of those flagged for suicide ideation were female, and logistic regression indicated that sex was a significant predictor. Youth flagged for suicide ideation were more likely to be referred for treatment, particularly those in the warning range. The findings support the effectiveness of the MAYSI-2 as a screening tool for identifying youth at risk for suicide."
+Suicide Screening Among Youth at First Court Contact,clinical_setting,"family court diversionary programs, hospitals, mental health clinics, schools, community centers, juvenile detention facilities"
+Suicide Screening Among Youth at First Court Contact,demographics_summary,"The study participants had a mean age of 15.13 years (SD=1.52), with a majority being male (62.2%). The racial and ethnic distribution included 40.9% identifying as White, 25.7% as Latinx, 15.2% as Black, 13.6% as Multi-Racial, and 4.5% as Other. Among those indicating suicidal ideation, 71.4% were female, with a breakdown by race/ethnicity of 43.1% White, 22% Latinx, 16.5% Black, 15.6% Multi-racial, and 2.8% Other."
+Suicide Screening Among Youth at First Court Contact,population_size,891
+Suicide Screening Among Youth at First Court Contact,population_text,891 youth participants with a mean age of 15.13 years
+Suicide Screening Among Youth at First Court Contact,medical_conditions,"suicidal ideation, depression, anxiety, anger, substance use disorders, somatic complaints"
