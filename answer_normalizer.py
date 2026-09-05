@@ -1,8 +1,11 @@
 import json
+import logging
 import os
 import re
 from datetime import datetime
 import calendar
+
+logger = logging.getLogger(__name__)
 
 
 QUERY_FIELDS = {
@@ -17,24 +20,21 @@ QUERY_FIELDS = {
     "Discuss the study duration and population size.": ["duration_value", "duration_text", "population_size", "population_text"],
 }
 
+# Single source of truth for the pipeline's query set and their run order.
+# main.py runs these; orchestrator.py answers and normalizes them via QUERY_FIELDS above.
+QUERIES = list(QUERY_FIELDS.keys())
+
 
 class QueryScopedNormalizer:
-    def __init__(self, llm_client, debug: bool = False):
+    def __init__(self, llm_client):
         self.llm_client = llm_client
-        self.debug = debug
 
-    def _extract_duration_days(self, text: str) -> int | None:
-        """
-        Extract explicit durations (e.g., '30 days', '12 months') or compute from date ranges.
-        Returns total duration in days if possible, else None.
-        """
+    def _extract_explicit_duration_days(self, text: str) -> int:
+        """Sum explicit durations like '30 days', '12-month', '45-day' (space- or hyphen-joined)."""
         total_days = 0
-
-        # Step 1: Explicit durations
-        duration_pattern = r"(\d+)\s*(days?|weeks?|months?|years?)"
+        duration_pattern = r"(\d+)[\s-]*(days?|weeks?|months?|years?)"
         matches = re.findall(duration_pattern, text, flags=re.IGNORECASE)
-        if self.debug:
-            print(f"[DEBUG] Explicit duration matches: {matches}")
+        logger.debug("Explicit duration matches: %s", matches)
 
         for num, unit in matches:
             num = int(num)
@@ -47,12 +47,14 @@ class QueryScopedNormalizer:
                 total_days += num * 30  # approximate
             elif "year" in unit:
                 total_days += num * 365  # approximate
+        return total_days
 
-        # Step 2: Date ranges (support short and long month names)
+    def _extract_date_range_days(self, text: str) -> int:
+        """Sum full 'Month Day, Year' to 'Month Day, Year' ranges."""
+        total_days = 0
         date_pattern = r"([A-Za-z]{3,9} \d{1,2}, \d{4})"
         date_matches = re.findall(date_pattern, text)
-        if self.debug:
-            print(f"[DEBUG] Date matches: {date_matches}")
+        logger.debug("Date matches: %s", date_matches)
 
         if len(date_matches) >= 2:
             for i in range(0, len(date_matches) - 1, 2):
@@ -64,53 +66,44 @@ class QueryScopedNormalizer:
                         days = (end - start).days + 1
                         total_days += days
                         parsed = True
-                        if self.debug:
-                            print(f"[DEBUG] Parsed range {date_matches[i]} – {date_matches[i+1]} = {days} days")
+                        logger.debug("Parsed range %s - %s = %d days", date_matches[i], date_matches[i + 1], days)
                         break
                     except Exception as e:
-                        if self.debug:
-                            print(f"[DEBUG] Failed parsing {date_matches[i]} – {date_matches[i+1]} with {fmt}: {e}")
-                if not parsed and self.debug:
-                    print(f"[DEBUG] Could not parse date range: {date_matches[i]} – {date_matches[i+1]}")
+                        logger.debug("Failed parsing %s - %s with %s: %s", date_matches[i], date_matches[i + 1], fmt, e)
+                if not parsed:
+                    logger.debug("Could not parse date range: %s - %s", date_matches[i], date_matches[i + 1])
+        return total_days
 
-        # Step 3: Month–Month ranges with a single year (e.g., "March–April 2021")
+    def _extract_multi_month_days(self, text: str) -> int:
+        """Sum 'Month-Month Year' spans (e.g., 'March-April 2021')."""
+        total_days = 0
         multi_month_pattern = r"([A-Za-z]{3,9})(?:\s*(?:-|to|through|and|,)\s*([A-Za-z]{3,9}))+?\s+(\d{4})"
         mm_matches = re.findall(multi_month_pattern, text, flags=re.IGNORECASE)
-
-        if self.debug:
-            print(f"[DEBUG] Multi-month matches: {mm_matches}")
+        logger.debug("Multi-month matches: %s", mm_matches)
 
         for m1, m_last, year in mm_matches:
             try:
-                # Parse first and last month
                 start_month = datetime.strptime(f"{m1} {year}", "%B %Y").month \
                     if len(m1) > 3 else datetime.strptime(f"{m1} {year}", "%b %Y").month
-
                 end_month = datetime.strptime(f"{m_last} {year}", "%B %Y").month \
                     if len(m_last) > 3 else datetime.strptime(f"{m_last} {year}", "%b %Y").month
 
-                # Compute full-month durations
                 days = 0
                 for month in range(start_month, end_month + 1):
                     days += calendar.monthrange(int(year), month)[1]
-
                 total_days += days
-
-                if self.debug:
-                    print(f"[DEBUG] Full multi-month span {m1}-{m_last} {year} = {days} days")
-
+                logger.debug("Full multi-month span %s-%s %s = %d days", m1, m_last, year, days)
             except Exception as e:
-                if self.debug:
-                    print(f"[DEBUG] Could not parse multi-month span {m1}-{m_last} {year}: {e}")
+                logger.debug("Could not parse multi-month span %s-%s %s: %s", m1, m_last, year, e)
+        return total_days
 
-        # Step 4: Month–Year ranges (e.g., "December 2019 to January 2020")
+    def _extract_month_year_range_days(self, text: str) -> int:
+        """Sum 'Month Year to Month Year' ranges (e.g., 'December 2019 to January 2020')."""
+        total_days = 0
         month_year_pattern = r"([A-Za-z]{3,9}) (\d{4})"
         my_matches = re.findall(month_year_pattern, text)
+        logger.debug("Month-year matches: %s", my_matches)
 
-        if self.debug:
-            print(f"[DEBUG] Month-year matches: {my_matches}")
-
-        # We need pairs: (Dec 2019) → (Jan 2020)
         if len(my_matches) >= 2:
             for i in range(0, len(my_matches) - 1, 2):
                 start_str = f"{my_matches[i][0]} 1, {my_matches[i][1]}"
@@ -124,19 +117,38 @@ class QueryScopedNormalizer:
                         days = (end - start).days + 1
                         total_days += days
                         parsed = True
-                        if self.debug:
-                            print(f"[DEBUG] Parsed month-year range {start_str} – {end_str} = {days} days")
+                        logger.debug("Parsed month-year range %s - %s = %d days", start_str, end_str, days)
                         break
-                    except:
+                    except Exception:
                         continue
 
-                if not parsed and self.debug:
-                    print(f"[DEBUG] Could not parse month-year range: {start_str} – {end_str}")
+                if not parsed:
+                    logger.debug("Could not parse month-year range: %s - %s", start_str, end_str)
+        return total_days
 
-        if self.debug:
-            print(f"[DEBUG] Total computed days: {total_days}")
+    def _extract_duration_days(self, text: str) -> int | None:
+        """
+        Try duration-parsing strategies in order of specificity and return the first one
+        that finds a match, rather than summing across strategies. A single duration is
+        often restated more than one way in the same sentence (e.g. "6 months, from
+        January 2020 to June 2020") — summing would double-count it. Within a single
+        strategy, multiple matches still sum (e.g. "Phase I: 30 days; Phase II: 45 days"
+        are genuinely separate durations expressed the same way).
+        """
+        strategies = (
+            ("explicit units", self._extract_explicit_duration_days),
+            ("date ranges", self._extract_date_range_days),
+            ("multi-month ranges", self._extract_multi_month_days),
+            ("month-year ranges", self._extract_month_year_range_days),
+        )
+        for name, strategy in strategies:
+            days = strategy(text)
+            if days:
+                logger.debug("Duration resolved via %s: %d days", name, days)
+                return days
 
-        return total_days if total_days > 0 else None
+        logger.debug("No duration pattern matched")
+        return None
   
     def _normalize_text(self, text: str) -> str:
         """Fix encoding issues and replace en-dash with hyphen."""
@@ -193,32 +205,34 @@ Answer:
 
         try:
             data = json.loads(response)
-        except Exception:
+        except json.JSONDecodeError as e:
+            logger.warning("Failed to parse normalizer JSON for query %r: %s. Raw response: %s", query, e, response)
             data = {}
 
         if "duration_value" in QUERY_FIELDS.get(query, []):
             # 1. Always use the ORIGINAL GenAI answer (never rewritten text)
             raw_text = answer
-            if self.debug:
-                print("[DEBUG] Duration extraction: using raw GenAI answer")
+            logger.debug("Duration extraction: using raw GenAI answer")
 
             # 2. Compute duration safely
             try:
                 computed_days = self._extract_duration_days(raw_text)
             except Exception as e:
-                if self.debug:
-                    print(f"[DEBUG] Duration extraction error: {e}")
+                logger.debug("Duration extraction error: %s", e)
                 computed_days = None
 
-            # 3. Assign duration_value explicitly
+            # 3. Prefer the regex-computed value (deterministic, precise) when it found one;
+            # otherwise keep whatever the LLM itself computed rather than discarding it —
+            # the prompt explicitly asks the LLM to calculate this, and the regex parser
+            # can't handle every phrasing (e.g. "an eighteen-month follow-up").
             if computed_days is not None:
                 data["duration_value"] = computed_days
-                if self.debug:
-                    print(f"[DEBUG] Duration extracted (days): {computed_days}")
+                logger.debug("Duration extracted via regex (days): %d", computed_days)
             else:
-                data["duration_value"] = None
-                if self.debug:
-                    print("[DEBUG] No duration extracted → setting duration_value=None")
+                logger.debug(
+                    "No duration extracted via regex -> keeping LLM-provided duration_value: %r",
+                    data.get("duration_value")
+                )
 
         # Normalize duration_text (if present)
         if "duration_text" in fields:
@@ -226,12 +240,10 @@ Answer:
             duration_text = data.get("duration_text", None)
             if duration_text:
                 data["duration_text"] = self._normalize_text(duration_text)
-                if self.debug:
-                    print(f"[DEBUG] Normalized duration_text: {data['duration_text']}")
+                logger.debug("Normalized duration_text: %s", data["duration_text"])
             else:
                 data["duration_text"] = None
-                if self.debug:
-                    print("[DEBUG] duration_text missing → setting duration_text=None")
+                logger.debug("duration_text missing -> setting duration_text=None")
 
         # Return only the fields required by the schema
         return {k: data.get(k, None) for k in fields}
@@ -382,8 +394,6 @@ class AuditLogger:
             "raw_answer": answer.strip(),
             "normalized": normalized
         }
+        # Single write call so concurrent appends from multiple PDF pipelines don't interleave.
         with open(self.log_file, "a", encoding="utf-8") as f:
-            # Write JSON entry (machine-readable)
-            f.write(json.dumps(entry) + "\n")
-            # Add extra blank lines (human-friendly spacing)
-            f.write("\n\n")
+            f.write(json.dumps(entry) + "\n\n\n")
